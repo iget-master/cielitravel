@@ -1,0 +1,20 @@
+# Build / dependências (quando o gerador estático entrar)
+node_modules/
+dist/
+_site/
+.astro/
+.cache/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Vídeos de fundo (grandes — hospedar fora do repo, ver CLAUDE.md)
+*.mp4
+*.mov
+*.webm
+
+# Temporários
+*.log
+*.tmp
