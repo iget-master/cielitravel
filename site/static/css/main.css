@@ -23,6 +23,7 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+html, body { overflow-x: clip; }
 body {
   font-family: var(--font-serif);
   font-size: 18px;
@@ -166,6 +167,7 @@ h2, .h2 {
   flex: none;
   background: none;
   border: 0;
+  color: inherit;           /* button não herda color por padrão */
   cursor: pointer;
   width: 34px;
   display: grid;
@@ -173,6 +175,7 @@ h2, .h2 {
   padding: 4px 0;
 }
 .hamburger span { height: 2px; background: currentColor; }
+button { color: inherit; font: inherit; }
 
 /* Mega-dropdown */
 .dropdown {
@@ -276,20 +279,27 @@ h2, .h2 {
   justify-content: center;
   flex-wrap: wrap;
 }
-.hero-rotator .fixed { font-size: clamp(17px, 2vw, 24px); letter-spacing: 3px; text-transform: uppercase; }
-/* Palavras empilhadas (3 visíveis; vizinhas esmaecidas), rolagem vertical */
+.hero-rotator { gap: 26px; flex-wrap: nowrap; align-items: center; }
+.hero-rotator .fixed {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* Palavras empilhadas (atual em foco, vizinhas esmaecidas a 0.25) */
 .hero-rotator .words {
   display: inline-block;
   min-width: 7ch;
   text-align: left;
-  font-size: clamp(17px, 2vw, 24px);
+  font-size: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  height: 4.2em;
+  height: 150px;             /* 5 linhas de 30px */
   overflow: hidden;
   vertical-align: middle;
-  -webkit-mask-image: linear-gradient(transparent, #000 32%, #000 68%, transparent);
-  mask-image: linear-gradient(transparent, #000 32%, #000 68%, transparent);
+  -webkit-mask-image: linear-gradient(transparent, #000 34%, #000 66%, transparent);
+  mask-image: linear-gradient(transparent, #000 34%, #000 66%, transparent);
 }
 .words-track {
   display: block;
@@ -297,11 +307,17 @@ h2, .h2 {
 }
 .words-track > span {
   display: block;
-  line-height: 1.4;
-  opacity: .35;
+  line-height: 30px;
+  opacity: .25;
   transition: opacity .4s;
 }
 .words-track > span.cur { opacity: 1; }
+@media (max-width: 768px) {
+  .hero-rotator { gap: 16px; }
+  .hero-rotator .fixed, .hero-rotator .words { font-size: 15px; letter-spacing: 2px; }
+  .hero-rotator .words { height: 120px; }
+  .words-track > span { line-height: 24px; }
+}
 .typewriter::after { content: "|"; margin-left: 4px; animation: blink .7s infinite; }
 .typewriter.done::after { content: none; }
 @keyframes blink { 0%, 100% { opacity: 0 } 50% { opacity: 1 } }
@@ -366,14 +382,18 @@ h2, .h2 {
 .cards-rail {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: min(320px, 82vw);
-  gap: 22px;
+  /* desktop: 3 cards por viewport, como o swiper original (~387px) */
+  grid-auto-columns: min(calc((min(var(--container), 100vw - 48px) - 40px) / 3), 86vw);
+  gap: 20px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding: 4px 24px 20px;
   padding-left: max(24px, calc((100vw - var(--container)) / 2));
   scroll-padding-left: max(24px, calc((100vw - var(--container)) / 2));
   scrollbar-width: none;
+}
+@media (max-width: 900px) {
+  .cards-rail { grid-auto-columns: 86vw; }
 }
 .cards-rail::-webkit-scrollbar { display: none; }
 .card-trip {
@@ -855,6 +875,14 @@ h2, .h2 {
   body { font-size: 17px; }
   .section { padding: 60px 0; }
   .itin-slide { grid-template-columns: 1fr; }
+  .header-cta {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
+  }
+  .header-inner { gap: 14px; padding: 0 16px; }
+  .logo { width: 110px; height: 40px; }
   .specials { height: auto; }
   .specials-sticky { position: static; height: auto; overflow: visible; }
   .specials-track { display: block; width: auto; height: auto; transform: none !important; }
@@ -865,7 +893,6 @@ h2, .h2 {
   .pinned-media { display: none; }
   .pinned-msg { position: static; opacity: 1; padding: 40px 24px; max-width: none; }
   .pinned-eyebrow { position: static; margin-bottom: 10px; }
-  .header-cta { display: none; }
   .facts-grid { flex-direction: column; gap: 22px; }
   .footer-cols { grid-template-columns: 1fr 1fr; }
   .form-grid { grid-template-columns: 1fr; }

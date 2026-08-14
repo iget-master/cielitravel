@@ -108,7 +108,7 @@
     var apply = function (animate) {
       if (!animate) track.style.transition = "none";
       track.style.transform =
-        "translateY(" + (-(idx - 1) * lineH()) + "px)";
+        "translateY(" + (-(idx - 2) * lineH()) + "px)";
       if (!animate) { void track.offsetWidth; track.style.transition = ""; }
       for (var i = 0; i < spans.length; i++) {
         spans[i].classList.toggle("cur", i === idx);
@@ -190,6 +190,28 @@
     };
     window.addEventListener("scroll", onSpec, { passive: true });
     onSpec();
+  }
+
+  /* Motion effects: parallax sutil dos cards ao rolar (como o Elementor) */
+  var fxCards = document.querySelectorAll(".card-trip, .photo-card");
+  if (fxCards.length) {
+    var fxTick = false;
+    var applyFx = function () {
+      fxTick = false;
+      var vh = window.innerHeight;
+      fxCards.forEach(function (el, i) {
+        var r = el.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > vh) return;
+        /* progresso -1..1 do centro do card na viewport */
+        var p = (r.top + r.height / 2 - vh / 2) / (vh / 2);
+        var speed = 18 + (i % 3) * 14;   /* colunas com velocidades diferentes */
+        el.style.transform = "translateY(" + (p * speed).toFixed(1) + "px)";
+      });
+    };
+    window.addEventListener("scroll", function () {
+      if (!fxTick) { fxTick = true; requestAnimationFrame(applyFx); }
+    }, { passive: true });
+    applyFx();
   }
 
   /* Vídeos de fundo: play/pause conforme visibilidade (economia) */
