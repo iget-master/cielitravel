@@ -195,7 +195,7 @@ def header(light=False):
       </li>
     </ul>
     <a class="btn header-cta" href="/contato/">Planeje sua viagem</a>
-    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button class="hamburger" aria-label="Menu"><svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><rect x="0" y="76" width="512" height="40" rx="20"/><rect x="0" y="236" width="512" height="40" rx="20"/><rect x="0" y="396" width="512" height="40" rx="20"/></svg></button>
   </div>
 </header>
 <div class="overlay-menu" aria-hidden="true">

@@ -140,7 +140,7 @@
     var lineH = function () { return spans[0].getBoundingClientRect().height; };
     var apply = function (animate) {
       if (!animate) track.style.transition = "none";
-      track.style.transform = "translateY(" + (-(idx - 2) * lineH()) + "px)";
+      track.style.transform = "translateY(" + (-(idx - 1) * lineH()) + "px)";
       if (!animate) { void track.offsetWidth; track.style.transition = ""; }
       for (var i = 0; i < spans.length; i++) {
         spans[i].classList.toggle("cur", i === idx);

@@ -135,23 +135,27 @@ h2, .h2 {
 }
 .header-inner {
   width: 100%;
-  padding: 0 clamp(20px, 8.5vw, 117px);
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
   display: flex;
   align-items: center;
 }
 .header-inner .main-nav { margin: 0 0 0 clamp(30px, 6vw, 90px); }
 .header-inner .header-cta { margin-left: auto; }
 .header-inner .hamburger { margin-left: clamp(28px, 9vw, 130px); }
+/* Logo: dimensionado por ALTURA como o original (svg 190x68) —
+   50px no desktop, 29px no mobile */
 .logo {
   display: inline-block;
-  width: 158px;
-  height: 57px;
+  height: 50px;
+  width: calc(50px * 190 / 68);
   background-color: currentColor;
   -webkit-mask: url(/uploads/2026/02/Logo_Cieli.svg) no-repeat center / contain;
   mask: url(/uploads/2026/02/Logo_Cieli.svg) no-repeat center / contain;
   flex: none;
+  transition: background-color .4s ease-in-out;
 }
-.site-header { will-change: transform; transition: background .3s, color .3s, transform .35s; }
 .site-header.hidden { transform: translateY(-100%); }
 .main-nav { display: flex; gap: 44px; }
 .main-nav > li { position: relative; }
@@ -163,11 +167,23 @@ h2, .h2 {
   text-transform: uppercase;
   padding: 30px 4px;
 }
+/* CTA: outline creme no topo; no sticky vira PREENCHIDO navy com texto
+   creme. Botão anima com ease padrão 0.4s (o header usa ease-in-out —
+   a diferença de curvas é fiel ao original) */
 .header-cta {
   flex: none;
   font-size: 20px;
   padding: 14px 25px 14px 20px;
-  transition: color .4s, border-color .4s, background .25s;
+  transition: color .4s ease, border-color .4s ease, background-color .4s ease;
+}
+.site-header.scrolled .header-cta, .site-header.light .header-cta {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--cream);
+}
+.site-header.scrolled .header-cta:hover, .site-header.light .header-cta:hover {
+  background: transparent;
+  color: var(--navy);
 }
 .hamburger {
   flex: none;
@@ -175,12 +191,13 @@ h2, .h2 {
   border: 0;
   color: inherit;           /* button não herda color por padrão */
   cursor: pointer;
-  width: 34px;
-  display: grid;
-  gap: 7px;
-  padding: 4px 0;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  transition: color .4s ease-in-out;
 }
-.hamburger span { height: 2px; background: currentColor; }
+.hamburger svg { width: 100%; height: 100%; display: block; }
+@media (max-width: 1024px) { .hamburger { width: 23px; height: 23px; } }
 button { color: inherit; font: inherit; }
 
 /* Mega-dropdown */
@@ -405,7 +422,8 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   text-transform: uppercase;
   white-space: nowrap;
 }
-/* Palavras empilhadas (atual em foco, vizinhas esmaecidas a 0.25) */
+/* Pilha de cidades — espec do .city-track original: linhas de 40px,
+   inativas opacity .25 + scale(.85), trilho 0.8s cubic-bezier(.77,0,.175,1) */
 .hero-rotator .words {
   display: inline-block;
   min-width: 7ch;
@@ -413,28 +431,32 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   font-size: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  height: 150px;             /* 5 linhas de 30px */
+  height: 120px;             /* 3 linhas de 40px */
   overflow: hidden;
   vertical-align: middle;
-  -webkit-mask-image: linear-gradient(transparent, #000 34%, #000 66%, transparent);
-  mask-image: linear-gradient(transparent, #000 34%, #000 66%, transparent);
+  -webkit-mask-image: linear-gradient(transparent, #000 30%, #000 70%, transparent);
+  mask-image: linear-gradient(transparent, #000 30%, #000 70%, transparent);
 }
 .words-track {
-  display: block;
-  transition: transform .6s cubic-bezier(.65,0,.35,1);
+  display: flex;
+  flex-direction: column;
+  transition: transform .8s cubic-bezier(.77, 0, .175, 1);
 }
 .words-track > span {
-  display: block;
-  line-height: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
   opacity: .25;
-  transition: opacity .4s;
+  transform: scale(.85);
+  transform-origin: left center;
+  transition: opacity .8s cubic-bezier(.77, 0, .175, 1),
+              transform .8s cubic-bezier(.77, 0, .175, 1);
 }
-.words-track > span.cur { opacity: 1; }
+.words-track > span.cur { opacity: 1; transform: scale(1); }
 @media (max-width: 768px) {
   .hero-rotator { gap: 16px; }
-  .hero-rotator .fixed, .hero-rotator .words { font-size: 15px; letter-spacing: 2px; }
-  .hero-rotator .words { height: 120px; }
-  .words-track > span { line-height: 24px; }
+  .hero-rotator .fixed, .hero-rotator .words { font-size: 17px; letter-spacing: 2.5px; }
 }
 .typewriter::after { content: "|"; margin-left: 4px; animation: blink .7s infinite; }
 .typewriter.done::after { content: none; }
@@ -1003,11 +1025,9 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
     padding: 5px 10px;
     margin-left: auto;
   }
-  .header-inner { padding: 0 12px; }
-  .header-inner .hamburger { margin-left: 22px; }
-  .logo { width: 88px; height: 42px; }
-  .hamburger { width: 29px; gap: 9px; padding: 2px 0; }
-  .hamburger span { height: 2px; }
+  .header-inner { padding: 0 10px; }
+  .header-inner .hamburger { margin-left: 20px; }
+  .logo { height: 29px; width: calc(29px * 190 / 68); }
   .specials { height: auto; }
   .specials-sticky { position: static; height: auto; overflow: visible; }
   .specials-track { display: block; width: auto; height: auto; transform: none !important; }
