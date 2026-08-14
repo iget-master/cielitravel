@@ -38,11 +38,11 @@ ul { list-style: none; }
 
 .container { max-width: var(--container); margin: 0 auto; padding: 0 24px; }
 
-/* ---------- Tipografia ---------- */
+/* ---------- Tipografia (escala responsiva do kit original) ---------- */
 h1, .h1 {
   font-family: var(--font-cond);
   font-weight: 700;
-  font-size: clamp(40px, 6vw, 70px);
+  font-size: 70px;
   line-height: 1;
   letter-spacing: .033em;
   text-transform: uppercase;
@@ -50,19 +50,43 @@ h1, .h1 {
 h2, .h2 {
   font-family: var(--font-cond);
   font-weight: 600;
-  font-size: clamp(26px, 3.5vw, 40px);
+  font-size: 40px;
   line-height: 1.1;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.h2-sm { font-size: clamp(20px, 2.2vw, 25px); font-weight: 500; letter-spacing: 1.3px; }
+.h2-sm { font-size: 25px; font-weight: 500; letter-spacing: 1.3px; }
 .display {
   font-family: var(--font-serif);
-  font-weight: 400;
-  font-size: clamp(30px, 4.5vw, 56px);
+  font-weight: 300;
+  font-size: 64px;
   line-height: 1.15;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+.display-sm {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+@media (max-width: 1366px) {
+  h1, .h1 { font-size: 50px; }
+  h2, .h2 { font-size: 30px; }
+  .display { font-size: 45px; }
+  .display-sm { font-size: 30px; }
+}
+@media (max-width: 1024px) {
+  h1, .h1 { font-size: 35px; }
+  h2, .h2 { font-size: 25px; }
+}
+@media (max-width: 767px) {
+  h1, .h1 { font-size: 45px; }   /* sim: mobile > tablet, como no kit */
+  .display { font-size: 38px; }
+  .display-sm { font-size: 28px; }
+  body { font-size: 16px; }
+  .link-more { font-size: 16px; }
 }
 .eyebrow {
   font-family: var(--font-serif);
@@ -162,28 +186,20 @@ h2, .h2 {
 .main-nav a.nav-link {
   font-family: var(--font-cond);
   font-weight: 500;
-  font-size: 19px;
-  letter-spacing: 2px;
+  font-size: 25px;
+  letter-spacing: 1.3px;
   text-transform: uppercase;
   padding: 30px 4px;
 }
-/* CTA: outline creme no topo; no sticky vira PREENCHIDO navy com texto
-   creme. Botão anima com ease padrão 0.4s (o header usa ease-in-out —
-   a diferença de curvas é fiel ao original) */
+@media (max-width: 1366px) { .main-nav a.nav-link { font-size: 20px; } }
+@media (max-width: 1024px) { .main-nav a.nav-link { font-size: 18px; } }
+/* CTA: outline sempre — só cor de texto/borda muda no sticky.
+   Botão anima 0.4s ease padrão (header usa ease-in-out) */
 .header-cta {
   flex: none;
   font-size: 20px;
   padding: 14px 25px 14px 20px;
-  transition: color .4s ease, border-color .4s ease, background-color .4s ease;
-}
-.site-header.scrolled .header-cta, .site-header.light .header-cta {
-  background: var(--navy);
-  border-color: var(--navy);
-  color: var(--cream);
-}
-.site-header.scrolled .header-cta:hover, .site-header.light .header-cta:hover {
-  background: transparent;
-  color: var(--navy);
+  transition: color .4s ease, border-color .4s ease;
 }
 .hamburger {
   flex: none;
@@ -454,9 +470,9 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
               transform .8s cubic-bezier(.77, 0, .175, 1);
 }
 .words-track > span.cur { opacity: 1; transform: scale(1); }
+/* mobile: mesma tipografia 20px/ls3 do desktop (kit sem override) */
 @media (max-width: 768px) {
-  .hero-rotator { gap: 16px; }
-  .hero-rotator .fixed, .hero-rotator .words { font-size: 17px; letter-spacing: 2.5px; }
+  .hero-rotator { gap: 18px; }
 }
 .typewriter::after { content: "|"; margin-left: 4px; animation: blink .7s infinite; }
 .typewriter.done::after { content: none; }
@@ -721,7 +737,7 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   z-index: 2;
 }
 .pinned-msg.active { opacity: 1; }
-.pinned-msg h3 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(38px, 5vw, 64px); line-height: 1.05; text-transform: uppercase; }
+.pinned-msg h3 { line-height: 1.05; }
 .pinned-msg p { max-width: 460px; margin-top: 22px; }
 .pinned-eyebrow { position: absolute; top: 110px; left: 0; right: 0; text-align: center; z-index: 2; }
 
@@ -758,10 +774,12 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .special h3 {
   font-family: var(--font-serif);
   font-weight: 300;
-  font-size: clamp(44px, 6vw, 72px);
+  font-size: 64px;
   text-transform: uppercase;
   margin: 26px 0 6px;
 }
+@media (max-width: 1366px) { .special h3 { font-size: 45px; } }
+@media (max-width: 767px) { .special h3 { font-size: 38px; } }
 .special p { max-width: 380px; font-size: 19px; }
 .special .pic { background-size: cover; background-position: center; min-height: 320px; }
 .special-yellow { background: var(--yellow); color: var(--navy); }
@@ -783,7 +801,6 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 }
 .cta-hero::before { content: ""; position: absolute; inset: 0; background: rgba(10,5,15,.55); }
 .cta-hero .inner { position: relative; z-index: 1; max-width: 860px; padding: 60px 24px; }
-.cta-hero .display { font-size: clamp(34px, 5vw, 58px); }
 .cta-hero .sub { font-size: 16px; letter-spacing: 2px; text-transform: uppercase; margin: 30px auto 40px; max-width: 700px; line-height: 1.7; }
 
 /* ---------- FAQ ---------- */
@@ -1007,12 +1024,10 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .error-page { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 24px; padding: 120px 24px; }
 
 /* ---------- Responsivo ---------- */
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   .main-nav { display: none; }
-  :root { --header-h: 72px; }
 }
 @media (max-width: 768px) {
-  body { font-size: 17px; }
   .section { padding: 60px 0; }
   .itin-slide { grid-template-columns: 1fr; }
   :root { --header-h: 100px; }

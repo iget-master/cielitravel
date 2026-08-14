@@ -648,7 +648,7 @@ def render_destino(fm, body):
         out.append(f"""
 <section class="section" style="padding-top:40px">
   <div class="container" style="max-width:820px;text-align:center">
-    <h2 class="display" style="font-size:clamp(30px,4vw,46px)">{esc(title)}</h2>
+    <h2 class="display-sm">{esc(title)}</h2>
     <div class="ink ink-orange">{INK_SVG}</div>
     {ptags}
     <p style="margin-top:34px"><a class="btn" href="/contato/">Planeje sua viagem</a></p>
@@ -826,7 +826,7 @@ def render_home(fm, body):
     jeito = [(t.strip(), re.sub(r"\s+", " ", x).strip())
              for t, x in jeito if t.isupper()][:3]
     jeito_html = "".join(f"""
-    <div class="pinned-msg"><h3>{esc(t)}</h3><p>{esc(x)}</p></div>"""
+    <div class="pinned-msg"><h3 class="display">{esc(t)}</h3><p>{esc(x)}</p></div>"""
                          for t, x in jeito)
     lottie_path = page_video("/", "lottie")
 
@@ -933,7 +933,7 @@ def render_home(fm, body):
   <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center" id="paixao">
     <img src="/uploads/2026/02/img-paixao.webp" alt="Estrada de ciprestes na Toscana" loading="lazy">
     <div style="text-align:center">
-      <h2 class="h1" style="font-size:clamp(40px,4.5vw,58px)">Paixão<br>Profunda</h2>
+      <h2 class="h1">Paixão<br>Profunda</h2>
       <div class="ink ink-orange">{INK_SVG}</div>
       <p style="max-width:440px;margin:0 auto">{emify(paixao)}</p>
       <p class="eyebrow" style="margin-top:30px"><a href="/destinos/" style="text-decoration:underline;text-underline-offset:5px">Destinos Infinitos</a></p>
@@ -962,7 +962,7 @@ def render_home(fm, body):
 
 <section class="section" id="encontre">
   <div class="container" style="max-width:860px;text-align:center">
-    <h2 class="display" style="font-size:clamp(30px,4vw,48px)">Encontre a viagem ideal</h2>
+    <h2 class="display-sm">Encontre a viagem ideal</h2>
     <div class="ink ink-orange">{INK_SVG}</div>
     <p style="max-width:460px;margin:0 auto 40px">Escolha o tipo de viagem, com quem
     você quer ir e a estação do ano para ver algumas sugestões</p>
