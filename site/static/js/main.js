@@ -31,13 +31,22 @@
     lastHeadY = y;
   }
 
-  /* Overlay do hambúrguer */
+  /* Menu-gaveta (hambúrguer) */
   var burger = document.querySelector(".hamburger");
   var overlay = document.querySelector(".overlay-menu");
   if (burger && overlay) {
-    burger.addEventListener("click", function () { overlay.classList.add("open"); });
-    overlay.querySelector(".overlay-close").addEventListener("click", function () {
-      overlay.classList.remove("open");
+    var setMenu = function (open) {
+      overlay.classList.toggle("open", open);
+      overlay.setAttribute("aria-hidden", open ? "false" : "true");
+      document.body.style.overflow = open ? "hidden" : "";
+    };
+    burger.addEventListener("click", function () { setMenu(true); });
+    overlay.querySelector(".overlay-close")
+      .addEventListener("click", function () { setMenu(false); });
+    overlay.querySelector(".menu-backdrop")
+      .addEventListener("click", function () { setMenu(false); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") setMenu(false);
     });
   }
 

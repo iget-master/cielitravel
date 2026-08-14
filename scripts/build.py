@@ -198,24 +198,18 @@ def header(light=False):
     <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
-<div class="overlay-menu">
-  <button class="overlay-close" aria-label="Fechar">×</button>
-  <nav class="overlay-nav">
-    <a href="/">Home</a>
-    <a href="/italia/">Itália</a>
-    <a href="/franca/">França</a>
-    <a href="/destinos/">Destinos</a>
-    <a href="/blog/">Blog</a>
-    <a href="/quem-somos/">Quem Somos</a>
-    <a href="/contato/">Contato</a>
-  </nav>
-  <div class="overlay-sub">
-    <a href="/o-que-fazemos/">O que fazemos</a>
-    <a href="/equipe/">Equipe</a>
-    <a href="/imprensa/">Imprensa</a>
-    <a href="/trabalhe-conosco/">Trabalhe conosco</a>
-    <a href="/faq/">FAQ</a>
-  </div>
+<div class="overlay-menu" aria-hidden="true">
+  <div class="menu-backdrop"></div>
+  <aside class="menu-panel">
+    <button class="overlay-close" aria-label="Fechar">×</button>
+    <nav class="overlay-nav">
+      <a href="/quem-somos/">Quem Somos</a>
+      <a href="/o-que-fazemos/">O que fazemos</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contato/">Contato</a>
+    </nav>
+    <div class="menu-foot"><a href="tel:+558540116310">+55 85 4011-6310</a></div>
+  </aside>
 </div>"""
 
 

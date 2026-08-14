@@ -125,22 +125,23 @@ h2, .h2 {
   display: flex;
   align-items: center;
   color: var(--cream);
-  transition: background .3s, color .3s;
+  transition: background-color .4s ease-in-out, color .4s ease-in-out,
+              height .4s ease-in-out, transform .4s ease-in-out;
 }
 .site-header.scrolled, .site-header.light {
   background: var(--cream);
   color: var(--navy);
-  box-shadow: 0 1px 0 rgba(20,0,89,.12);
+  height: calc(var(--header-h) - 12px);
 }
 .header-inner {
   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 28px;
+  padding: 0 clamp(20px, 8.5vw, 117px);
   display: flex;
   align-items: center;
-  gap: 40px;
 }
+.header-inner .main-nav { margin: 0 0 0 clamp(30px, 6vw, 90px); }
+.header-inner .header-cta { margin-left: auto; }
+.header-inner .hamburger { margin-left: clamp(28px, 9vw, 130px); }
 .logo {
   display: inline-block;
   width: 158px;
@@ -152,7 +153,7 @@ h2, .h2 {
 }
 .site-header { will-change: transform; transition: background .3s, color .3s, transform .35s; }
 .site-header.hidden { transform: translateY(-100%); }
-.main-nav { display: flex; gap: 44px; margin: 0 auto; }
+.main-nav { display: flex; gap: 44px; }
 .main-nav > li { position: relative; }
 .main-nav a.nav-link {
   font-family: var(--font-cond);
@@ -162,7 +163,12 @@ h2, .h2 {
   text-transform: uppercase;
   padding: 30px 4px;
 }
-.header-cta { flex: none; }
+.header-cta {
+  flex: none;
+  font-size: 20px;
+  padding: 14px 25px 14px 20px;
+  transition: color .4s, border-color .4s, background .25s;
+}
 .hamburger {
   flex: none;
   background: none;
@@ -213,38 +219,70 @@ button { color: inherit; font: inherit; }
 }
 .dropdown a.card-mini span { position: relative; z-index: 1; }
 
-/* Overlay menu (hambúrguer) */
+/* Menu-gaveta (hambúrguer): painel navy de 380px deslizando da direita,
+   backdrop preto 80%, como o popup do site original */
 .overlay-menu {
   position: fixed;
   inset: 0;
   z-index: 200;
+  visibility: hidden;
+  transition: visibility 0s .55s;
+}
+.overlay-menu .menu-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, .8);
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+.overlay-menu .menu-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: min(380px, 88vw);
   background: var(--navy);
   color: var(--cream);
-  display: none;
+  display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 26px 34px 30px;
+  transform: translateX(100%);
+  transition: transform .55s cubic-bezier(.22, 1, .36, 1);
   overflow-y: auto;
 }
-.overlay-menu.open { display: flex; }
+.overlay-menu.open {
+  visibility: visible;
+  transition: visibility 0s;
+}
+.overlay-menu.open .menu-backdrop { opacity: 1; }
+.overlay-menu.open .menu-panel { transform: translateX(0); }
 .overlay-close {
   align-self: flex-end;
   background: none;
   border: 0;
   color: inherit;
-  font-size: 42px;
+  font-size: 34px;
   line-height: 1;
   cursor: pointer;
   font-family: var(--font-serif);
+  padding: 4px 8px;
 }
-.overlay-nav { margin: auto; text-align: center; display: grid; gap: 14px; }
+.overlay-nav { margin: auto 0; display: grid; gap: 26px; }
 .overlay-nav a {
-  font-family: var(--font-serif);
-  font-size: clamp(30px, 5vh, 50px);
-  line-height: 1.25;
+  font-family: var(--font-cond);
+  font-weight: 600;
+  font-size: clamp(28px, 2.8vw, 37px);
+  letter-spacing: 1px;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 .overlay-nav a:hover { color: var(--yellow); }
-.overlay-sub { margin: 30px auto 0; display: flex; gap: 26px; flex-wrap: wrap; justify-content: center; }
-.overlay-sub a { font-size: 14px; letter-spacing: 1.5px; text-transform: uppercase; }
+.menu-foot { padding-top: 30px; }
+.menu-foot a { font-size: 14px; letter-spacing: 1.5px; }
+
+/* toque/foco: sem retângulo de highlight por cima do menu */
+* { -webkit-tap-highlight-color: transparent; }
+button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 
 /* ---------- Hero ---------- */
 .hero {
