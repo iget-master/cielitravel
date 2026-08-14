@@ -30,6 +30,33 @@ _mj = ROOT / "site" / "data" / "media.json"
 if _mj.exists():
     MEDIA = json.loads(_mj.read_text(encoding="utf-8"))
 
+CARDS = {}
+_cj = ROOT / "site" / "data" / "cards.json"
+if _cj.exists():
+    CARDS = json.loads(_cj.read_text(encoding="utf-8"))
+
+
+def card_photo(page_url, kind, title):
+    """Foto de um card (hospedagem/experiência) pelo título."""
+    rel = CARDS.get(page_url, {}).get(kind, {}).get(title.upper().strip())
+    if rel and (UPLOADS / rel).exists():
+        return "/uploads/" + rel
+    # fallback: procura arquivo com nome parecido
+    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:18]
+    for f in UPLOADS.glob("*/*/*.webp"):
+        if slug and slug in f.name.lower():
+            return f"/uploads/{f.relative_to(UPLOADS).as_posix()}"
+    return ""
+
+
+def emify(text):
+    """*itálico* → <em>, preservando o resto escapado."""
+    parts = re.split(r"\*([^*\n]+)\*", text)
+    out = ""
+    for i, p in enumerate(parts):
+        out += f"<em>{esc(p)}</em>" if i % 2 else esc(p)
+    return out
+
 OG_BY_URL = {}  # /toscana/ -> uploads/... (preenchido no main)
 
 
@@ -203,15 +230,15 @@ def footer():
     return f"""
 <footer class="footer">
   <div class="container">
-    <div class="newsletter">
-      <h2>Inscreva-se na nossa newsletter</h2>
+    <div class="newsletter-row">
+      <span class="nl-label">Inscreva-se na nossa newsletter</span>
       <form action="#" onsubmit="alert('Newsletter: integração pendente');return false">
-        <input type="email" placeholder="Email" required>
-        <button class="btn" type="submit">Assinar</button>
+        <input type="email" placeholder="E-mail" required>
+        <button class="btn btn-solid" type="submit">Assinar</button>
       </form>
     </div>
     <div class="footer-cols">
-      <div><h3>Menu</h3><ul>{menu}{menu2}</ul></div>
+      <div class="col-menu"><h3>Menu</h3><ul>{menu}{menu2}</ul></div>
       <div><h3>Destinos</h3><ul>
         <li><a href="/franca/">França</a></li>
         <li><a href="/italia/">Itália</a></li></ul></div>
@@ -366,9 +393,15 @@ def parse_destino(blocks):
                 author = peek(i + 1)[1]
                 i += 1
             d["quote"] = (text.strip('"“” '), author)
+        elif kind == "h2" and re.search(r"Inspire-se com este roteiro",
+                                        text, re.I):
+            d["roteiro_title"] = text
+            if peek(i + 1)[0] == "p":
+                d["roteiro_sub"] = peek(i + 1)[1]
+                i += 1
         elif kind == "h2" and re.search(
-                r"TRANSFORME ESSA VIAGEM|Inspire-se com este roteiro"
-                r"|^Crie um roteiro|^FICOU ALGUMA", text, re.I):
+                r"TRANSFORME ESSA VIAGEM|^Crie um roteiro|^FICOU ALGUMA",
+                text, re.I):
             pass  # renderizado de forma fixa
         elif kind == "h2" and re.search(
                 r"INSPIRE-SE PARA A SUA PRÓXIMA", text, re.I):
@@ -394,7 +427,7 @@ def parse_destino(blocks):
                 j += 1
             d["sections"].append({"title": text, "sub":
                                   "Com quem, quando e que tipo de viagem",
-                                  "items": [(c, "") for c in dedupe(cats)],
+                                  "items": [(c, "", "") for c in dedupe(cats)],
                                   "paras": [], "kind": "chips"})
             i = j - 1
         elif kind == "h2" and re.match(r"^\d PASSOS", text):
@@ -406,7 +439,7 @@ def parse_destino(blocks):
             while j < n and re.match(r"^\dº? ?passo", peek(j)[1].lower()):
                 step_t = peek(j + 1)[1] if peek(j + 1)[0] == "h2" else ""
                 step_x = peek(j + 2)[1] if peek(j + 2)[0] == "p" else ""
-                sec["items"].append((f"{peek(j)[1]} — {step_t}", step_x))
+                sec["items"].append((f"{peek(j)[1]} — {step_t}", step_x, ""))
                 j += 3 if step_x else 2
             sec["items"] = dedupe(sec["items"], key=lambda x: x[0])
             d["sections"].append(sec)
@@ -417,13 +450,20 @@ def parse_destino(blocks):
             if peek(j)[0] == "p":
                 sec["sub"] = peek(j)[1]
                 j += 1
-            while peek(j)[0] == "h2" and not re.search(
-                    r"^Crie um roteiro|Perguntas frequentes|^FICOU",
-                    peek(j)[1], re.I):
+            while peek(j)[0] in ("h2", "img"):
+                if peek(j)[0] == "img":
+                    j += 1
+                    continue
+                if re.search(r"^Crie um roteiro|Perguntas frequentes|^FICOU",
+                             peek(j)[1], re.I):
+                    break
                 name_h = peek(j)[1]
-                city = peek(j + 1)[1] if peek(j + 1)[0] == "h2" else ""
-                sec["items"].append((name_h, city))
-                j += 2
+                k = j + 1
+                while peek(k)[0] == "img":
+                    k += 1
+                city = peek(k)[1] if peek(k)[0] == "h2" else ""
+                sec["items"].append((name_h, city, ""))
+                j = k + 1
             sec["items"] = dedupe(sec["items"], key=lambda x: x[0])
             d["sections"].append(sec)
             i = j - 1
@@ -452,15 +492,20 @@ def parse_destino(blocks):
                                            "FALE COM A CIELI"):
                 sec["sub"] = peek(j)[1]
                 j += 1
+            sec_img = ""
             while j < n:
                 k2, t2 = peek(j)
-                if k2 == "h3":
+                if k2 == "img":
+                    sec_img = t2
+                    j += 1
+                elif k2 == "h3":
                     descr = peek(j + 1)[1] if peek(j + 1)[0] == "p" else ""
-                    sec["items"].append((t2, descr))
+                    sec["items"].append((t2, descr, sec_img))
+                    sec_img = ""
                     j += 2 if descr else 1
                 elif k2 == "h2" and text == "POR QUE PLANEJAR COM A CIELI?" \
                         and peek(j + 1)[0] == "h2":
-                    sec["items"].append((t2, peek(j + 1)[1]))
+                    sec["items"].append((t2, peek(j + 1)[1], ""))
                     j += 2
                 elif k2 == "p" and t2 in ("PLANEJE SUA VIAGEM",
                                           "FALE COM A CIELI"):
@@ -550,18 +595,26 @@ def render_destino(fm, body):
       <div class="txt"><div class="day">{esc(day['n'])}</div>
       <h3>{esc(day['t'])}</h3><p>{esc(' '.join(day['txt']))}</p></div>
     </div>""" for day in d["days"])
+        rot_title = d.get("roteiro_title") or "Inspire-se com este roteiro"
+        rot_sub = d.get("roteiro_sub") or ("Não existe roteiro pronto na "
+                                           "Cieli. Entre em contato para "
+                                           "criamos um exclusivamente "
+                                           "pensado para você.")
+        day_tabs = "".join(
+            f'<button data-slide="{k}">{esc(day["n"])}</button>'
+            for k, day in enumerate(d["days"]))
         out.append(f"""
 <section class="section" id="roteiro">
   <div class="container">
     <div class="section-head">
-      <h2>Inspire-se com este roteiro</h2>
-      <p class="sub">Não existe roteiro pronto na Cieli. Entre em contato para
-      criarmos um exclusivamente pensado para você.</p>
+      <h2 class="h2-sm">{esc(rot_title)}</h2>
+      <p class="sub">{esc(rot_sub)}</p>
     </div>
     <div class="itinerary" data-rail>
       <div class="itin-rail rail">{slides}</div>
       <div class="itin-nav">
         <button data-dir="prev" aria-label="Anterior">‹</button>
+        <div class="itin-tabs">{day_tabs}</div>
         <button data-dir="next" aria-label="Próximo">›</button>
       </div>
     </div>
@@ -633,7 +686,7 @@ def render_destino(fm, body):
         up = label.upper()
         if sec.get("kind") == "chips":
             chips = "".join(f'<div class="chip"><h3>{esc(t)}</h3></div>'
-                            for t, _ in sec["items"])
+                            for t, _, _ in sec["items"])
             out.append(f"""
 <section class="section" id="experiencias"><div class="container">
   <div class="section-head"><h2>{esc(label)}</h2>
@@ -655,20 +708,46 @@ def render_destino(fm, body):
                          for i, (q, a) in enumerate(sec["items"]))
             out.append(f"""
 <section class="section" id="faq"><div class="container">
-  <div class="section-head"><h2>{esc(label)}</h2>{sub}</div>
+  <div class="section-head" style="text-align:left;max-width:none;margin-left:0">
+  <h2>{esc(label)}</h2>{sub}</div>
   <div class="faq">{qa}</div></div></section>""")
-        elif aid in ("galeria", "hospedagens"):
-            chips = "".join(f"""
-      <div class="chip"><h3>{esc(t)}</h3>
-      <div class="where">{esc(w)}</div></div>""" for t, w in sec["items"])
+        elif aid == "diferenciais":
+            rows = "".join(f"""
+      <div class="diff-row"><span class="num">{i + 1:02d}</span>
+      <h3>{esc(t)}</h3><p>{esc(x)}</p></div>"""
+                           for i, (t, x, _) in enumerate(sec["items"]))
             out.append(f"""
-<section class="section" id="{aid}"><div class="container">
-  <div class="section-head"><h2>{esc(label)}</h2>{sub}</div>
-  <div class="chips">{chips}</div></div></section>""")
+<section class="section" id="diferenciais"><div class="container">
+  <h2 class="h2-sm" style="margin-bottom:30px">{esc(label)}</h2>
+  <div class="diff-list">{rows}</div>
+  <p style="text-align:center;margin-top:54px">
+  <a class="btn" href="/contato/">Planeje sua viagem</a></p>
+</div></section>""")
+        elif aid in ("galeria", "hospedagens", "experiencias"):
+            cards = []
+            for t, w, img in sec["items"]:
+                photo = (f"/uploads/{img.split('uploads/')[-1]}" if img
+                         else card_photo(page_url,
+                                         "hospedagens" if aid == "hospedagens"
+                                         else "experiencias", t))
+                where = f'<div class="where">{esc(w)}</div>' if w else ""
+                cards.append(f"""
+      <div class="photo-card" style="background-image:url('{photo}')">
+        <div class="pc-label"><h3>{esc(t)}</h3>{where}</div></div>""")
+            out.append(f"""
+<section class="section" id="{aid}"><div class="container rail-head">
+  <div><h2>{esc(label)}</h2>{sub}</div></div>
+  <div data-rail>
+    <div class="rail-nav"><button data-dir="prev">‹</button>
+    <button data-dir="next">›</button></div>
+    <div class="cards-rail rail photo-rail">{''.join(cards)}</div>
+  </div>
+</section>""")
         else:
             items = "".join(f"""
-      <div class="item"><div class="bullet">{INK_SVG if False else "◆"}</div>
-      <h3>{esc(t)}</h3><p>{esc(x)}</p></div>""" for t, x in sec["items"])
+      <div class="item"><div class="bullet">◆</div>
+      <h3>{esc(t)}</h3><p>{esc(x)}</p></div>"""
+                            for t, x, _ in sec["items"])
             out.append(f"""
 <section class="section" id="{aid}"><div class="container">
   <div class="section-head"><h2>{esc(label)}</h2>{sub}</div>
@@ -704,13 +783,13 @@ def render_home(fm, body):
     if m:
         words = [w.strip() for w in re.split(r"[·,]", m.group(1)) if w.strip()]
 
-    paixao = ("Nascemos de uma paixão pela Itália, mas como todo appassionati, "
-              "hoje nós vamos mais longe. Especialistas em roteiros feitos sob "
-              "medida para cada viajante, nós traçamos caminhos que não estão "
-              "nos guias tradicionais.")
+    paixao = ("Nascemos de uma paixão pela Itália, mas como todo "
+              "*appassionati*, hoje nós vamos mais longe. Especialistas em "
+              "roteiros feitos sob medida para cada viajante, nós traçamos "
+              "caminhos que não estão nos guias tradicionais.")
     m = re.search(r"(Nascemos de uma paixão.+?)\n\n", body, re.S)
     if m:
-        paixao = re.sub(r"\*|\n", " ", m.group(1)).strip()
+        paixao = re.sub(r"\s+", " ", m.group(1)).strip()
 
     cards = re.findall(r"^\|\s*([A-ZÀ-Ü'ÂÃÉÊÍÓÔÕÚÇ &.\d]+?)\s*\|\s*(.+?)\s*\|"
                        r"\s*(/[\w\-/]*)\s*\|$", body, re.M)
@@ -753,39 +832,34 @@ def render_home(fm, body):
     specials = [
         ("special-yellow", "Curadoria",
          "Encontre caminhos e segredos abertos que não estão nos guias tradicionais.",
-         "/uploads/2026/05/cultural.webp"),
+         "/uploads/2026/02/img-diferencias2.webp"),
         ("special-pink", "Hospitalidade",
          "Sinta-se em casa, falamos a sua língua e damos suporte durante a viagem.",
-         "/uploads/2026/05/bem_estar.webp"),
+         "/uploads/2026/02/img-diferencias3.webp"),
         ("special-orange", "Sob medida",
          "Seus desejos viram sua viagem com roteiros feitos exclusivamente para você.",
-         "/uploads/2026/05/exclusiva.webp"),
+         "/uploads/2026/02/img-diferenciais01.webp"),
     ]
     specials_html = "".join(f"""
     <div class="special {cls}">
       <div class="txt"><span class="eyebrow">Nossa especialidade</span>
-        <h3>{esc(t)}</h3>
-        <div class="ink ink-navy" style="margin:18px 0">{INK_SVG}</div>
-        <p>{esc(x)}</p></div>
+        <div><h3>{esc(t)}</h3>
+        <div class="ink ink-navy">{INK_SVG}</div>
+        <p>{esc(x)}</p></div><span></span></div>
       <div class="pic" style="background-image:url('{img}')"></div>
     </div>""" for cls, t, x, img in specials)
 
-    faq_items = [
-        ("O que diferencia a Cieli das agências de viagens tradicionais?",
-         "A Cieli é uma agência ítalo-brasileira especializada em viagens sob "
-         "medida. Nosso diferencial está em criar roteiros que vão além do "
-         "turismo tradicional, que acolhem os desejos, o tempo, o ritmo e a "
-         "personalidade dos viajantes. Oferecemos suporte local em português, "
-         "atenção minuciosa aos detalhes e um profundo conhecimento dos "
-         "destinos."),
-        ("Quanto custa uma viagem com a Cieli?",
-         "As viagens personalizadas da Cieli têm um investimento a partir de "
-         "€2000 por casal por noite, considerando hospedagens 5 ou 4 estrelas, "
-         "transporte privativo e experiências exclusivas."),
-        ("A Cieli vende pacotes ou roteiros prontos?",
-         "Não. Na Cieli, cada roteiro é exclusivo e feito sob medida, desenhado "
-         "com base nos seus interesses, ritmo e estilo de viagem."),
-    ]
+    # FAQ da home: as 8 primeiras perguntas do content/faq.md
+    faq_items = []
+    faq_md = CONTENT / "faq.md"
+    if faq_md.exists():
+        _, fbody = parse_front(faq_md)
+        for chunk in re.split(r"\n\s*\n", fbody):
+            c = chunk.strip()
+            if c.startswith("-") and "?" in c.split("\n")[0]:
+                q, _, a = c.partition("\n")
+                faq_items.append((q.lstrip("- ").strip(), a.strip()))
+    faq_items = faq_items[:8]
     faq_html = "".join(f"""
     <details><summary><span class="num">{i + 1:02d}</span>
     <span class="q">{esc(q)}</span></summary>
@@ -803,16 +877,30 @@ def render_home(fm, body):
     press_html = "".join(f'<img src="/uploads/{p}" alt="" loading="lazy">'
                          for p in press)
 
-    # fundo do depoimento (foto da vespa em Florença) + vídeo se houver
-    testi_bg = bg_video_tag("/", "depoimentos")
-    if not testi_bg:
-        for cand in ("2026/02/matisse-mcmullin-dupe-2-1.webp",
-                     "2026/02/DepoimentosVeneza.webp",
-                     "2026/02/img-depo1.webp"):
-            if (UPLOADS / cand).exists():
-                testi_bg = (f'<div class="bg-video" style="background:'
-                            f'url(/uploads/{cand}) center/cover"></div>')
-                break
+    # depoimentos full-bleed empilhados (como no original)
+    G_ICON = ('<svg width="22" height="22" viewBox="0 0 24 24" '
+              'style="vertical-align:-5px;margin-right:8px">'
+              '<circle cx="12" cy="12" r="11" fill="none" '
+              'stroke="currentColor" stroke-width="1.2"/>'
+              '<text x="12" y="16.5" text-anchor="middle" fill="currentColor" '
+              'font-size="12" font-family="serif">G</text></svg>')
+    home_testis = [
+        ("Roma, Capri e outros", "Experience of a lifetime!", "Rob Walsh",
+         "2026/02/matisse-mcmullin-dupe-2-1.webp"),
+        ("Florença", "Superou todas as expectativas!",
+         "Kamylla e Pedro de Lemos", "2026/02/img-depo1.webp"),
+        ("Veneza", "Seguro e enriquecedor", "Roberta Miranda",
+         "2026/02/DepoimentosVeneza.webp"),
+    ]
+    testi_hero_html = "".join(f"""
+<section class="testimonial-hero" style="background-image:url('/uploads/{bg}')">
+  <div class="inner">
+    <div class="testi"><div class="place">{esc(pl)}</div>
+    <blockquote>“{esc(q)}”</blockquote>
+    <div class="who">— {esc(w)}</div>
+    <div class="stars">{G_ICON} ★★★★★</div></div>
+  </div>
+</section>""" for pl, q, w, bg in home_testis)
 
     hero_vid = bg_video_tag(
         "/", "hero", poster="/uploads/2026/07/vlcsnap-2026-07-28-14h10m46s125.webp")
@@ -822,7 +910,7 @@ def render_home(fm, body):
   <div class="hero-content">
     <div class="hero-rotator">
       <span class="fixed">Conheça o infinito de</span>
-      <span class="words" data-rotator='{esc(str(words).replace("'", '"'))}'></span>
+      <span class="words words-stack" data-rotator='{esc(str(words).replace("'", '"'))}'></span>
     </div>
   </div>
 </section>
@@ -833,16 +921,16 @@ def render_home(fm, body):
     <div style="text-align:center">
       <h2 class="h1" style="font-size:clamp(40px,4.5vw,58px)">Paixão<br>Profunda</h2>
       <div class="ink ink-orange">{INK_SVG}</div>
-      <p style="max-width:440px;margin:0 auto">{esc(paixao)}</p>
+      <p style="max-width:440px;margin:0 auto">{emify(paixao)}</p>
       <p class="eyebrow" style="margin-top:30px"><a href="/destinos/" style="text-decoration:underline;text-underline-offset:5px">Destinos Infinitos</a></p>
     </div>
   </div>
 </section>
 
 <section class="section" style="padding-top:20px">
-  <div class="container">
+  <div class="container" style="border-top:1px solid rgba(20,0,89,.35);padding-top:56px">
     <h2>Explore as viagens mais desejadas</h2>
-    <p class="eyebrow" style="margin:10px 0 0">Conheça as regiões que podem estar no seu roteiro</p>
+    <p class="eyebrow" style="margin:10px 0 0;max-width:260px">Conheça as regiões que podem estar no seu roteiro</p>
   </div>
   <div data-rail>
     <div class="rail-nav"><button data-dir="prev">‹</button><button data-dir="next">›</button></div>
@@ -872,15 +960,7 @@ def render_home(fm, body):
   </div>
 </section>
 
-<section class="testimonial-hero" style="background-color:#0a0518">
-  {testi_bg}
-  <div class="inner">
-    <div class="testi"><div class="place">Florença</div>
-    <blockquote>“Superou todas as expectativas!”</blockquote>
-    <div class="who">— Kamylla e Pedro de Lemos</div>
-    <div class="stars">★★★★★ &nbsp;·&nbsp; avaliações Google</div></div>
-  </div>
-</section>
+{testi_hero_html}
 
 <section class="pressbar"><div class="container"><div class="row">{press_html}</div></div></section>
 
@@ -891,9 +971,8 @@ def render_home(fm, body):
 {cta_section("", "/")}
 
 <section class="section"><div class="container">
-  <div class="section-head"><h2>Perguntas frequentes</h2></div>
+  <h2 class="h2-sm" style="margin-bottom:30px">Perguntas frequentes</h2>
   <div class="faq">{faq_html}</div>
-  <p style="text-align:center;margin-top:36px"><a class="btn" href="/faq/">Ver todas</a></p>
 </div></section>"""
 
 
@@ -944,10 +1023,18 @@ def render_blog_index(posts):
                  if og and (UPLOADS / og.replace("uploads/", "")).exists()
                  else "")
         title = fm.get("title", "").split(" - ")[0]
+        date = ""
+        if fm.get("published"):
+            y, mo, dd = fm["published"].split("-")
+            meses = ["janeiro", "fevereiro", "março", "abril", "maio",
+                     "junho", "julho", "agosto", "setembro", "outubro",
+                     "novembro", "dezembro"]
+            date = (f'<div class="post-date">{int(dd)} de '
+                    f'{meses[int(mo) - 1]} de {y}</div>')
         cards.append(f"""
     <a class="post-card" href="/blog/{fm['slug']}/">
       <div class="thumb" style="{thumb}"></div>
-      <div class="body"><h3>{esc(title)}</h3>
+      <div class="body"><h3>{esc(title)}</h3>{date}
       <p>{esc(fm.get('description', ''))}</p>
       <span class="link-more">Ler o artigo</span></div></a>""")
     return f"""

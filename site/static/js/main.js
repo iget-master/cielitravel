@@ -27,19 +27,41 @@
     });
   }
 
-  /* Carrosséis: botões prev/next */
+  /* Carrosséis: botões prev/next + tabs DIA n */
   document.querySelectorAll("[data-rail]").forEach(function (wrap) {
     var rail = wrap.querySelector(".rail");
+    var slideW = function () {
+      return rail.firstElementChild
+        ? rail.firstElementChild.getBoundingClientRect().width + 22 : 320;
+    };
     wrap.querySelectorAll("[data-dir]").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        var step = rail.firstElementChild
-          ? rail.firstElementChild.getBoundingClientRect().width + 22 : 320;
         rail.scrollBy({
-          left: btn.dataset.dir === "next" ? step : -step,
+          left: btn.dataset.dir === "next" ? slideW() : -slideW(),
           behavior: "smooth"
         });
       });
     });
+    var tabs = wrap.querySelectorAll("[data-slide]");
+    if (tabs.length) {
+      tabs.forEach(function (tab) {
+        tab.addEventListener("click", function () {
+          rail.scrollTo({
+            left: +tab.dataset.slide * rail.firstElementChild
+              .getBoundingClientRect().width,
+            behavior: "smooth"
+          });
+        });
+      });
+      rail.addEventListener("scroll", function () {
+        var i = Math.round(rail.scrollLeft /
+          rail.firstElementChild.getBoundingClientRect().width);
+        tabs.forEach(function (t, k) {
+          t.classList.toggle("active", k === i);
+        });
+      }, { passive: true });
+      tabs[0].classList.add("active");
+    }
   });
 
   /* Typewriter */
@@ -67,24 +89,38 @@
     typeEls.forEach(function (el) { io.observe(el); });
   }
 
-  /* Rotator do hero (slide vertical, como o original) */
+  /* Rotator do hero: palavras empilhadas rolando verticalmente */
   var rot = document.querySelector("[data-rotator]");
   if (rot) {
     var words = JSON.parse(rot.dataset.rotator);
-    var span = document.createElement("span");
-    span.textContent = words[0];
-    rot.appendChild(span);
+    var track = document.createElement("span");
+    track.className = "words-track";
+    // duplica para looping suave
+    words.concat(words.slice(0, 2)).forEach(function (w) {
+      var s = document.createElement("span");
+      s.textContent = w;
+      track.appendChild(s);
+    });
+    rot.appendChild(track);
+    var spans = track.children;
     var idx = 0;
+    var lineH = function () { return spans[0].getBoundingClientRect().height; };
+    var apply = function (animate) {
+      if (!animate) track.style.transition = "none";
+      track.style.transform =
+        "translateY(" + (-(idx - 1) * lineH()) + "px)";
+      if (!animate) { void track.offsetWidth; track.style.transition = ""; }
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].classList.toggle("cur", i === idx);
+      }
+    };
+    apply(false);
     setInterval(function () {
-      idx = (idx + 1) % words.length;
-      span.classList.add("out");
-      setTimeout(function () {
-        span.textContent = words[idx];
-        span.classList.remove("out");
-        span.classList.add("in");
-        void span.offsetWidth;  // reflow síncrono garante a transição
-        span.classList.remove("in");
-      }, 500);
+      idx += 1;
+      apply(true);
+      if (idx >= words.length) {
+        setTimeout(function () { idx = 0; apply(false); }, 650);
+      }
     }, 2600);
   }
 

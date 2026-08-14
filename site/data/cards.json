@@ -1,0 +1,368 @@
+{
+ "/toscana/": {
+  "hospedagens": {
+   "HOTEL LUNGARNO": "2026/05/Hotel-Lungarno-1.webp",
+   "BORGO DI VESCINE": "2026/05/Borgo-di-Vescine.webp",
+   "BORGO PIGNANO": "2026/05/Borgo-Pignano.webp",
+   "CASTELFALFI": "2026/05/Castelfalfi-1.webp",
+   "CASTELLO DI CASOLE": "2026/05/Castello-di-Casole.webp",
+   "BORGO SANTO PIETRO": "2026/05/Borgo-Santo-Pietro.webp"
+  },
+  "experiencias": {
+   "ATIVIDADES AO AR LIVRE": "2026/05/Atividades-ao-ar-livre.webp",
+   "PASSEIOS AÉREOS": "2026/05/Passeios-aereos.webp",
+   "EVENTOS EXCLUSIVOS": "2026/05/Eventos-exclusivos.webp",
+   "FOOD TOURS": "2026/05/Food-tours.webp",
+   "VINÍCOLAS E ENOTURISMO": "2026/05/Vinicolas-e-enoturismo.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin.webp",
+   "CAÇA ÀS TRUFAS": "2026/05/Caca-as-trufas.webp",
+   "AULAS DE CULINÁRIA": "2026/05/Aulas-de-culinaria-1.webp",
+   "PIQUENIQUES AO AR LIVRE": "2026/05/Piqueniques-ao-ar-livre.webp",
+   "CARROS DE LUXO": "2026/05/Carros-de-luxo.webp",
+   "VILAREJOS MEDIEVAIS": "2026/05/Vilarejos-medievais.webp",
+   "TOURS PRIVATIVOS": "2026/05/Experiencias-de-luxo-na-Costa-Amalfitana-copiar-5.webp"
+  }
+ },
+ "/sicilia/": {
+  "hospedagens": {
+   "GRAND HOTEL DES ÉTRANGERS": "2026/05/Grand-Hotel-Des-Etrangers-1.webp",
+   "VILLA ATHENA RESORT": "2026/05/Villa-Athena-Resort-1.webp",
+   "GRAND HOTEL ET DES PALMES": "2026/05/Grand-Hotel-et-des-Palmes.webp",
+   "BELMOND VILLA SANT'ANDREA": "2026/05/Belmond-Villa-SantAndrea.webp",
+   "BELMOND GRAND HOTEL TIMEO": "2026/05/Belmond-Grand-Hotel-Timeo.webp"
+  },
+  "experiencias": {
+   "PRAIAS PARADISÍACAS": "2026/05/Praias-paradisiacas-2.webp",
+   "VINHOS DO ETNA": "2026/05/Vinhos-do-Etna.webp",
+   "FOOD TOURS": "2026/05/Food-tours-1.webp",
+   "LOCAÇÕES DE CINEMA": "2026/05/Locacoes-de-cinema.webp",
+   "ALTA GASTRONOMIA": "2026/05/Alta-gastronomia-1.webp"
+  }
+ },
+ "/veneza-e-verona/": {
+  "hospedagens": {
+   "VISTA PALAZZO VERONA": "2026/05/Vista-Palazzo-Verona.webp",
+   "PALAZZO VENART LUXURY HOTEL": "2026/05/Palazzo-Venart-Luxury-Hotel.webp",
+   "THE ST. REGIS VENICE": "2026/05/The-St.-Regis-Venice.webp",
+   "THE GRITTI PALACE, A LUXURY COLLECTION HOTEL": "2026/05/The-Gritti-Palace-a-Luxury-Collection-Hotel-1.webp"
+  },
+  "experiencias": {
+   "TOUR EM BARCO PRIVATIVO": "2026/05/Tour-em-barco-privativo-3.webp",
+   "JARDINS E VILLAS HISTÓRICAS": "2026/05/Jardins-e-villas-historicas.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-2.webp",
+   "VINÍCOLAS E ENOTURISMO": "2026/05/Vinicolas-e-enoturismo-2.webp",
+   "CARROS DE LUXO": "2026/05/Carros-de-luxo-1.webp",
+   "PASSEIO DE GÔNDOLA": "2026/05/Passeio-de-gondola.webp",
+   "TOURS PRIVATIVOS": "2026/05/Tours-privativos.webp"
+  }
+ },
+ "/sardenha/": {
+  "hospedagens": {
+   "ALBERO CAPOVOLTO": "2026/05/Albero-Capovolto.webp",
+   "BELMOND HOTEL ROMAZZINO COSTA SMERALDA": "2026/05/Belmond-Hotel-Romazzino-Costa-Smeralda.webp",
+   "HOTEL PITRIZZA": "2026/05/Liscia-di-Vacca.webp"
+  },
+  "experiencias": {
+   "ESCALADA NO ETNA": "2026/05/Escalada-no-Etna.webp",
+   "VISITA AOS NURAGHI": "2026/05/Visita-aos-nuraghi.webp",
+   "AVISTAMENTO DE FLAMINGOS": "2026/05/Avistamento-de-flamingos.webp",
+   "MERGULHO E SNORKELING": "2026/05/Mergulho-e-snorkeling.webp",
+   "GASTRONOMIA SARDA": "2026/05/Gastronomia-sarda.webp",
+   "VINÍCOLAS E ENOTURISMO": "2026/05/Vinicolas-e-enoturismo-1.webp",
+   "PRAIAS PARADISÍACAS": "2026/05/Praias-paradisiacas-1.webp",
+   "VILAREJOS MEDIEVAIS": "2026/05/Vilarejos-medievais-1.webp",
+   "TOUR EM BARCO PRIVATIVO": "2026/05/Tour-em-barco-privativo-1.webp"
+  }
+ },
+ "/puglia/": {
+  "hospedagens": {
+   "MASSERIA TORRE COCCARO": "2026/05/Masseria-Torre-Coccaro.webp",
+   "MASSERIA CERVAROLO": "2026/05/Masseria-Cervarolo-1.webp",
+   "MASSERIA SAN DOMENICO": "2026/05/Masseria-San-Domenico-1.webp",
+   "BORGO EGNAZIA": "2026/05/Borgo-Egnazia-1.webp",
+   "MASSERIA LE TORRI": "2026/05/Masseria-Le-Torri-1.webp"
+  },
+  "experiencias": {
+   "AZEITES DE OLIVA PREMIUM": "2026/05/Azeites-de-oliva-premium.webp",
+   "MASSAS ARTESANAIS": "2026/05/Massas-artesanais.webp",
+   "MASSERIAS HISTÓRICAS": "2026/05/Untitled-1.webp",
+   "CERÂMICA DE GROTTAGLIE": "2026/05/Ceramica-de-Grottaglie.webp",
+   "BELEZAS NATURAIS": "2026/05/Belezas-naturais.webp",
+   "ALTA GASTRONOMIA": "2026/05/Alta-gastronomia.webp",
+   "TOUR EM BARCO PRIVATIVO": "2026/05/Tour-em-barco-privativo.webp",
+   "PRAIAS PARADISÍACAS": "2026/05/Praias-paradisiacas.webp"
+  }
+ },
+ "/costa-amalfitana/": {
+  "hospedagens": {
+   "LE SIRENUSE": "2026/05/Le-Sirenuse.webp",
+   "GRAND HOTEL EXCELSIOR VITTORIA": "2026/05/Excelsior-Vittoria.webp"
+  },
+  "experiencias": {
+   "AULAS DE CULINÁRIA": "2026/05/Aulas-de-culinaria.webp",
+   "COMPRAS EM CAPRI": "2026/05/Compras-em-Capri.webp",
+   "VISTA PARA O MEDITERRÂNEO": "2026/05/Vista-para-o-Mediterraneo.webp",
+   "POSITANO À PÉ": "2026/05/Positano-a-pe.webp",
+   "DELICIOSO LIMONCELLO": "2026/05/Delicioso-limoncello.webp",
+   "BEACH CLUBS EXCLUSIVOS": "2026/05/Beach-clubs-exclusivos.webp",
+   "COMPRAS E PRODUTOS TÍPICOS": "2026/05/Experiencias-de-luxo-na-Costa-Amalfitana-copiar-3.webp",
+   "JARDINS E VILLAS DE RAVELLO E CAPRI": "2026/05/Experiencias-de-luxo-na-Costa-Amalfitana-copiar-2.webp",
+   "BARCOS PRIVATIVOS": "2026/05/Experiencias-de-luxo-na-Costa-Amalfitana-copiar-1.webp"
+  }
+ },
+ "/paris/": {
+  "hospedagens": {
+   "LA MAISON DES TÊTES COLMAR": "2026/05/La-Maison-des-Tetes-Colmar.webp",
+   "LA CHÈVRE D'OR": "2026/05/La-Chevre-dOr.webp",
+   "VILLA GENESIS": "2026/05/Villa-Genesis.webp",
+   "THE MAYBOURNE RIVIERA": "2026/05/The-Maybourne-Riviera.webp",
+   "HÔTEL D’EUROPE": "2026/05/Hotel-dEurope.webp",
+   "BAUMANIÈRE – LES BAUX DE PROVENCE": "2026/05/Baumaniere-–-Les-Baux-de-Provence.webp",
+   "LE VALLON DE VALRUGUES & SPA": "2026/05/Le-Vallon-de-Valrugues-Spa.webp",
+   "L'HÔTEL PARTICULIER": "2026/05/LHotel-Particulier-1.webp",
+   "COQUILLADE PROVENCE": "2026/05/Coquillade-Provence.webp",
+   "LA BASTIDE DE GORDES": "2026/05/La-Bastide-de-Gordes.webp",
+   "LA BASTIDE DE MARIE": "2026/05/La-Bastide-de-Marie.webp",
+   "GRAND-HÔTEL DU CAP-FERRAT": "2026/05/Grand-Hotel-du-Cap-Ferrat.webp",
+   "HOTEL VILLA GALLICI": "2026/05/Hotel-Villa-Gallici.webp",
+   "CHEVAL BLANC SAINT-TROPEZ": "2026/05/Cheval-Blanc-Saint-Tropez-1.webp",
+   "MANDARIN ORIENTAL PARIS": "2026/05/Mandarin-Oriental-Paris.webp",
+   "THE PENINSULA PARIS": "2026/05/The-Peninsula-Paris.webp",
+   "HÔTEL LE NEGRESCO": "2026/05/Hotel-Le-Negresco.webp",
+   "LE MEURICE – DORCHESTER COLLECTION": "2026/05/Le-Meurice-–-Dorchester-Collection.webp",
+   "HÔTEL LE SAINT PAUL": "2026/05/Hotel-Le-Saint-Paul.webp",
+   "SHANGRI-LA PARIS": "2026/05/Shangri-La-Paris.webp",
+   "HÔTEL DU CAP-EDEN-ROC": "2026/05/Hotel-du-Cap-Eden-Roc.webp",
+   "CARLTON CANNES": "2026/05/Carlton-Cannes.webp",
+   "LA RÉSERVE PARIS": "2026/05/La-Reserve-Paris.webp",
+   "AIRELLES": "2026/05/Airelles.webp",
+   "LE BRISTOL PARIS": "2026/05/Le-Bristol-Paris.webp",
+   "CHEVAL BLANC": "2026/05/Cheval-Blanc.webp",
+   "HÔTEL MONT-BLANC": "2026/05/Hotel-Mont-Blanc.webp",
+   "HOTEL & SPA REGENT PETITE FRANCE": "2026/05/Hotel-Spa-Regent-Petite-France.webp",
+   "MAISON ROUGE STRASBOURG HOTEL & SPA": "2026/05/Maison-Rouge-Strasbourg-Hotel-Spa.webp",
+   "HÔTEL RITZ PARIS": "2026/05/Hotel-Ritz-Paris.webp",
+   "MASSERIA TORRE MAIZZA": "2026/05/Masseria-Torre-Maizza.webp",
+   "FOUR SEASONS HOTEL GEORGE V": "2026/05/FourSeasonsGeorgeV.webp",
+   "HÔTEL DE CRILLON": "2026/05/HotelDeCrillon.webp",
+   "HOTEL CAESAR AUGUSTUS": "2026/05/Hotel-Caesar-Augustus.webp",
+   "CHEVAL BLANC PARIS": "2026/05/ChevalBlancParis.webp",
+   "IL SERENO": "2026/05/Il-Sereno.webp",
+   "GRAND HOTEL COURMAYEUR MONT BLANC": "2026/05/Grand-Hotel-Courmayeur-Mont-Blanc.webp",
+   "HOTEL HUBERTUS": "2026/05/Hotel-Hubertus.webp",
+   "COMO ALPINA DOLOMITES": "2026/05/COMO-Alpina-Dolomites.webp",
+   "FORESTIS DOLOMITAS": "2026/05/Forestis-Dolomitas.webp",
+   "VISTA PALAZZO VERONA": "2026/05/Vista-Palazzo-Verona.webp",
+   "PALAZZO VENART LUXURY HOTEL": "2026/05/Palazzo-Venart-Luxury-Hotel.webp",
+   "THE ST. REGIS VENICE": "2026/05/The-St.-Regis-Venice.webp",
+   "THE GRITTI PALACE, A LUXURY COLLECTION HOTEL": "2026/05/The-Gritti-Palace-a-Luxury-Collection-Hotel-1.webp",
+   "GRAND HOTEL DES ÉTRANGERS": "2026/05/Grand-Hotel-Des-Etrangers-1.webp",
+   "VILLA ATHENA RESORT": "2026/05/Villa-Athena-Resort-1.webp",
+   "GRAND HOTEL ET DES PALMES": "2026/05/Grand-Hotel-et-des-Palmes.webp",
+   "BELMOND VILLA SANT'ANDREA": "2026/05/Belmond-Villa-SantAndrea.webp",
+   "BELMOND GRAND HOTEL TIMEO": "2026/05/Belmond-Grand-Hotel-Timeo.webp",
+   "ALBERO CAPOVOLTO": "2026/05/Albero-Capovolto.webp",
+   "BELMOND HOTEL ROMAZZINO COSTA SMERALDA": "2026/05/Belmond-Hotel-Romazzino-Costa-Smeralda.webp",
+   "HOTEL PITRIZZA": "2026/05/Liscia-di-Vacca.webp",
+   "VILLA CORA": "2026/05/Villa-Cora.webp",
+   "ROSEWOOD CASTIGLION DEL BOSCO": "2026/05/Rosewood-Castiglion-del-Bosco.webp",
+   "HOTEL LE FONTANELLE": "2026/05/Hotel-Le-Fontanelle.webp",
+   "HOTEL LUNGARNO": "2026/05/Hotel-Lungarno-1.webp",
+   "BORGO DI VESCINE": "2026/05/Borgo-di-Vescine.webp",
+   "BORGO PIGNANO": "2026/05/Borgo-Pignano.webp",
+   "CASTELFALFI": "2026/05/Castelfalfi-1.webp",
+   "CASTELLO DI CASOLE": "2026/05/Castello-di-Casole.webp",
+   "BORGO SANTO PIETRO": "2026/05/Borgo-Santo-Pietro.webp",
+   "LE SIRENUSE": "2026/05/Le-Sirenuse.webp",
+   "GRAND HOTEL EXCELSIOR VITTORIA": "2026/05/Excelsior-Vittoria.webp",
+   "MASSERIA TORRE COCCARO": "2026/05/Masseria-Torre-Coccaro.webp",
+   "MASSERIA CERVAROLO": "2026/05/Masseria-Cervarolo-1.webp",
+   "MASSERIA SAN DOMENICO": "2026/05/Masseria-San-Domenico-1.webp",
+   "BORGO EGNAZIA": "2026/05/Borgo-Egnazia-1.webp",
+   "MASSERIA LE TORRI": "2026/05/Masseria-Le-Torri-1.webp"
+  },
+  "experiencias": {
+   "BATE-VOLTAS A PARTIR DE PARIS": "2026/05/Bate-voltas-a-partir-de-Paris-.webp",
+   "CASTELOS E PALÁCIOS NOS ARREDORES": "2026/05/Castelos-e-palacios-nos-arredores.webp",
+   "CHOCOLATE E PÂTISSERIE TOUR": "2026/05/Chocolate-e-patisserie-tour.webp",
+   "BAIRROS HISTÓRICOS DE PARIS": "2026/05/Bairros-historicos-de-Paris.webp",
+   "ARTE E CULTURA PARISIENSE": "2026/05/Arte-e-cultura-parisiense.webp",
+   "TOURS EM CITROËN 2CV": "2026/05/Tours-em-Citroen-2CV.webp",
+   "AULAS DE CULINÁRIA": "2026/05/Aulas-de-culinaria-2.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-4.webp",
+   "VINHOS E GASTRONOMIA FRANCESA": "2026/05/Vinhos-e-gastronomia-francesa.webp",
+   "JANTARES NO SENA": "2026/05/Jantares-no-Sena-.webp"
+  }
+ },
+ "/cote-dazur/": {
+  "hospedagens": {
+   "LA CHÈVRE D'OR": "2026/05/La-Chevre-dOr.webp",
+   "THE MAYBOURNE RIVIERA": "2026/05/The-Maybourne-Riviera.webp",
+   "GRAND-HÔTEL DU CAP-FERRAT": "2026/05/Grand-Hotel-du-Cap-Ferrat.webp",
+   "HÔTEL LE NEGRESCO": "2026/05/Hotel-Le-Negresco.webp",
+   "HÔTEL LE SAINT PAUL": "2026/05/Hotel-Le-Saint-Paul.webp",
+   "HÔTEL DU CAP-EDEN-ROC": "2026/05/Hotel-du-Cap-Eden-Roc.webp",
+   "CARLTON CANNES": "2026/05/Carlton-Cannes.webp",
+   "CHEVAL BLANC SAINT-TROPEZ": "2026/05/Cheval-Blanc-Saint-Tropez.webp"
+  },
+  "experiencias": {
+   "MONTE CARLO E O GLAMOUR DE MÔNACO": "2026/05/Monte-Carlo-e-o-glamour-de-Monaco.webp",
+   "CRIE SEU PERFUME EM GRASSE": "2026/05/Crie-seu-perfume-em-Grasse.webp",
+   "JARDINS E VILLAS HISTÓRICAS": "2026/05/Jardins-e-villas-historicas-1.webp",
+   "MERCADOS E PROMENADE DES ANGLAIS": "2026/05/Mercados-e-Promenade-des-Anglais.webp",
+   "ARTE E MUSEUS": "2026/05/Arte-e-museus.webp",
+   "TRILHAS COSTEIRAS": "2026/05/Trilhas-costeiras-.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-5.webp",
+   "MIRANTE COLLINE DU CHÂTEAU": "2026/05/Mirante-Colline-du-Chateau.webp",
+   "VILAS HISTÓRICAS DA RIVIERA": "2026/05/Vilas-historicas-da-Riviera-.webp",
+   "PRAIAS E BEACH CLUBS": "2026/05/Praias-e-beach-clubs.webp",
+   "CALANQUES DE MARSELHA": "2026/05/Calanques-de-Marselha.webp",
+   "PASSEIOS DE BARCO PELA RIVIERA": "2026/05/Passeios-de-barco-pela-Riviera.webp"
+  }
+ },
+ "/provence/": {
+  "hospedagens": {
+   "HÔTEL D’EUROPE": "2026/05/Hotel-dEurope.webp",
+   "BAUMANIÈRE – LES BAUX DE PROVENCE": "2026/05/Baumaniere-–-Les-Baux-de-Provence.webp",
+   "LE VALLON DE VALRUGUES & SPA": "2026/05/Le-Vallon-de-Valrugues-Spa.webp",
+   "L'HÔTEL PARTICULIER": "2026/05/LHotel-Particulier-1.webp",
+   "COQUILLADE PROVENCE": "2026/05/Coquillade-Provence.webp",
+   "LA BASTIDE DE GORDES": "2026/05/La-Bastide-de-Gordes.webp",
+   "LA BASTIDE DE MARIE": "2026/05/La-Bastide-de-Marie.webp",
+   "HOTEL VILLA GALLICI": "2026/05/Hotel-Villa-Gallici.webp"
+  },
+  "experiencias": {
+   "PASSEIOS AÉREOS": "2026/05/Passeios-aereos-1.webp",
+   "CARRIÈRES DE LUMIÈRES": "2026/05/Carrieres-de-Lumieres.webp",
+   "PERFUMARIA EM GRASSE": "2026/05/Perfumaria-em-Grasse.webp",
+   "ANTIGUIDADES EM L'ISLE-SUR-LA-SORGUE": "2026/05/Antiguidades-em-LIsle-sur-la-Sorgue.webp",
+   "MERCADOS PROVENÇAIS": "2026/05/Mercados-provencais.webp",
+   "CAÇA ÀS TRUFAS": "2026/05/Caca-as-trufas-1.webp",
+   "VINHOS E ROSÉS DA PROVENCE": "2026/05/Vinhos-e-roses-da-Provence.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-6.webp",
+   "VISITA À FÁBRICA DE LAVANDA": "2026/05/Visita-a-fabrica-de-lavanda.webp",
+   "NOTRE-DAME DE SÉNANQUE": "2026/05/Notre-Dame-de-Senanque.webp",
+   "VISITA AOS LAVANDÁRIOS": "2026/05/Visita-aos-lavandarios.webp",
+   "VILAREJOS DO LUBERON": "2026/05/Vilarejos-do-Luberon.webp"
+  }
+ },
+ "/verao-na-italia/": {
+  "hospedagens": {
+   "MASSERIA TORRE MAIZZA": "2026/05/Masseria-Torre-Maizza.webp",
+   "HOTEL CAESAR AUGUSTUS": "2026/05/Hotel-Caesar-Augustus.webp",
+   "LE SIRENUSE": "2026/05/Le-Sirenuse.webp",
+   "GRAND HOTEL EXCELSIOR VITTORIA": "2026/05/Excelsior-Vittoria.webp",
+   "MASSERIA SAN DOMENICO": "2026/05/Masseria-San-Domenico-1.webp",
+   "BORGO EGNAZIA": "2026/05/Borgo-Egnazia-1.webp",
+   "MASSERIA LE TORRI": "2026/05/Masseria-Le-Torri-1.webp"
+  },
+  "experiencias": {
+   "COMPRAS E ARTESANATO": "2026/05/Compras-e-artesanato.webp",
+   "BELEZAS NATURAIS": "2026/05/Belezas-naturais-1.webp",
+   "ALTA GASTRONOMIA": "2026/05/Alta-gastronomia-2.webp",
+   "BEACH CLUBS EXCLUSIVOS": "2026/05/Beach-clubs-exclusivos-1.webp",
+   "PRAIAS PARADISÍACAS": "2026/05/Praias-paradisiacas-3.webp",
+   "TOUR EM BARCO PRIVATIVO": "2026/05/Tour-em-barco-privativo-2.webp"
+  }
+ },
+ "/inverno-na-italia/": {
+  "hospedagens": {
+   "IL SERENO": "2026/05/Il-Sereno.webp",
+   "GRAND HOTEL COURMAYEUR MONT BLANC": "2026/05/Grand-Hotel-Courmayeur-Mont-Blanc.webp",
+   "HOTEL HUBERTUS": "2026/05/Hotel-Hubertus.webp",
+   "COMO ALPINA DOLOMITES": "2026/05/COMO-Alpina-Dolomites.webp",
+   "FORESTIS DOLOMITAS": "2026/05/Forestis-Dolomitas.webp"
+  },
+  "experiencias": {
+   "EXPERIÊNCIAS EM FAMÍLIA": "2026/05/Experiencias-em-familia.webp",
+   "CELEBRAÇÕES DE FIM DE ANO": "2026/05/Celebracoes-de-fim-de-ano.webp",
+   "CHARME DOS VILAREJOS ALPINOS": "2026/05/Charme-dos-vilarejos-alpinos.webp",
+   "APRÈS-SKI E VIDA NOTURNA": "2026/05/Apres-ski-e-vida-noturna.webp",
+   "TERMAS E BEM-ESTAR": "2026/05/Termas-e-bem-estar.webp",
+   "GASTRONOMIA DE ALTITUDE": "2026/05/Gastronomia-de-altitude.webp",
+   "TELEFÉRICOS PANORÂMICOS": "2026/05/Telefericos-panoramicos.webp",
+   "VOOS PANORÂMICOS": "2026/05/Voos-panoramicos.webp",
+   "TRENS PANORÂMICOS": "2026/05/Passeios-aereos-copy-1.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-3.webp",
+   "LOGÍSTICA NA NEVE": "2026/05/Logistica-na-neve.webp",
+   "AVENTURAS NA NEVE": "2026/05/Passeios-aereos-copy.webp"
+  }
+ },
+ "/verao-na-franca/": {
+  "hospedagens": {
+   "LA CHÈVRE D'OR": "2026/05/La-Chevre-dOr.webp",
+   "VILLA GENESIS": "2026/05/Villa-Genesis.webp",
+   "THE MAYBOURNE RIVIERA": "2026/05/The-Maybourne-Riviera.webp",
+   "GRAND-HÔTEL DU CAP-FERRAT": "2026/05/Grand-Hotel-du-Cap-Ferrat.webp",
+   "HÔTEL LE NEGRESCO": "2026/05/Hotel-Le-Negresco.webp",
+   "HÔTEL LE SAINT PAUL": "2026/05/Hotel-Le-Saint-Paul.webp",
+   "HÔTEL DU CAP-EDEN-ROC": "2026/05/Hotel-du-Cap-Eden-Roc.webp",
+   "CARLTON CANNES": "2026/05/Carlton-Cannes.webp",
+   "CHEVAL BLANC SAINT-TROPEZ": "2026/05/Cheval-Blanc-Saint-Tropez.webp"
+  },
+  "experiencias": {
+   "MONTE CARLO E O GLAMOUR DE MÔNACO": "2026/05/Monte-Carlo-e-o-glamour-de-Monaco-1.webp",
+   "CRIE SEU PERFUME EM GRASSE": "2026/05/Crie-seu-perfume-em-Grasse-1.webp",
+   "MERCADOS E PROMENADE DES ANGLAIS": "2026/05/Mercados-e-Promenade-des-Anglais-1.webp",
+   "ARTE E MUSEUS": "2026/05/Arte-e-museus-1.webp",
+   "TRILHAS COSTEIRAS": "2026/05/Trilhas-costeiras.webp",
+   "VILLAS E JARDINS HISTÓRICOS": "2026/05/Villas-e-jardins-historicos.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-7.webp",
+   "PRAIAS E BEACH CLUBS": "2026/05/Praias-e-beach-clubs-1.webp",
+   "TOUR EM BARCO PRIVATIVO": "2026/05/Tour-em-barco-privativo-4.webp"
+  }
+ },
+ "/inverno-na-franca/": {
+  "hospedagens": {
+   "LA MAISON DES TÊTES COLMAR": "2026/05/La-Maison-des-Tetes-Colmar.webp",
+   "AIRELLES": "2026/05/Airelles.webp",
+   "CHEVAL BLANC": "2026/05/Cheval-Blanc.webp",
+   "HÔTEL MONT-BLANC": "2026/05/Hotel-Mont-Blanc.webp",
+   "HOTEL & SPA REGENT PETITE FRANCE": "2026/05/Hotel-Spa-Regent-Petite-France.webp",
+   "MAISON ROUGE STRASBOURG HOTEL & SPA": "2026/05/Maison-Rouge-Strasbourg-Hotel-Spa.webp",
+   "FOUR SEASONS HOTEL GEORGE V": "2026/05/FourSeasonsGeorgeV.webp",
+   "HÔTEL DE CRILLON": "2026/05/HotelDeCrillon.webp",
+   "CHEVAL BLANC PARIS": "2026/05/ChevalBlancParis.webp"
+  },
+  "experiencias": {
+   "CELEBRAÇÕES DE FIM DE ANO": "2026/05/Celebracoes-de-fim-de-ano-1.webp",
+   "CHARME DOS VILAREJOS ALPINOS": "2026/05/Charme-dos-vilarejos-alpinos-1.webp",
+   "TERMAS E BEM-ESTAR": "2026/05/Termas-e-bem-estar-1.webp",
+   "APRÈS-SKI E VIDA NOTURNA": "2026/05/Apres-ski-e-vida-noturna-1.webp",
+   "GLACIARES E TRENS HISTÓRICOS": "2026/05/Glaciares-e-trens-historicos.webp",
+   "TELEFÉRICOS PANORÂMICOS": "2026/05/Telefericos-panoramicos-1.webp",
+   "AVENTURAS NA NEVE": "2026/05/Aventuras-na-neve.webp",
+   "ROTA DOS VINHOS": "2026/05/Rota-dos-Vinhos.webp",
+   "MERCADOS DE NATAL DA ALSÁCIA": "2026/05/Mercados-de-Natal-da-Alsacia-.webp",
+   "PARIS CULTURAL E GASTRONÔMICA": "2026/05/Paris-cultural-e-gastronomica.webp",
+   "LOGÍSTICA NA NEVE": "2026/05/Logistica-na-neve-1.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin-8.webp"
+  }
+ },
+ "/andrea-bocelli-na-toscana/": {
+  "hospedagens": {
+   "HOTEL LUNGARNO": "2026/05/Hotel-Lungarno-1.webp",
+   "BORGO DI VESCINE": "2026/05/Borgo-di-Vescine.webp",
+   "BORGO PIGNANO": "2026/05/Borgo-Pignano.webp",
+   "CASTELFALFI": "2026/05/Castelfalfi-1.webp",
+   "CASTELLO DI CASOLE": "2026/05/Castello-di-Casole.webp",
+   "BORGO SANTO PIETRO": "2026/05/Borgo-Santo-Pietro.webp"
+  },
+  "experiencias": {
+   "ATIVIDADES AO AR LIVRE": "2026/05/Atividades-ao-ar-livre.webp",
+   "PASSEIOS AÉREOS": "2026/05/Passeios-aereos.webp",
+   "EVENTOS EXCLUSIVOS": "2026/05/Eventos-exclusivos.webp",
+   "FOOD TOURS": "2026/05/Food-tours.webp",
+   "VINÍCOLAS E ENOTURISMO": "2026/05/Vinicolas-e-enoturismo.webp",
+   "RESTAURANTES COM ESTRELAS MICHELIN": "2026/05/Restaurantes-com-estrelas-Michelin.webp",
+   "CAÇA ÀS TRUFAS": "2026/05/Caca-as-trufas.webp",
+   "AULAS DE CULINÁRIA": "2026/05/Aulas-de-culinaria-1.webp",
+   "PIQUENIQUES AO AR LIVRE": "2026/05/Piqueniques-ao-ar-livre.webp",
+   "CARROS DE LUXO": "2026/05/Carros-de-luxo.webp",
+   "VILAREJOS MEDIEVAIS": "2026/05/Vilarejos-medievais.webp",
+   "TOURS PRIVATIVOS": "2026/05/Experiencias-de-luxo-na-Costa-Amalfitana-copiar-5.webp"
+  }
+ },
+ "/italia/": {},
+ "/franca/": {}
+}
