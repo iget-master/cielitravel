@@ -733,12 +733,12 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   justify-content: center;
   padding: 0 clamp(24px, 8vw, 110px);
   max-width: 720px;
-  opacity: 0;
-  transition: opacity .45s;
+  opacity: 0;                 /* animado por JS na timeline do scrub */
+  transform: translateY(80px);
   text-align: left;
   z-index: 2;
+  will-change: opacity, transform;
 }
-.pinned-msg.active { opacity: 1; }
 .pinned-msg h3 { line-height: 1.05; }
 .pinned-msg p { max-width: 460px; margin-top: 22px; }
 .pinned-eyebrow { position: absolute; top: 110px; left: 0; right: 0; text-align: center; z-index: 2; }

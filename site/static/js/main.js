@@ -230,7 +230,10 @@
       }
     }
 
-    /* Lottie pinado: persegue o scroll com atraso (scrub ~1.5) */
+    /* Lottie pinado: persegue o scroll com atraso (scrub ~1.5).
+       Textos na MESMA timeline do original: cada bloco entra de +80px
+       com fade (power2.out), segura, e sai para -80px (power2.in) —
+       janelas [i*2.5, i*2.5+1] e [i*2.5+1.5, i*2.5+2.5] de 7.5 un. */
     if (pinned) {
       var pr = pinned.getBoundingClientRect();
       var total = pr.height - window.innerHeight;
@@ -239,10 +242,20 @@
       if (lotAnim && lotAnim.totalFrames) {
         lotAnim.goToAndStop(lotCur * (lotAnim.totalFrames - 1), true);
       }
-      var seg = Math.min(pinnedMsgs.length - 1,
-        Math.floor(target * pinnedMsgs.length));
+      var t = lotCur * 7.5;
       pinnedMsgs.forEach(function (m, j) {
-        m.classList.toggle("active", j === seg);
+        var inS = j * 2.5, outS = inS + 1.5, y, op;
+        if (t <= inS) { y = 80; op = 0; }
+        else if (t < inS + 1) {
+          var e1 = 1 - Math.pow(1 - (t - inS), 2);      /* power2.out */
+          y = 80 * (1 - e1); op = e1;
+        } else if (t < outS) { y = 0; op = 1; }
+        else if (t < outS + 1) {
+          var e2 = Math.pow(t - outS, 2);               /* power2.in */
+          y = -80 * e2; op = 1 - e2;
+        } else { y = -80; op = 0; }
+        m.style.opacity = op.toFixed(3);
+        m.style.transform = "translateY(" + y.toFixed(1) + "px)";
       });
     }
 
