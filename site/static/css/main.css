@@ -247,7 +247,7 @@ button { color: inherit; font: inherit; }
   flex-direction: column;
   padding: 26px 34px 30px;
   transform: translateX(100%);
-  transition: transform .55s cubic-bezier(.22, 1, .36, 1);
+  transition: transform .7s cubic-bezier(.22, 1, .36, 1);
   overflow-y: auto;
 }
 .overlay-menu.open {
@@ -279,6 +279,86 @@ button { color: inherit; font: inherit; }
 .overlay-nav a:hover { color: var(--yellow); }
 .menu-foot { padding-top: 30px; }
 .menu-foot a { font-size: 14px; letter-spacing: 1.5px; }
+
+/* Partes exclusivas do menu mobile (ocultas no desktop) */
+.menu-drops, .menu-logo, .menu-search, .close-center, .menu-stars { display: none; }
+
+@media (max-width: 768px) {
+  /* Menu mobile: tela cheia, conteúdo centralizado (como o popup original) */
+  .overlay-menu .menu-panel {
+    width: 100%;
+    padding: 30px 44px 40px;
+    text-align: center;
+    transition: transform .7s cubic-bezier(.22, 1, .36, 1);
+  }
+  .close-top { display: none; }
+  .menu-drops {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 26px 0 10px;
+  }
+  .menu-drops details { text-align: left; }
+  .menu-drops summary {
+    list-style: none;
+    cursor: pointer;
+    font-family: var(--font-cond);
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .menu-drops summary::-webkit-details-marker { display: none; }
+  .menu-drops .chev { font-size: 16px; transition: transform .3s; }
+  .menu-drops details[open] .chev { transform: rotate(180deg); }
+  .menu-drops .drop-links { display: grid; gap: 8px; padding: 14px 2px 0; }
+  .menu-drops .drop-links a { font-size: 15px; letter-spacing: 2px; text-transform: uppercase; }
+  .menu-logo { display: block; margin: 40px auto 46px; }
+  .menu-logo .logo { width: 200px; height: 72px; background-color: var(--cream); }
+  .overlay-nav { margin: 0; gap: 30px; justify-items: center; }
+  .overlay-nav a { font-size: 30px; letter-spacing: 3px; }
+  .menu-search {
+    display: flex;
+    align-items: center;
+    margin: 48px 0 0;
+    border: 1px solid rgba(242,238,226,.8);
+    padding: 4px 8px 4px 16px;
+  }
+  .menu-search input {
+    flex: 1;
+    background: none;
+    border: 0;
+    color: var(--cream);
+    font-family: var(--font-serif);
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 0;
+    outline: none;
+  }
+  .menu-search input::placeholder { color: rgba(242,238,226,.85); }
+  .menu-search button { background: none; border: 0; color: var(--cream); font-size: 26px; padding: 6px 10px; cursor: pointer; }
+  .close-center {
+    display: block;
+    align-self: center;
+    margin: 44px auto 0;
+    font-size: 30px;
+  }
+  .menu-foot { margin-top: auto; }
+  .menu-foot a { font-size: 19px; letter-spacing: 2px; }
+  .menu-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 22px;
+    color: var(--cream);
+  }
+  .menu-stars span { letter-spacing: 5px; font-size: 15px; }
+}
 
 /* toque/foco: sem retângulo de highlight por cima do menu */
 * { -webkit-tap-highlight-color: transparent; }
@@ -913,14 +993,21 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   body { font-size: 17px; }
   .section { padding: 60px 0; }
   .itin-slide { grid-template-columns: 1fr; }
+  :root { --header-h: 100px; }
+  .site-header.scrolled, .site-header.light { height: 84px; }
   .header-cta {
     display: inline-block;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    margin-left: auto;
   }
-  .header-inner { gap: 14px; padding: 0 16px; }
-  .logo { width: 110px; height: 40px; }
+  .header-inner { padding: 0 12px; }
+  .header-inner .hamburger { margin-left: 22px; }
+  .logo { width: 88px; height: 42px; }
+  .hamburger { width: 29px; gap: 9px; padding: 2px 0; }
+  .hamburger span { height: 2px; }
   .specials { height: auto; }
   .specials-sticky { position: static; height: auto; overflow: visible; }
   .specials-track { display: block; width: auto; height: auto; transform: none !important; }

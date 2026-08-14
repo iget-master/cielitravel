@@ -41,13 +41,25 @@
       document.body.style.overflow = open ? "hidden" : "";
     };
     burger.addEventListener("click", function () { setMenu(true); });
-    overlay.querySelector(".overlay-close")
-      .addEventListener("click", function () { setMenu(false); });
+    overlay.querySelectorAll(".overlay-close").forEach(function (b) {
+      b.addEventListener("click", function () { setMenu(false); });
+    });
     overlay.querySelector(".menu-backdrop")
       .addEventListener("click", function () { setMenu(false); });
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") setMenu(false);
     });
+    var search = overlay.querySelector("[data-sitesearch]");
+    if (search) {
+      search.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var q = search.querySelector("input").value.trim();
+        if (q) {
+          location.href = "https://www.google.com/search?q=" +
+            encodeURIComponent("site:cielitravel.com " + q);
+        }
+      });
+    }
   }
 
   /* Carrosséis: prev/next + tabs DIA n */

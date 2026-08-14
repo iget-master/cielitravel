@@ -201,14 +201,33 @@ def header(light=False):
 <div class="overlay-menu" aria-hidden="true">
   <div class="menu-backdrop"></div>
   <aside class="menu-panel">
-    <button class="overlay-close" aria-label="Fechar">×</button>
+    <button class="overlay-close close-top" aria-label="Fechar">×</button>
+    <div class="menu-drops">
+      <details><summary>Destinos <span class="chev">⌄</span></summary>
+        <div class="drop-links"><a href="/italia/">Itália</a>
+        <a href="/franca/">França</a></div></details>
+      <details><summary>Experiências <span class="chev">⌄</span></summary>
+        <div class="drop-links"><a href="/destinos/">Todos os destinos</a></div></details>
+    </div>
+    <div class="menu-logo"><a href="/" aria-label="Cieli"><span class="logo"></span></a></div>
     <nav class="overlay-nav">
       <a href="/quem-somos/">Quem Somos</a>
       <a href="/o-que-fazemos/">O que fazemos</a>
       <a href="/blog/">Blog</a>
       <a href="/contato/">Contato</a>
     </nav>
-    <div class="menu-foot"><a href="tel:+558540116310">+55 85 4011-6310</a></div>
+    <form class="menu-search" data-sitesearch>
+      <input type="search" placeholder="Buscar" aria-label="Buscar">
+      <button type="submit" aria-label="Buscar">⌕</button>
+    </form>
+    <button class="overlay-close close-center" aria-label="Fechar">×</button>
+    <div class="menu-foot">
+      <a href="tel:+558540116310">+55 85 4011-6310</a>
+      <div class="menu-stars">
+        <svg width="20" height="20" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.2"/><text x="12" y="16.5" text-anchor="middle" fill="currentColor" font-size="12" font-family="serif">G</text></svg>
+        <span>★★★★★</span>
+      </div>
+    </div>
   </aside>
 </div>"""
 
