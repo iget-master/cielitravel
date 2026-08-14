@@ -265,8 +265,9 @@ def footer():
 def shell(title, desc, body, light_header=False, og_image="", lottie=False):
     og = (f'<meta property="og:image" content="{esc(og_image)}">'
           if og_image else "")
-    lot = ('<script src="/static/js/vendor/lottie.min.js"></script>'
-           if lottie else "")
+    lot = ('<script src="/static/js/vendor/lenis.min.js"></script>'
+           + ('<script src="/static/js/vendor/lottie.min.js"></script>'
+              if lottie else ""))
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>

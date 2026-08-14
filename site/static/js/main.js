@@ -1,20 +1,34 @@
-/* Cieli Travel — interações (sem dependências além do lottie-web local) */
+/* Cieli Travel — interações (Lenis + lottie-web self-hosted, sem jQuery) */
 (function () {
   "use strict";
 
-  /* Header: transparente no topo, sólido ao rolar, esconde ao descer */
+  var isDesktop = window.matchMedia("(min-width: 769px)").matches;
+
+  /* Smooth scroll (Lenis) — mesma configuração do site original.
+     No touch/mobile o Lenis mantém o scroll nativo (como no original). */
+  if (window.Lenis) {
+    try {
+      window.lenisInstance = new Lenis({
+        autoRaf: true,
+        lerp: 0.1,
+        duration: 1.2,
+        wheelMultiplier: 1,
+        easing: function (x) {
+          return Math.min(1, 1.001 - Math.pow(2, -10 * x));
+        }
+      });
+    } catch (e) { /* segue com scroll nativo */ }
+  }
+
+  /* Header: sólido ao rolar; esconde descendo, mostra subindo */
   var header = document.querySelector(".site-header");
-  if (header) {
-    var lastY = 0;
-    var onScroll = function () {
-      var y = window.scrollY;
-      header.classList.toggle("scrolled", y > 40);
-      if (y > 300 && y > lastY + 4) header.classList.add("hidden");
-      else if (y < lastY - 4 || y < 300) header.classList.remove("hidden");
-      lastY = y;
-    };
-    window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll();
+  var lastHeadY = 0;
+  function headerTick(y) {
+    if (!header) return;
+    header.classList.toggle("scrolled", y > 40);
+    if (y > 300 && y > lastHeadY + 2) header.classList.add("hidden");
+    else if (y < lastHeadY - 2 || y < 300) header.classList.remove("hidden");
+    lastHeadY = y;
   }
 
   /* Overlay do hambúrguer */
@@ -27,12 +41,13 @@
     });
   }
 
-  /* Carrosséis: botões prev/next + tabs DIA n */
+  /* Carrosséis: prev/next + tabs DIA n */
   document.querySelectorAll("[data-rail]").forEach(function (wrap) {
     var rail = wrap.querySelector(".rail");
+    if (!rail) return;
     var slideW = function () {
       return rail.firstElementChild
-        ? rail.firstElementChild.getBoundingClientRect().width + 22 : 320;
+        ? rail.firstElementChild.getBoundingClientRect().width + 20 : 320;
     };
     wrap.querySelectorAll("[data-dir]").forEach(function (btn) {
       btn.addEventListener("click", function () {
@@ -47,8 +62,8 @@
       tabs.forEach(function (tab) {
         tab.addEventListener("click", function () {
           rail.scrollTo({
-            left: +tab.dataset.slide * rail.firstElementChild
-              .getBoundingClientRect().width,
+            left: +tab.dataset.slide *
+              rail.firstElementChild.getBoundingClientRect().width,
             behavior: "smooth"
           });
         });
@@ -56,9 +71,7 @@
       rail.addEventListener("scroll", function () {
         var i = Math.round(rail.scrollLeft /
           rail.firstElementChild.getBoundingClientRect().width);
-        tabs.forEach(function (t, k) {
-          t.classList.toggle("active", k === i);
-        });
+        tabs.forEach(function (t, k) { t.classList.toggle("active", k === i); });
       }, { passive: true });
       tabs[0].classList.add("active");
     }
@@ -89,14 +102,13 @@
     typeEls.forEach(function (el) { io.observe(el); });
   }
 
-  /* Rotator do hero: palavras empilhadas rolando verticalmente */
+  /* Rotator do hero: pilha de palavras (atual centrada, vizinhas a 25%) */
   var rot = document.querySelector("[data-rotator]");
   if (rot) {
     var words = JSON.parse(rot.dataset.rotator);
     var track = document.createElement("span");
     track.className = "words-track";
-    // duplica para looping suave
-    words.concat(words.slice(0, 2)).forEach(function (w) {
+    words.concat(words.slice(0, 4)).forEach(function (w) {
       var s = document.createElement("span");
       s.textContent = w;
       track.appendChild(s);
@@ -107,8 +119,7 @@
     var lineH = function () { return spans[0].getBoundingClientRect().height; };
     var apply = function (animate) {
       if (!animate) track.style.transition = "none";
-      track.style.transform =
-        "translateY(" + (-(idx - 2) * lineH()) + "px)";
+      track.style.transform = "translateY(" + (-(idx - 2) * lineH()) + "px)";
       if (!animate) { void track.offsetWidth; track.style.transition = ""; }
       for (var i = 0; i < spans.length; i++) {
         spans[i].classList.toggle("cur", i === idx);
@@ -124,7 +135,7 @@
     }, 2600);
   }
 
-  /* Fade-in suave (threshold 0 — funciona p/ seções altas) */
+  /* Fade-in das seções */
   if ("IntersectionObserver" in window) {
     var fio = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
@@ -143,14 +154,18 @@
     });
   }
 
-  /* ---------- Seção pinada "Nosso jeito": lottie scrub + mensagens ---------- */
+  /* ============================================================
+     Loop rAF único: inércia dos cards + scrubs suavizados
+     (replica o conjunto lenis + inertiaScroll + ScrollTrigger
+     scrub:1.5 do site original)
+     ============================================================ */
   var pinned = document.querySelector(".pinned");
-  if (pinned && window.matchMedia("(min-width: 769px)").matches) {
-    var msgs = pinned.querySelectorAll(".pinned-msg");
+  var pinnedMsgs = pinned ? pinned.querySelectorAll(".pinned-msg") : [];
+  var lotAnim = null;
+  if (pinned && isDesktop) {
     var media = pinned.querySelector(".pinned-media");
-    var anim = null;
     if (media && media.dataset.lottie && window.lottie) {
-      anim = window.lottie.loadAnimation({
+      lotAnim = window.lottie.loadAnimation({
         container: media,
         renderer: "svg",
         loop: false,
@@ -159,70 +174,83 @@
         rendererSettings: { preserveAspectRatio: "xMidYMid slice" }
       });
     }
-    var onPin = function () {
-      var r = pinned.getBoundingClientRect();
-      var total = r.height - window.innerHeight;
-      var p = Math.min(1, Math.max(0, -r.top / total));
-      if (anim && anim.totalFrames) {
-        anim.goToAndStop(p * (anim.totalFrames - 1), true);
-      }
-      var seg = Math.min(msgs.length - 1, Math.floor(p * msgs.length));
-      msgs.forEach(function (m, i) { m.classList.toggle("active", i === seg); });
-    };
-    window.addEventListener("scroll", onPin, { passive: true });
-    onPin();
   } else if (pinned) {
-    pinned.querySelectorAll(".pinned-msg").forEach(function (m) {
-      m.classList.add("active");
-    });
+    pinnedMsgs.forEach(function (m) { m.classList.add("active"); });
   }
 
-  /* ---------- Especialidades: carrossel horizontal pinado ---------- */
   var specials = document.querySelector(".specials");
-  if (specials && window.matchMedia("(min-width: 769px)").matches) {
-    var track = specials.querySelector(".specials-track");
-    var onSpec = function () {
-      var r = specials.getBoundingClientRect();
-      var total = r.height - window.innerHeight;
-      var p = Math.min(1, Math.max(0, -r.top / total));
-      var max = track.scrollWidth - window.innerWidth;
-      track.style.transform = "translateX(" + (-p * max) + "px)";
-    };
-    window.addEventListener("scroll", onSpec, { passive: true });
-    onSpec();
-  }
+  var specTrack = specials ? specials.querySelector(".specials-track") : null;
 
-  /* Motion effects: parallax sutil dos cards ao rolar (como o Elementor) */
-  var fxCards = document.querySelectorAll(".card-trip, .photo-card");
-  if (fxCards.length) {
-    var fxTick = false;
-    var applyFx = function () {
-      fxTick = false;
+  var fxCards = [].slice.call(
+    document.querySelectorAll(".card-trip, .photo-card"));
+
+  var lastY = window.scrollY;
+  var smoothV = 0;       // velocidade suavizada (inércia dos cards)
+  var lotCur = 0;        // progresso suavizado do lottie (scrub 1.5)
+  var specCur = 0;       // progresso suavizado das especialidades
+
+  function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+
+  function frame() {
+    var y = window.scrollY;
+    var v = y - lastY;
+    lastY = y;
+    headerTick(y);
+
+    /* Cards: deslocam com a VELOCIDADE do scroll e voltam a 0 em repouso */
+    smoothV += (clamp(v, -60, 60) - smoothV) * 0.1;
+    if (Math.abs(smoothV) > 0.05 || true) {
       var vh = window.innerHeight;
-      fxCards.forEach(function (el, i) {
+      for (var i = 0; i < fxCards.length; i++) {
+        var el = fxCards[i];
         var r = el.getBoundingClientRect();
-        if (r.bottom < 0 || r.top > vh) return;
-        /* progresso -1..1 do centro do card na viewport */
-        var p = (r.top + r.height / 2 - vh / 2) / (vh / 2);
-        var speed = 18 + (i % 3) * 14;   /* colunas com velocidades diferentes */
-        el.style.transform = "translateY(" + (p * speed).toFixed(1) + "px)";
-      });
-    };
-    window.addEventListener("scroll", function () {
-      if (!fxTick) { fxTick = true; requestAnimationFrame(applyFx); }
-    }, { passive: true });
-    applyFx();
-  }
+        if (r.bottom < -80 || r.top > vh + 80) continue;
+        var k = [0.55, 0.85, 1.2][i % 3];
+        el.style.transform =
+          "translateY(" + (-smoothV * k * 1.6).toFixed(2) + "px)";
+      }
+    }
 
-  /* Vídeos de fundo: play/pause conforme visibilidade (economia) */
+    /* Lottie pinado: persegue o scroll com atraso (scrub ~1.5) */
+    if (pinned && isDesktop) {
+      var pr = pinned.getBoundingClientRect();
+      var total = pr.height - window.innerHeight;
+      var target = clamp(-pr.top / total, 0, 1);
+      lotCur += (target - lotCur) * 0.06;
+      if (lotAnim && lotAnim.totalFrames) {
+        lotAnim.goToAndStop(lotCur * (lotAnim.totalFrames - 1), true);
+      }
+      var seg = Math.min(pinnedMsgs.length - 1,
+        Math.floor(target * pinnedMsgs.length));
+      pinnedMsgs.forEach(function (m, j) {
+        m.classList.toggle("active", j === seg);
+      });
+    }
+
+    /* Especialidades: deslize horizontal também suavizado */
+    if (specTrack && isDesktop) {
+      var sr = specials.getBoundingClientRect();
+      var stotal = sr.height - window.innerHeight;
+      var st = clamp(-sr.top / stotal, 0, 1);
+      specCur += (st - specCur) * 0.09;
+      var max = specTrack.scrollWidth - window.innerWidth;
+      specTrack.style.transform =
+        "translateX(" + (-specCur * max).toFixed(1) + "px)";
+    }
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  /* Vídeos de fundo: play/pause conforme visibilidade */
   if ("IntersectionObserver" in window) {
     var vio = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
-        var v = e.target;
-        if (e.isIntersecting) { v.play && v.play().catch(function () {}); }
-        else { v.pause && v.pause(); }
+        var vd = e.target;
+        if (e.isIntersecting) { vd.play && vd.play().catch(function () {}); }
+        else { vd.pause && vd.pause(); }
       });
     }, { threshold: 0.05 });
-    document.querySelectorAll("video[autoplay]").forEach(function (v) { vio.observe(v); });
+    document.querySelectorAll("video[autoplay]").forEach(function (vd) { vio.observe(vd); });
   }
 })();
