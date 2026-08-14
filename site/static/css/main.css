@@ -705,8 +705,10 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 }
 .hero .hero-bg video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 
-/* ---------- "Nosso jeito" — seção pinada com lottie/vídeo scrub ---------- */
-.pinned { position: relative; height: 320vh; }
+/* ---------- "Nosso jeito" — seção pinada com lottie scrub ----------
+   Espec original (.travarlottiex): height 500vh, sticky 100vh,
+   lottie com opacity .7 — igual em todos os dispositivos */
+.pinned { position: relative; height: 500vh; }
 .pinned-sticky {
   position: sticky;
   top: 0;
@@ -718,7 +720,7 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   background: var(--black);
   color: var(--cream);
 }
-.pinned-media { position: absolute; inset: 0; }
+.pinned-media { position: absolute; inset: 0; opacity: .7; }
 .pinned-media svg, .pinned-media canvas, .pinned-media video {
   position: absolute; inset: 0; width: 100% !important; height: 100% !important;
   object-fit: cover;
@@ -1048,11 +1050,8 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   .specials-track { display: block; width: auto; height: auto; transform: none !important; }
   .special { width: auto; height: auto; grid-template-columns: 1fr; min-height: 0; }
   .special .pic { order: -1; min-height: 240px; }
-  .pinned { height: auto; }
-  .pinned-sticky { position: static; height: auto; display: block; padding: 70px 0; }
-  .pinned-media { display: none; }
-  .pinned-msg { position: static; opacity: 1; padding: 40px 24px; max-width: none; }
-  .pinned-eyebrow { position: static; margin-bottom: 10px; }
+  .pinned-msg { max-width: 100%; }
+  .pinned-eyebrow { top: 90px; }
   .facts-grid { flex-direction: column; gap: 22px; }
   .footer-cols { grid-template-columns: 1fr 1fr; }
   .form-grid { grid-template-columns: 1fr; }

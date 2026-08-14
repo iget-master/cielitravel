@@ -183,7 +183,7 @@
   var pinned = document.querySelector(".pinned");
   var pinnedMsgs = pinned ? pinned.querySelectorAll(".pinned-msg") : [];
   var lotAnim = null;
-  if (pinned && isDesktop) {
+  if (pinned) {
     var media = pinned.querySelector(".pinned-media");
     if (media && media.dataset.lottie && window.lottie) {
       lotAnim = window.lottie.loadAnimation({
@@ -195,8 +195,6 @@
         rendererSettings: { preserveAspectRatio: "xMidYMid slice" }
       });
     }
-  } else if (pinned) {
-    pinnedMsgs.forEach(function (m) { m.classList.add("active"); });
   }
 
   var specials = document.querySelector(".specials");
@@ -233,7 +231,7 @@
     }
 
     /* Lottie pinado: persegue o scroll com atraso (scrub ~1.5) */
-    if (pinned && isDesktop) {
+    if (pinned) {
       var pr = pinned.getBoundingClientRect();
       var total = pr.height - window.innerHeight;
       var target = clamp(-pr.top / total, 0, 1);
