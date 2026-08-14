@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 ## viagem pela Provence com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroProvenca.webp)
+
 Viagem a Aix-en-Provence, Avignon, Arles, Saint-Rémy-de-Provence, Gordes, Roussillon, Ménerbes, Lourmarin.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Bem-vindo à Provence](uploads/2026/05/Dia-1-10.webp)
+
 DIA 1
 
 ## Bem-vindo à Provence
 
 Chegada ao La Bastide de Gordes, hotel cinco estrelas instalado num vilarejo medieval com vista para o Vale do Luberon. Tarde livre para explorar as ruelas de pedra de Gordes. À noite, o jantar no La Table de la Bastide já está reservado.
+
+![Lavanda, o “ouro azul” da Provence](uploads/2026/05/Dia-2-10.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Passeio pelos campos de lavanda do Luberon, um dos cenários mais fotografados da França. Visita à Abadia de Sénanque, mosteiro fundado em 1148 e cercado de campos azulados.
 
+![Um dia em Avignon](uploads/2026/05/Dia-3-10.webp)
+
 DIA 3
 
 ## Um dia em Avignon
 
 Explore o Palácio dos Papas, sede da Igreja Católica no século XIV, caminhe pelas ruas do centro histórico tombado pela UNESCO e encerre o dia com jantar na cidade.
+
+![Aix ao ar livre](uploads/2026/05/Dia-4-10.webp)
 
 DIA 4
 
@@ -51,11 +61,15 @@ DIA 4
 
 Manhã em Aix-en-Provence com guia em português, a cidade natal de Cézanne, com suas fontes, mercados e fachadas do século XVII. Almoço na Praça Ramus, uma das mais agradáveis da cidade.
 
+![Van Gogh esteve aqui](uploads/2026/05/Dia-5-10.webp)
+
 DIA 5
 
 ## Van Gogh esteve aqui
 
 Manhã em Arles, onde Van Gogh viveu seu período mais produtivo e criou mais de 300 obras. Tarde em Saint-Rémy-de-Provence, onde ele pintou A Noite Estrelada enquanto estava internado no asilo de Saint-Paul-de-Mausole.
+
+![Vilarejos da Provence](uploads/2026/05/Dia-6-10.webp)
 
 DIA 6
 
@@ -63,11 +77,15 @@ DIA 6
 
 É dia de tour por Ménerbes, Roussillon e Saignon. Três vilarejos do Luberon com história e ritmo próprios. Roussillon se destaca pelo ocre vermelho das suas fachadas, único na região.
 
+![Vinhas e Lourmarin](uploads/2026/05/Dia-7-10.webp)
+
 DIA 7
 
 ## Vinhas e Lourmarin
 
 Visita e degustação no Château Constantin e no Château de Sannes, duas propriedades históricas cercadas de vinhedos. Almoço em Lourmarin, seguido de passeio pelo vilarejo (eleito um dos mais belos da França) e visita ao castelo de Lourmarin.
+
+![Despedida estrelada](uploads/2026/05/Dia-8-5.webp)
 
 DIA 8
 
@@ -156,6 +174,8 @@ Cidade fortificada que já foi a sede dos Papas.
 Cidade das feiras, do calisson e do ateliê de Cézanne.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosProvenca.webp)
 
 ## Viagem em família,
 
@@ -339,65 +359,97 @@ Day trips por Gordes, Roussillon, Bonnieux, Ménerbes e Lourmarin.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Sarah, 2024
 
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Rafaella, 2022
+
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
 
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
 
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
+
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaela Castellões e Gabriel Lima, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Celso e Roberta, 2025
 
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Sarah, 2024
+
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaella, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
 
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
 
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
@@ -446,6 +498,8 @@ Nossa seleção de 5 estrelas na Provence
 Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAProvenca.webp)
 
 ## Perguntas frequentes sobre roteiros para a Provence
 

@@ -10,7 +10,10 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
-# Vídeos de fundo (grandes — hospedar fora do repo, ver CLAUDE.md)
+# Mídia pesada e material licenciado — repopular com scripts/fetch_media.py
+# (repo é público: fontes licenciadas e vídeos não devem ser versionados)
+assets/videos/
+site/static/fonts/
 *.mp4
 *.mov
 *.webm

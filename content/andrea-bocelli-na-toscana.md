@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # Concerto de Andrea Bocelli na Toscana em 2026
 
+![](uploads/2026/06/HeroAndreBocelli.webp)
+
 Viagem a Florença, Chianti, Siena, San Gimignano, San Quirico d’Orcia, Montepulciano e Pienza
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Tudo começa em Florença](uploads/2026/05/Dia-1-2.webp)
+
 DIA 1
 
 ## Tudo começa em Florença
 
 Chegada em Florença com tempo para os primeiros passos pelo centro histórico. À noite, seu jantar em uma trattoria tradicional italiana foi reservado pela Cieli.
+
+![Um dia memorável](uploads/2026/05/Dia-2-2.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Pela manhã, visita à Galleria degli Uffizi com guia privativo para ver O Nascimento de Vênus, de Botticelli, e outras grandes obras. À tarde, passeio guiado pelo centro histórico de Florença.
 
+![Encontro com Michelangelo](uploads/2026/05/Dia-3-2.webp)
+
 DIA 3
 
 ## Encontro com Michelangelo
 
 É dia de visitar a Galleria dell'Accademia para apreciar o Davi de Michelangelo e outras obras de arte. Após o almoço, um transfer privativo leva você para o hotel no interior da Toscana.
+
+![Uma noite inesquecível](uploads/2026/06/Dia-4.webp)
 
 DIA 4
 
@@ -51,17 +61,23 @@ DIA 4
 
 Pela manhã, visita a uma vinícola no Chianti Classico com degustação e almoço harmonizado. No fim da tarde, um transfer privativo faz o caminho para o Teatro del Silenzio em Lajatico, onde Andrea Bocelli se apresenta sob o céu da Toscana, e você tem assentos privilegiados.
 
+![San Gimignano e jantar em Siena](uploads/2026/05/Dia-8-1.webp)
+
 DIA 5
 
 ## San Gimignano e jantar em Siena
 
 Após uma manhã de descanso, uma visita a San Gimignano, a cidade das torres medievais. Um jantar em Siena fecha o dia da melhor forma.
 
+![Três paradas no Val d'Orcia](uploads/2026/05/Dia-7-2.webp)
+
 DIA 6
 
 ## Três paradas no Val d'Orcia
 
 Dia de aproveitar uma manhã em San Quirico d'Orcia, seguida de um almoço em Montepulciano. A tarde será em Pienza com visita a uma fábrica artesanal de queijo Pecorino.
+
+![O pôr do sol de despedida](uploads/2026/05/Dia-5-2.webp)
 
 DIA 7
 
@@ -166,6 +182,8 @@ A Piazza del Campo, o Duomo di Siena e muita história.
 Galeria Uffizi e Ponte Vecchio são apenas o começo.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/06/DepoimentosAndreaBocelli.webp)
 
 ## Viagem em família,
 
@@ -353,65 +371,97 @@ Hospede-se em castelos, wine resorts e propriedades históricas.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Sarah, 2024
 
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Rafaella, 2022
 
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
 
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
+
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaela Castellões e Gabriel Lima, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/03/Rectangle-253-5.webp)
 
 ### Lua de Mel
 
 Gustavo e Ana Clara, 2025
 
-### Viagem de casal
-
-Luiz e Karina, 2024
+![](uploads/2026/03/Rectangle-256-1.webp)
 
 ### Viagem de casal
 
 Luiz e Karina, 2024
 
-### Viagem de casal
-
-Luiz e Karina, 2024
+![](uploads/2026/03/Rectangle-253-4.webp)
 
 ### Viagem de casal
 
 Luiz e Karina, 2024
 
-### Viagem de casal
-
-Luiz e Karina, 2024
+![](uploads/2026/03/Rectangle-253.webp)
 
 ### Viagem de casal
 
 Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-256.webp)
+
+### Viagem de casal
+
+Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-253-1.webp)
+
+### Viagem de casal
+
+Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-253-3.webp)
+
+### Viagem de casal
+
+Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-253-2.webp)
 
 ### Viagem de casal
 
@@ -452,6 +502,8 @@ Nossa seleção de 5 estrelas para Andrea Bocelli na Toscana
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/06/CTAAndreaBocelli.webp)
 
 ## Perguntas frequentes sobre roteiros para a Andrea Bocelli na Toscana
 

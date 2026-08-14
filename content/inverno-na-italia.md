@@ -29,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Fonduta e vinhos](uploads/2026/05/Dia-1-6.webp)
+
 DIA 1
 
 ## Fonduta e vinhos
 
 Transfer de Veneza à Cortina d'Ampezzo. Depois do check-in, passeie pelo centro e saboreie um jantar com fonduta e vinho local para começar com o sabor certo.
+
+![Neve sob medida](uploads/2026/05/Dia-2-6.webp)
 
 DIA 2
 
@@ -41,11 +45,15 @@ DIA 2
 
 Dia nas pistas de Cortina, com esqui para toda a família, aulas e equipamentos organizados pela Cieli. Après-ski com vista para as Dolomitas e jantar premiado para fechar a noite.
 
+![A alma de Ortisei](uploads/2026/05/Dia-3-6.webp)
+
 DIA 3
 
 ## A alma de Ortisei
 
 Viaje cerca de 1h de carro até Ortisei, no coração de Val Gardena. Um guia privativo conduz o passeio pelo vilarejo, suas igrejas barrocas e os ateliês de escultura em madeira — uma tradição de séculos.
+
+![Dolce far niente](uploads/2026/05/Dia-4-6.webp)
 
 DIA 4
 
@@ -53,17 +61,23 @@ DIA 4
 
 A menos de 30 minutos está Bressanone e o Forestis, o hotel mais contemplativo do roteiro. Aproveite o dia livre entre o spa com vista para os Alpes, massagens e tratamentos com ervas alpinas.
 
+![Viagem pelo tempo](uploads/2026/05/Dia-5-6.webp)
+
 DIA 5
 
 ## Viagem pelo tempo
 
 Parta de Bressanone ao Lago di Como. Check-in no Il Sereno, em Torno, e passeio de barco entre vilas históricas e jardins suspensos à beira d'água.
 
+![Ritmo lento](uploads/2026/05/Dia-6-6.webp)
+
 DIA 6
 
 ## Ritmo lento
 
 Dia dedicado ao lago: visita a Bellagio, almoço com vista para a água e tarde livre entre galerias, cafés à beira do lago e a paisagem que inspirou pintores e poetas por séculos.
+
+![Arrivederci!](uploads/2026/05/Dia-7-6.webp)
 
 DIA 7
 
@@ -120,6 +134,8 @@ Estações como Courmayeur, Cervinia e Gressoney.
 Montanhas nevadas e vilas alpinas no norte da Itália.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosInvernoItalia.webp)
 
 ## Viagem em família,
 
@@ -303,65 +319,97 @@ Esqui para todos os níveis, caminhadas e outras experiências.
 
 ## Nossas histórias favoritas
 
-### Viagem de Casal
-
-Marco Aurelio e Evelyn, 2025
-
-### Viagem de Casal
-
-Abraham e Judy, 2023
-
-### Viagem de Casal
-
-Celso e Roberta, 2025
-
-### Viagem de Casamento
-
-Cristina, 2025
-
-### Viagem de Casal
-
-Marco e Evelyn, 2025
-
-### Viagem de Casal
-
-Marco e Evelyn 2025
-
-### Viagem de Casal
-
-Marco e Evelyn, 2025
-
-### Viagem de Casal
-
-Marco e Evelyn, 2025
+![](uploads/2026/06/Foto1GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Marco Aurelio e Evelyn, 2025
 
+![](uploads/2026/06/Foto2GaleriaInverno.webp)
+
 ### Viagem de Casal
 
 Abraham e Judy, 2023
+
+![](uploads/2026/06/Foto3GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Celso e Roberta, 2025
 
+![](uploads/2026/06/Foto4GaleriaInverno.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto6GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto5GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Marco e Evelyn 2025
 
-### Viagem de Casal
-
-Marco e Evelyn, 2025
+![](uploads/2026/06/Foto7GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto8GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto1GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco Aurelio e Evelyn, 2025
+
+![](uploads/2026/06/Foto2GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Abraham e Judy, 2023
+
+![](uploads/2026/06/Foto3GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto4GaleriaInverno.webp)
+
+### Viagem de Casamento
+
+Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn 2025
+
+![](uploads/2026/06/Foto6GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto7GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto8GaleriaInverno.webp)
 
 ### Viagem de Casal
 
@@ -398,6 +446,8 @@ Nossa seleção de 5 estrelas para o Inverno na Itália
 Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAInvernoItalia.webp)
 
 ## Perguntas frequentes sobre roteiros para a Inverno na Itália
 

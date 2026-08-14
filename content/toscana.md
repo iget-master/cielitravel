@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # viagem pela Toscana com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroToscana.webp)
+
 Viagem a Florença, Siena, San Gimignano, Pienza, Montepulciano, Lucca, Montalcino e Arezzo.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Ciao, Firenze!](uploads/2026/05/Dia-1-2.webp)
+
 DIA 1
 
 ## Ciao, Firenze!
 
 Depois de fazer o check-in no seu hotel, um jantar com vista para o rio Arno espera você.
+
+![Com guia, sem pressa](uploads/2026/05/Dia-2-2.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Dia de visita com guia privativo ao centro histórico de Florença, berço do Renascimento. Depois, uma visita à Galleria degli Uffizi para ver a Vênus de Botticelli, o chiaroscuro de Caravaggio, rascunhos de Da Vinci e muitas outras obras.
 
+![Arte e essência](uploads/2026/05/Dia-3-2.webp)
+
 DIA 3
 
 ## Arte e essência
 
 Você tem um encontro marcado com o célebre Davi de Michelangelo, na Galleria Dell’Accademia. Depois, participe de um workshop privativo para criar sua própria essência de perfume com toda a sua inspiração italiana.
+
+![Raízes italianas](uploads/2026/05/Dia-4-2.webp)
 
 DIA 4
 
@@ -51,11 +61,15 @@ DIA 4
 
 Será que sua família vem da Itália? Você e um genealogista vão buscar por sua ascendência italiana numa biblioteca com acervo centenário. À noite, desfrute de um jantar no restaurante que a Cieli já reservou para você.
 
+![Vinícola no caminho](uploads/2026/05/Dia-5-2.webp)
+
 DIA 5
 
 ## Vinícola no caminho
 
 Dia de check-out e ida para seu novo hotel, no interior da Toscana. No caminho, uma parada na Vinícola Antinori, em meio ao Chianti Classico, para visita guiada e almoço harmonizado. Antes de voltar à estrada rumo ao hotel, faça um passeio pela região do Chianti.
+
+![Trufas, torres e sorvete](uploads/2026/05/Dia-6-2.webp)
 
 DIA 6
 
@@ -63,17 +77,23 @@ DIA 6
 
 Comece o dia com uma caça às trufas, seguida por um almoço harmonizado com pratos à base da iguaria. À tarde, uma visita à pérola da Toscana, San Gimignano, para conhecer construções históricas, como a Torre Grossa, e provar um gelato mundialmente conhecido.
 
+![Um queijo inesquecível](uploads/2026/05/Dia-7-2.webp)
+
 DIA 7
 
 ## Um queijo inesquecível
 
 Conheça a Toscana dos cartões-postais em um tour por Montalcino, Montepulciano e Pienza — três cidades do Val d'Orcia, região protegida pela UNESCO — com visita a um produtor local do queijo Pecorino de Pienza.
 
+![Do céu à Siena](uploads/2026/05/Dia-8-1.webp)
+
 DIA 8
 
 ## Do céu à Siena
 
 Veja a Toscana por outro ângulo em um sobrevoo de balão ao amanhecer. Depois desse momento inesquecível, faça uma visita à Siena: atente para a arte local nas ruas, prove o Panforte numa cafeteria e conheça a Piazza del Campo. Mais tarde, uma aula de culinária com chef local para continuar no clima do passeio.
+
+![Despedida “Supertoscana”](uploads/2026/05/Dia-9.webp)
 
 DIA 9
 
@@ -178,6 +198,8 @@ A Piazza del Campo, o Duomo di Siena e muita história.
 Galeria Uffizi e Ponte Vecchio são apenas o começo.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosToscana.webp)
 
 ## Toscana,
 
@@ -365,65 +387,97 @@ Hospede-se em castelos, wine resorts e propriedades históricas.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Sarah, 2024
 
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Rafaella, 2022
 
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
 
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
+
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaela Castellões e Gabriel Lima, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/03/Rectangle-253-5.webp)
 
 ### Lua de Mel
 
 Gustavo e Ana Clara, 2025
 
-### Viagem de casal
-
-Luiz e Karina, 2024
+![](uploads/2026/03/Rectangle-253-4.webp)
 
 ### Viagem de casal
 
 Luiz e Karina, 2024
 
-### Viagem de casal
-
-Luiz e Karina, 2024
+![](uploads/2026/03/Rectangle-256-1.webp)
 
 ### Viagem de casal
 
 Luiz e Karina, 2024
 
-### Viagem de casal
-
-Luiz e Karina, 2024
+![](uploads/2026/03/Rectangle-253.webp)
 
 ### Viagem de casal
 
 Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-256.webp)
+
+### Viagem de casal
+
+Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-253-1.webp)
+
+### Viagem de casal
+
+Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-253-3.webp)
+
+### Viagem de casal
+
+Luiz e Karina, 2024
+
+![](uploads/2026/03/Rectangle-253-2.webp)
 
 ### Viagem de casal
 
@@ -464,6 +518,8 @@ Nossa seleção de 5 estrelas na Toscana
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAToscana.webp)
 
 ## Perguntas frequentes sobre roteiros para a Toscana
 

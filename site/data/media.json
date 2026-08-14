@@ -1,0 +1,116 @@
+{
+ "/": [
+  "2026/02/7031279_Aerial_Red_1920x1080.mp4.lottie-2.json",
+  "2026/03/BG_Hero_Home.mp4",
+  "2026/05/VideoCTAVenezaVerona_balanced.mp4",
+  "2026/07/BG_Hero_Home.webm"
+ ],
+ "/italia/": [
+  "2026/03/CTA-Italia_1.mp4",
+  "2026/05/Depoimentos-Italia_balanced.mp4",
+  "2026/05/HeroLPItalia_balanced.mp4",
+  "2026/07/CTA-Italia_1.webm"
+ ],
+ "/franca/": [
+  "2026/03/CTA-Italia_1.mp4",
+  "2026/05/VideoDepoimentosFranca_balanced.mp4",
+  "2026/05/VideoHeroFranca_balanced.mp4",
+  "2026/07/CTA-Italia_1.webm"
+ ],
+ "/toscana/": [
+  "2026/05/VideoCTAToscana_balanced.mp4",
+  "2026/05/VideoDepoimentosToscana_balanced.mp4",
+  "2026/05/VideoHeroToscana_balanced.mp4"
+ ],
+ "/sicilia/": [
+  "2026/05/VideoCTASicilia_balanced.mp4",
+  "2026/05/VideoDepoimentosSicilia_balanced.mp4",
+  "2026/05/VideoHeroSicilia_balanced.mp4"
+ ],
+ "/veneza-e-verona/": [
+  "2026/05/VideoCTAVenezaVerona_balanced.mp4",
+  "2026/05/VideoDepoimentosVenezaVerona_balanced.mp4",
+  "2026/05/VideoHeroVenezaVerona_balanced.mp4"
+ ],
+ "/sardenha/": [
+  "2026/05/VideoCTASardenha_balanced.mp4",
+  "2026/05/VideoDepoimentosSardenha_balanced.mp4",
+  "2026/05/VideoHeroSardenha_balanced.mp4"
+ ],
+ "/puglia/": [
+  "2026/05/VideoCTAPuglia_balanced.mp4",
+  "2026/05/VideoDepoimentosPuglia_balanced.mp4",
+  "2026/05/VideoHeroPuglia_balanced.mp4"
+ ],
+ "/costa-amalfitana/": [
+  "2026/05/CTA-CostaAmalfitna_no-audio_balanced.mp4",
+  "2026/05/Depoimentos-CostaAmalfitana_no-audio_balanced.mp4",
+  "2026/05/HeroLPCosta_no-audio_balanced.mp4"
+ ],
+ "/paris/": [
+  "2026/05/CTA_LP_Paris_Compressed.mp4",
+  "2026/05/Depoimento_LP_Paris_Compressed.mp4",
+  "2026/05/VideoHeroParis_balanced.mp4"
+ ],
+ "/cote-dazur/": [
+  "2026/05/CTA_LP_CoteDazur_balanced.mp4",
+  "2026/05/Depoimentos_LP_CoteDazur_balanced.mp4",
+  "2026/05/VideoHeroCotedAzur_balanced.mp4"
+ ],
+ "/provence/": [
+  "2026/05/VideoCTAProvence_balanced.mp4",
+  "2026/05/VideoDepoimentosProvence_balanced.mp4",
+  "2026/05/VideoHeroProvence_balanced.mp4"
+ ],
+ "/verao-na-italia/": [
+  "2026/05/VideoCTAVeraoItalia_balanced.mp4",
+  "2026/05/VideoDepoimentosVeraoItalia_balanced.mp4",
+  "2026/05/VideoHeroVeraoItalia_balanced.mp4"
+ ],
+ "/inverno-na-italia/": [
+  "2026/05/VideoCTAInvernoItalia_balanced.mp4",
+  "2026/05/VideoDepoimentosInvernoItalia_balanced.mp4",
+  "2026/05/VideoHeroInvernoItalia_balanced.mp4"
+ ],
+ "/verao-na-franca/": [
+  "2026/05/VideoCTAVeraoFranca_balanced.mp4",
+  "2026/05/VideoDepoimentosVeraoFranca.mp4",
+  "2026/05/VideoHeroVeraoFranca.mp4"
+ ],
+ "/inverno-na-franca/": [
+  "2026/05/VideoCTAInvernoFranca.mp4",
+  "2026/05/VideoDepoimentosInvernoFranca.mp4",
+  "2026/05/VideoHeroInvernoFranca.mp4"
+ ],
+ "/andrea-bocelli-na-toscana/": [],
+ "/quem-somos/": [
+  "2026/05/Hero-Quem-Somos.mp4"
+ ],
+ "/o-que-fazemos/": [
+  "2026/04/Hero-O-que-fazemos_1.mp4",
+  "2026/05/DepoimentosOQueFazemos_balanced.mp4",
+  "2026/06/CieliLogoMotionAtualizado_balanced-1.mp4"
+ ],
+ "/equipe/": [
+  "2026/05/CTA-Equipe_1_2.mp4"
+ ],
+ "/imprensa/": [],
+ "/trabalhe-conosco/": [
+  "2026/04/Hero-Trabalhe-Conosco_1.mp4"
+ ],
+ "/faq/": [
+  "2026/04/Depoimentos-Faq_1.mp4",
+  "2026/05/VideoCTAToscana_balanced.mp4"
+ ],
+ "/contato/": [
+  "2026/04/Depoimentos-Faq_1.mp4",
+  "2026/05/FormularioHero_balanced.mp4"
+ ],
+ "/destinos/": [
+  "2026/05/HeroFiltroDestinos.mp4",
+  "2026/05/VideoCTASardenha_balanced.mp4"
+ ],
+ "/blog/": [
+  "2026/07/CTA_Blog.mp4"
+ ]
+}

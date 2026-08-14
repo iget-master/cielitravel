@@ -84,17 +84,28 @@ baratas de hospedar (ex.: Cloudflare Pages, Netlify, GitHub Pages ou um bucket
 - `scripts/download_uploads.py` — baixa para `assets/uploads/` as imagens
   referenciadas em `content/`.
 
+## Mídia e fontes (fora do git — repo é público)
+
+`assets/videos/` (vídeos de fundo + lottie, ~290 MB) e `site/static/fonts/`
+(Sfizia + Trade Gothic Next, licenciadas pelo dono) estão no .gitignore.
+Em máquina nova, rode **`py -3 scripts/fetch_media.py`** — baixa vídeos,
+lottie e fontes do site em produção e regrava `site/data/media.json` +
+`site/static/css/fonts.css`. `scripts/download_uploads.py` cobre as imagens.
+
 ## Estado / pendências
 
-- [x] design.md, content/ (31 páginas + 61 posts), assets (91 imagens).
+- [x] design.md, content/ (31 páginas + 60 posts), assets (~850 imagens).
 - [x] Gerador estático próprio (Python stdlib + pacote `markdown`).
+- [x] Fontes originais self-hosted (Sfizia + trade-gothic-next-compressed).
+- [x] Vídeos de fundo reais (hero/CTA/depoimentos por página, media.json) e
+  Lottie do "Nosso jeito" com scrub no scroll (lottie-web self-hosted).
+- [x] Animações: rotator vertical do hero, typewriter, header que esconde ao
+  descer, especialidades em carrossel horizontal pinado, fade-in.
 - [x] Infra AWS (CloudFormation) + script de deploy — **stack ainda não criada**.
-- [ ] Fontes: usando substitutas livres (EB Garamond ↔ Sfizia,
-  Oswald ↔ Trade Gothic Next Compressed) — trocar em `--font-serif`/
-  `--font-cond` no CSS se licenciar as originais.
-- [ ] Vídeos de fundo não baixados; heros usam frames .webp estáticos.
 - [ ] Formulários (contato/newsletter) sem backend — alertam "integração
   pendente"; escolher serviço (Formspree/Workers/etc.).
 - [ ] /destinos/ renderiza como página simples (sem filtros interativos).
 - [ ] Citações typewriter de franca/toscana sem o texto original (via JS no
   site antigo); `content/pagina-de-links.md` vazia (link-in-bio via JS).
+- Nota: vídeos não carregam em aba oculta do Chrome (política do navegador) —
+  não é bug do site.

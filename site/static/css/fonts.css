@@ -1,0 +1,17 @@
+@font-face{font-family:"Sfizia";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/Sfizia-Regular.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next";font-weight:700;font-style:normal;font-display:swap;src:url(/static/fonts/trade-gothic-next-700.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next";font-weight:700;font-style:italic;font-display:swap;src:url(/static/fonts/trade-gothic-next-700-italic.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next";font-weight:400;font-style:italic;font-display:swap;src:url(/static/fonts/trade-gothic-next-400-italic.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/trade-gothic-next-400.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next-compressed";font-weight:700;font-style:normal;font-display:swap;src:url(/static/fonts/trade-gothic-next-compressed-700.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next-compressed";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/trade-gothic-next-compressed-400.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next-condensed";font-weight:700;font-style:normal;font-display:swap;src:url(/static/fonts/trade-gothic-next-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next-condensed";font-weight:700;font-style:italic;font-display:swap;src:url(/static/fonts/trade-gothic-next-condensed-700-italic.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next-condensed";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/trade-gothic-next-condensed-400.woff2) format("woff2")}
+@font-face{font-family:"trade-gothic-next-condensed";font-weight:400;font-style:italic;font-display:swap;src:url(/static/fonts/trade-gothic-next-condensed-400-italic.woff2) format("woff2")}
+@font-face{font-family:"tgn-soft-round-comp";font-weight:700;font-style:normal;font-display:swap;src:url(/static/fonts/tgn-soft-round-comp-700.woff2) format("woff2")}
+@font-face{font-family:"tgn-soft-round-comp";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/tgn-soft-round-comp-400.woff2) format("woff2")}
+@font-face{font-family:"tgn-soft-round";font-weight:700;font-style:normal;font-display:swap;src:url(/static/fonts/tgn-soft-round-700.woff2) format("woff2")}
+@font-face{font-family:"tgn-soft-round";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/tgn-soft-round-400.woff2) format("woff2")}
+@font-face{font-family:"tgn-soft-round-con";font-weight:700;font-style:normal;font-display:swap;src:url(/static/fonts/tgn-soft-round-con-700.woff2) format("woff2")}
+@font-face{font-family:"tgn-soft-round-con";font-weight:400;font-style:normal;font-display:swap;src:url(/static/fonts/tgn-soft-round-con-400.woff2) format("woff2")}

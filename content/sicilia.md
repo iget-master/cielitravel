@@ -29,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Entre pela Porta Nuova](uploads/2026/05/Dia-1-4.webp)
+
 DIA 1
 
 ## Entre pela Porta Nuova
 
 Seu roteiro pela Sicília começa na capital, Palermo. Faça o check-in em uma hospedagem escolhida a dedo e saia para explorar o centro histórico, seguido de um jantar abbondante.
+
+![Sabores de Palermo](uploads/2026/05/Dia-2-4.webp)
 
 DIA 2
 
@@ -41,11 +45,15 @@ DIA 2
 
 O dia promete ser delicioso com um tour cultural e gastronômico pelo Mercato Centrale. Mais tarde, um chef local espera para a sua aula de culinária.
 
+![Dupla perfeita](uploads/2026/05/Dia-3-4.webp)
+
 DIA 3
 
 ## Dupla perfeita
 
 Um transfer privativo vai levar você às cidades do dia: a montanhosa Castelbuono e a praiana Cefalù. Aproveite para explorar por si mesmo e finalizar com um bom mergulho.
+
+![Roteiro de cinema](uploads/2026/05/Dia-4-4.webp)
 
 DIA 4
 
@@ -53,11 +61,15 @@ DIA 4
 
 Dia de check-out e transfer para Taormina. No caminho, uma passagem no Bar Vitelli, lugar onde Michael Corleone pediu a mão de Apollonia no filme O Poderoso Chefão. Depois do check-in na nova hospedagem, aproveite a noite livre.
 
+![Taormina à vista](uploads/2026/05/Dia-5-4.webp)
+
 DIA 5
 
 ## Taormina à vista
 
 No quinto dia, desfrute de um passeio privativo de barco pela costa de Taormina no seu ritmo. À noite, um jantar em Giardini Naxos aguarda, com tudo organizado pela Cieli.
+
+![Gigante Etna](uploads/2026/05/Dia-6-4.webp)
 
 DIA 6
 
@@ -65,17 +77,23 @@ DIA 6
 
 Em uma visita guiada, conheça o maior vulcão Europa: o Etna, a quem os locais se referem como “mamma”, já que sua atividade define a vida nos arredores. Para o almoço: degustação de vinhos e refeição harmonizada em uma vinícola local.
 
+![A Grécia italiana](uploads/2026/05/Dia-7-4.webp)
+
 DIA 7
 
 ## A Grécia italiana
 
 Dia de visita à Siracusa, considerada patrimônio da UNESCO, e a seu centro histórico, Ortigia. Descubra tudo sobre essa cidade fundada pelos gregos com um guia privativo.
 
+![Taormina de perto](uploads/2026/05/Dia-8-2.webp)
+
 DIA 8
 
 ## Taormina de perto
 
 Passe a manhã em um passeio com guia privativo em Taormina. À noite, assista à um concerto no Teatro Grego da cidade, datado de meados de 550 antes de Cristo.
+
+![Despedida em Castelmola](uploads/2026/05/Dia-10.webp)
 
 DIA 9
 
@@ -156,6 +174,8 @@ Uma cidade com influências gregas, árabes e espanholas.
 A cidade mais buscada da região, com vista para o Etna.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosSicilia.webp)
 
 ## Sicília e Puglia,
 
@@ -311,65 +331,97 @@ Arancino, Pasta alla Norma, cannoli e outros sabores.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
 
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
 
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
@@ -406,6 +458,8 @@ Nossa seleção de 5 estrelas na Sicília
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTASicilia.webp)
 
 ## Perguntas frequentes sobre roteiros para a Sicília
 

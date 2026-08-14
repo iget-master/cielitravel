@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # viagem por Paris com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroParis.webp)
+
 Viagem a Paris, Versailles, Fontainebleau, Saint-Germain-en-Laye, Rueil-Malmaison e Giverny.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Chegada à Cidade Luz](uploads/2026/05/Dia-1-8.webp)
+
 DIA 1
 
 ## Chegada à Cidade Luz
 
 Seu roteiro em Paris começa com a chegada a uma hospedagem 5 estrelas. À noite, faça um passeio de barco pelo Sena com jantar a bordo, preparado por um chef estrelado.
+
+![Montmartre e uma noite acima de tudo](uploads/2026/05/Dia-2-8.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Pela manhã, explore Montmartre no próprio ritmo com um guia privativo. O pôr do sol vai ser diante da Sacré-Cœur, ponto tradicional para ter uma vista incrível. Não acabou: à noite, um jantar no segundo andar da Torre Eiffel com vista deslumbrante de Paris.
 
+![Monet e Luís XIV](uploads/2026/05/Dia-3-8.webp)
+
 DIA 3
 
 ## Monet e Luís XIV
 
 Um transfer privativo faz o caminho até Giverny para uma visita ao jardim e à casa de Monet, eternizados em suas famosas pinturas. À tarde, é hora de se impressionar com o grandioso Palácio de Versalhes.
+
+![Louvre & Vinhos](uploads/2026/05/Dia-4-8.webp)
 
 DIA 4
 
@@ -51,17 +61,23 @@ DIA 4
 
 Prepare-se para andar, pois é dia de visita guiada ao grande Museu do Louvre. À tarde, desfrute de uma degustação de vinhos raros nas Caves Legrand Filles et Fils com sommelier dedicado.
 
+![No ritmo de Paris](uploads/2026/05/Dia-5-8.webp)
+
 DIA 5
 
 ## No ritmo de Paris
 
 É dia de Trocadéro, Arco do Triunfo, Notre-Dame, Sainte-Chapelle… Uma manhã para conhecer pontos da capital no seu tempo. À tarde, após um belo almoço, aproveite para flanar pela bela Champs-Élysées.
 
+![Os segredos de Paris](uploads/2026/05/Dia-6-8.webp)
+
 DIA 6
 
 ## Os segredos de Paris
 
 Pela manhã, descubra as passagens cobertas de Paris do século XIX, como a elegante Galerie Vivienne, onde cafés discretos, livrarias antigas e boutiques estão preservados no tempo. Após o almoço no Marais, visite o Museu Carnavalet, dedicado à origem e história da Cidade Luz.
+
+![Au revoir, Paris](uploads/2026/05/Dia-7-8.webp)
 
 DIA 7
 
@@ -134,6 +150,8 @@ O palácio e os jardins impressionam o mundo até hoje.
 Torre Eiffel, Ópera Garnier e Louvre são só o início.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentoParis.webp)
 
 ## Viagem em família,
 
@@ -309,65 +327,97 @@ Momentos gastronômicos à bordo, com visão panorâmica.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Sarah, 2024
 
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Rafaella, 2022
+
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
 
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
 
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
+
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaela Castellões e Gabriel Lima, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Celso e Roberta, 2025
 
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Sarah, 2024
+
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaella, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
 
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
 
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
@@ -660,6 +710,8 @@ Nossa seleção de 5 estrelas em Paris
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAParis.webp)
 
 ## Perguntas frequentes sobre roteiros para a Paris
 

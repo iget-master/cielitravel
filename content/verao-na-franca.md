@@ -29,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Nice, ma chérie](uploads/2026/05/Dia-1-11.webp)
+
 DIA 1
 
 ## Nice, ma chérie
 
 Chegada e check-in em Nice. Após explorar a Vieux Nice, aprecie o pôr do sol da Colline du Château e termine o dia com um passeio à beira-mar na Promenade des Anglais.
+
+![Céu e mar](uploads/2026/05/Dia-2-11.webp)
 
 DIA 2
 
@@ -41,11 +45,15 @@ DIA 2
 
 Pela manhã, o transfer privativo faz o caminho até Éze e seu Jardin Exotique, com vista panorâmica privilegiada da costa. À tarde, faça uma visita à Villa Ephrussi em Saint-Jean-Cap-Ferrat. Mais tarde, jantar em Villefranche-sur-Mer.
 
+![Mônaco e Menton](uploads/2026/05/Dia-3-11.webp)
+
 DIA 3
 
 ## Mônaco e Menton
 
 O transfer privativo leva você para uma rápida visita a Mônaco. À tarde, almoço em Menton, com tempo para explorar as ruas.
+
+![Luz, Cannes, ação](uploads/2026/05/Dia-4-11.webp)
 
 DIA 4
 
@@ -53,11 +61,15 @@ DIA 4
 
 Dia livre para aproveitar o glamour de um badalado beach club na Île Sainte-Marguerite, em Cannes.
 
+![Grasse e Antibes](uploads/2026/05/Dia-5-11.webp)
+
 DIA 5
 
 ## Grasse e Antibes
 
 Café da manhã e transfer privativo para Grasse, onde você cria sua própria fragrância em um ateliê da capital mundial do perfume. No caminho de volta, uma parada em Antibes para visitar o Musée Picasso.
+
+![Saint-Paul-de-Vence e Saint-Tropez](uploads/2026/05/Dia-6-11.webp)
 
 DIA 6
 
@@ -65,17 +77,23 @@ DIA 6
 
 Check-out em Nice e transfer privativo para Saint-Tropez, com parada em Saint-Paul-de-Vence no caminho.
 
+![O mar é seu](uploads/2026/05/Dia-7-11.webp)
+
 DIA 7
 
 ## O mar é seu
 
 Tour em um barco privativo pela costa, com privacidade e conforto. Passe o fim de tarde em um beach club em Saint-Tropez.
 
+![Happy hour francês](uploads/2026/05/Dia-8-6.webp)
+
 DIA 8
 
 ## Happy hour francês
 
 Manhã explorando Saint-Tropez e almoço no Airelles Château La Messardière. Fim de tarde no Le Tigrr, no Hotel Ermitage, com vista para o pôr do sol. Para quem quiser, a festa segue com DJs famosos.
+
+![Au revoir, Riviera](uploads/2026/05/Dia-9-3.webp)
 
 DIA 9
 
@@ -188,6 +206,8 @@ Balneário com hotéis, boutiques e o bairro Le Suquet.
 As praias de Pampelonne são icônicas e a noite é sem igual.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosVeraoFranca.webp)
 
 ## Viagem em família,
 
@@ -359,65 +379,97 @@ Passeios com paradas em enseadas e marinas.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
 
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
 
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
@@ -470,6 +522,8 @@ Nossa seleção de 5 estrelas para o Verão na França
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAVeraoFranca.webp)
 
 ## Perguntas frequentes sobre roteiros para o Verão na França
 

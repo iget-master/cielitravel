@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # viagem para o Verão na Itália com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroVeraoItalia.webp)
+
 Viagem a Costa Amalfitana e Puglia.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![A Costa mais famosa](uploads/2026/05/Dia-1-7.webp)
+
 DIA 1
 
 ## A Costa mais famosa
 
 Chegada em Sorrento, via Nápoles ou Roma, em transfer privativo para fazer check-in no seu hotel com vista para o mar. Tarde para explorar o centro histórico, com suas ruas movimentadas e bons restaurantes. À noite, a Cieli já cuidou do seu jantar à beira-mar.
+
+![De Vespa por Positano](uploads/2026/05/Dia-2-7.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Passeio de Vespa com guia privativo pelas curvas da Costa Amalfitana, com paradas para apreciar as vistas e provar um gelato italiano de verdade. O fim da tarde é em um bar beach club sofisticado, apreciando o pôr do sol.
 
+![Ravello, Amalfi e a cozinha italiana](uploads/2026/05/Dia-3-7.webp)
+
 DIA 3
 
 ## Ravello, Amalfi e a cozinha italiana
 
 Transfer privativo para as encantadoras Ravello e Amalfi: conheça villas famosas, lojas de limoncello e papel artesanal. À tarde, um chefe local ensina as técnicas da cozinha italiana em uma aula de culinária.
+
+![O vinho da Costa](uploads/2026/05/Dia-4-7.webp)
 
 DIA 4
 
@@ -51,11 +61,15 @@ DIA 4
 
 É dia de visita, degustação e almoço harmonizado na vinícola Marisa Cuomo. A tarde é livre para aproveitar o hotel, a praia e os arredores no seu próprio tempo.
 
+![Gruta Azul](uploads/2026/05/Dia-5-7.webp)
+
 DIA 5
 
 ## Gruta Azul
 
 Passeio de barco privativo com direito a mergulho no mar e parada na icônica Grotta Azzurra. O almoço também é servido a bordo. Depois, check-in em Capri e noite explorando a Piazzetta e os restaurantes à beira-mar.
+
+![Capri por todos os lados](uploads/2026/05/Dia-6-7.webp)
 
 DIA 6
 
@@ -63,11 +77,15 @@ DIA 6
 
 Sua manhã é de relaxamento em um beach club exclusivo. Passe a tarde explorando a ilha: Villa San Michele, Villa Jovis, Jardins de Augustus e o Monte Solaro. Gelato artesanal e um jantar sob os limoeiros locais completam o dia.
 
+![De Capri à Puglia](uploads/2026/05/Dia-7-7.webp)
+
 DIA 7
 
 ## De Capri à Puglia
 
 Um barco privativo leva você até Nápoles, para um voo até Bari e transfer para Fasano. Sua hospedagem é em uma tradicional Masseria, com jantar especial para descansar do traslado.
+
+![Dolce far niente](uploads/2026/05/Dia-8-3.webp)
 
 DIA 8
 
@@ -75,11 +93,15 @@ DIA 8
 
 Dia livre para aproveitar à la italiana: explorar a Masseria, a praia e os arredores sem pressa.
 
+![Polignano e Monopoli](uploads/2026/05/Dia-9-1.webp)
+
 DIA 9
 
 ## Polignano e Monopoli
 
 Visita a Polignano a Mare e passeio de barco pelas grutas com águas turquesa que contrasta com as falésias brancas. Depois, almoço com vista para o mar. A tarde é dedicada a conhecer Monopoli, encerrando com um jantar delicioso.
+
+![Tesouros da Itália](uploads/2026/05/Dia-10-1.webp)
 
 DIA 10
 
@@ -87,17 +109,23 @@ DIA 10
 
 Para o seu décimo dia, um passeio com motorista e guia privativo para conhecer os trulli de Alberobello (patrimônio mundial da UNESCO) e a charmosa Locorotondo.
 
+![A cidade das pedras](uploads/2026/05/Dia-11.webp)
+
 DIA 11
 
 ## A cidade das pedras
 
 Visita à Matera, na vizinha Basilicata, em tuk-tuk com guia privativo. Seu almoço acontece dentro de uma caverna, uma experiência à parte.
 
+![Florença do sul](uploads/2026/05/Dia-12.webp)
+
 DIA 12
 
 ## Florença do sul
 
 Passeio com motorista e guia privativo pela cidade branca de Ostuni e por Lecce, com sua arquitetura barroca única no sul da Itália.
+
+![Despedida com vista para o mar](uploads/2026/05/Dia-13.webp)
 
 DIA 13
 
@@ -226,6 +254,8 @@ O cartão-postal mais reconhecível da Costa Amalfitana.
 Passeios pela Grotta Azzurra, boutiques e restaurantes.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosVeraoItalia.webp)
 
 ## Sicília e Costa Amalfitana,
 
@@ -385,65 +415,97 @@ Os arredores de Capri e as grutas da Puglia vistos do mar.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
 
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
 
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
@@ -488,6 +550,8 @@ Nossa seleção de 5 estrelas para o Verão na Itália
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAVeraoItalia.webp)
 
 ## Perguntas frequentes sobre roteiros para o Verão na Itália
 

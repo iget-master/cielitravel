@@ -29,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Bonjour, Paris](uploads/2026/05/Dia-1-12.webp)
+
 DIA 1
 
 ## Bonjour, Paris
 
 Chegada em Paris e check-in na sua hospedagem 5 estrelas. Depois, passeio pelo Jardim de Luxemburgo e pelo bairro Saint-Germain-des-Prés. À noite, cruzeiro pelo Sena com jantar a bordo providenciado pela Cieli.
+
+![Jantar na Torre Eiffel](uploads/2026/05/Dia-2-12.webp)
 
 DIA 2
 
@@ -41,11 +45,15 @@ DIA 2
 
 Manhã no Marais com guia privativo. Tarde em Montmartre com pôr do sol na Sacré-Cœur. Jantar no Le Jules Verne, restaurante de duas estrelas Michelin no segundo andar da Torre Eiffel.
 
+![Paris clássica](uploads/2026/05/Dia-3-12.webp)
+
 DIA 3
 
 ## Paris clássica
 
 Dia de passeio pelos grandes ícones da cidade: Champs-Elysées, Arco do Triunfo, Notre-Dame e Sainte-Chapelle. Para descansar depois do tour, um piquenique à beira do Sena.
+
+![Louvre e vinhos](uploads/2026/05/Dia-4-12.webp)
 
 DIA 4
 
@@ -53,11 +61,15 @@ DIA 4
 
 Visita guiada ao Louvre para aproveitar a experiência ao máximo. À tarde, degustação privada de vinhos raros nas Caves Legrand com sommelier. À noite, jantar no histórico Le Grand Véfour.
 
+![O mercado mais antigo da Europa](uploads/2026/05/Dia-5-12.webp)
+
 DIA 5
 
 ## O mercado mais antigo da Europa
 
 Traslado no trem-bala para Estrasburgo. Passeio pelo centro histórico e visita ao Marché de Noël, o mercado de Natal mais antigo da Europa, tradicional desde 1570, para provar vin chaud e biscoitos típicos alsacianos.
+
+![La Grande Île](uploads/2026/05/Dia-6-12.webp)
 
 DIA 6
 
@@ -65,11 +77,15 @@ DIA 6
 
 Passeio guiado pelo centro histórico de Estrasburgo: conheça a Catedral Notre-Dame, La Petite France e Maison Kammerzell. O jantar acontece em uma taberna medieval alsaciana.
 
+![Rota dos vinhos](uploads/2026/05/Dia-7-12.webp)
+
 DIA 7
 
 ## Rota dos vinhos
 
 Percurso pela Route des Vins d'Alsace, com visita a vinhedos Grand Cru em Ribeauvillé, e ao imenso Castelo Haut-Kœnigsbourg.
+
+![A cidade de conto de fadas](uploads/2026/05/Dia-8-7.webp)
 
 DIA 8
 
@@ -77,11 +93,15 @@ DIA 8
 
 Dia em Colmar: passeio de barco pela Petite Venise, mercado de Natal e centro histórico. Após isso, degustação de Riesling e Gewürztraminer. O jantar é no L'Atelier du Peintre, premiado com estrela Michelin.
 
+![Riquewihr e Eguisheim](uploads/2026/05/Dia-9-4.webp)
+
 DIA 9
 
 ## Riquewihr e Eguisheim
 
 É dia de passeio pelos vilarejos de Riquewihr e Eguisheim. Almoço no La Table du Gourmet, restaurante reconhecido com estrela Michelin e Green Star.
+
+![Chegada a Chamonix](uploads/2026/05/Dia-10-3.webp)
 
 DIA 10
 
@@ -89,11 +109,15 @@ DIA 10
 
 Chegada a Chamonix e subida de teleférico até a Aiguille du Midi, com uma vista inesquecível para o Mont Blanc e os Alpes.
 
+![Aventura congelante](uploads/2026/05/Dia-11-2.webp)
+
 DIA 11
 
 ## Aventura congelante
 
 Trem de cremalheira até Montenvers para ver o glaciar Mer de Glace e visitar a caverna de gelo esculpida na montanha. Uma aventura congelante da vida real.
+
+![Esqui em família](uploads/2026/05/Dia-12-1.webp)
 
 DIA 12
 
@@ -101,11 +125,15 @@ DIA 12
 
 Dia no Domaine des Planards: esqui para iniciantes, Alpine Coaster e diversão para toda a família, adaptada para todas as idades.
 
+![Spa em Courchevel](uploads/2026/05/Dia-13-1.webp)
+
 DIA 13
 
 ## Spa em Courchevel
 
 Chegada a Courchevel. Aproveite a tarde de spa no Aquamotion, com piscinas aquecidas e vista para a neve. A Cieli já programou seu jantar no Le Farçon.
+
+![Esqui e après-ski](uploads/2026/05/Dia-14.webp)
 
 DIA 14
 
@@ -194,6 +222,8 @@ Casas de enxaimel, canais estreitos e a Petite Venise.
 Torre Eiffel, Ópera Garnier e Louvre são só o início.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/THUMBNAIL_Depoimentos_LP_InvernoFranca.webp)
 
 ## Viagem em família,
 
@@ -377,65 +407,97 @@ Prove a gastronomia mundialmente premiada do Courchevel.
 
 ## Nossas histórias favoritas
 
-### Viagem de Casal
-
-Marco Aurelio e Evelyn, 2025
-
-### Viagem de Casal
-
-Abraham e Judy, 2023
-
-### Viagem de Casal
-
-Celso e Roberta, 2025
-
-### Viagem de Casamento
-
-Cristina, 2025
-
-### Viagem de Casal
-
-Marco e Evelyn, 2025
-
-### Viagem de Casal
-
-Marco e Evelyn 2025
-
-### Viagem de Casal
-
-Marco e Evelyn, 2025
-
-### Viagem de Casal
-
-Marco e Evelyn, 2025
+![](uploads/2026/06/Foto1GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Marco Aurelio e Evelyn, 2025
 
+![](uploads/2026/06/Foto2GaleriaInverno.webp)
+
 ### Viagem de Casal
 
 Abraham e Judy, 2023
+
+![](uploads/2026/06/Foto3GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Celso e Roberta, 2025
 
+![](uploads/2026/06/Foto4GaleriaInverno.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto6GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto5GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Marco e Evelyn 2025
 
-### Viagem de Casal
-
-Marco e Evelyn, 2025
+![](uploads/2026/06/Foto7GaleriaInverno.webp)
 
 ### Viagem de Casal
 
 Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto8GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto1GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco Aurelio e Evelyn, 2025
+
+![](uploads/2026/06/Foto2GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Abraham e Judy, 2023
+
+![](uploads/2026/06/Foto3GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto4GaleriaInverno.webp)
+
+### Viagem de Casamento
+
+Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn 2025
+
+![](uploads/2026/06/Foto6GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto7GaleriaInverno.webp)
+
+### Viagem de Casal
+
+Marco e Evelyn, 2025
+
+![](uploads/2026/06/Foto8GaleriaInverno.webp)
 
 ### Viagem de Casal
 
@@ -488,6 +550,8 @@ Nossa seleção de 5 estrelas para o Inverno na França
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM UM ESPECIALISTA
+
+![](uploads/2026/05/THUMBNAIL_CTA_LP_InvernoFranca.webp)
 
 ## Perguntas frequentes sobre roteiros para o Inverno na França
 

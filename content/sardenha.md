@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # viagem pela Sardenha com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroSardenha.webp)
+
 Viagem a Olbia, Arzachena, Porto Cervo, La Maddalena e Golfo di Orosei.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Buongiorno, Sardegna](uploads/2026/05/Dia-1-3.webp)
+
 DIA 1
 
 ## Buongiorno, Sardegna
 
 Chegada em Olbia e transfer privativo para o hotel em Porto Cervo. Antes do jantar, o primeiro contato com a Piazzetta (o coração da Costa Esmeralda), com suas boutiques de grifes renomadas e iates iluminados no píer.
+
+![O azul da sua vida](uploads/2026/05/Dia-2-3.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Dia de tour em um barco privativo pelas praias da Costa Esmeralda, com paradas em Capriccioli, Liscia Ruja e Cala Granu. De volta ao hotel, seu fim de tarde merece um bom vinho sardo.
 
+![Pilares da ilha](uploads/2026/05/Dia-3-3.webp)
+
 DIA 3
 
 ## Pilares da ilha
 
 Visita à Cantina Surrau em Arzachena, com degustação e almoço harmonizado com os vinhos da vinícola. À tarde, visita às ruínas nuragiche de La Prisgiona.
+
+![Piacere, La Maddalena](uploads/2026/05/Dia-4-3.webp)
 
 DIA 4
 
@@ -51,17 +61,23 @@ DIA 4
 
 De Palau, ferry para o belíssimo Arquipélago de La Maddalena. À noite, aperitivo no centrinho com Vermentino di Gallura, pane carasau, pecorino sardo e bottarga.
 
+![Duas ilhas](uploads/2026/05/Dia-5-3.webp)
+
 DIA 5
 
 ## Duas ilhas
 
 Manhã livre para golfe, mergulho ou snorkeling nas águas cristalinas da costa. O fim de tarde, já na ilha principal, é em Santa Teresa Gallura, com vista para a Córsega no horizonte.
 
+![Um dia no Golfo](uploads/2026/05/Dia-6-3.webp)
+
 DIA 6
 
 ## Um dia no Golfo
 
 Transfer cedinho para o Golfo di Orosei, com parada para avistar os flamingos rosa ao longo do caminho. Dia em um dos exclusivos beach clubs da região, com as grutas e paredões rochosos como cenário.
+
+![Despedida na marina](uploads/2026/05/Dia-7-3.webp)
 
 DIA 7
 
@@ -126,6 +142,8 @@ O coração cultural e vinícola do norte da Sardenha.
 Cidade portuária com centro histórico compacto e charmoso.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosSardenha.webp)
 
 ## Viagem em família,
 
@@ -297,65 +315,97 @@ Golfo di Orosei e o Arquipélago de La Maddalena com guia.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
 
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
 
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
@@ -384,6 +434,8 @@ Nossa seleção de 5 estrelas na Sardenha
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTASardenha.webp)
 
 ## Perguntas frequentes sobre roteiros para a Sardenha
 

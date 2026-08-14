@@ -29,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Chegada com jantar à beira-mar](uploads/2026/05/Dia-1.webp)
+
 DIA 1
 
 ## Chegada com jantar à beira-mar
 
 A viagem começa em Sorrento. Após o check-in, caminhe pela cidade para conhecer o centro histórico. À noite, o jantar à beira-mar já foi reservado pela Cieli.
+
+![Positano e aula de culinária](uploads/2026/05/Dia-2.webp)
 
 DIA 2
 
@@ -41,11 +45,15 @@ DIA 2
 
 No dia seguinte, se delicie com uma aula de culinária privativa em uma casa local, uma genuína experiência Cieli — massa fresca, azeite e limoncello preparados com as próprias mãos.
 
+![Passeio de barco até Amalfi](uploads/2026/05/Dia-3.webp)
+
 DIA 3
 
 ## Passeio de barco até Amalfi
 
 O terceiro dia é dedicado ao mar: um passeio de barco privativo até Amalfi, com tudo organizado pela Cieli, com tempo livre para conhecer o Duomo e provar a sfogliatella.
+
+![Ravello e as vistas do alto](uploads/2026/05/Dia-4.webp)
 
 DIA 4
 
@@ -53,17 +61,23 @@ DIA 4
 
 Para o quarto dia da viagem, visite a Villa Rufolo e a Villa Cimbrone em Ravello acompanhado por um guia local — jardins suspensos que inspiraram artistas e compositores. Um café no terraço com vista para o mar encerra o dia.
 
+![Rumo a Sorrento](uploads/2026/05/Dia-5.webp)
+
 DIA 5
 
 ## Rumo a Sorrento
 
 No quinto dia, siga viagem até Sorrento. Caminhe pelo centro histórico, descubra o charme das lojinhas de marchetaria e brinde o entardecer com um limoncello local.
 
+![Capri e a Gruta Azul](uploads/2026/05/Dia-6.webp)
+
 DIA 6
 
 ## Capri e a Gruta Azul
 
 No penúltimo dia, embarque pela manhã para Capri. Faça um passeio de barco privativo ao redor da ilha, com parada na icônica Gruta Azul. À noite, jantar em Anacapri com vista para os Faraglioni, tudo planejado pela Cieli.
+
+![Despedida com vista para o mar](uploads/2026/05/Dia-7.webp)
 
 DIA 7
 
@@ -128,6 +142,8 @@ O cartão-postal mais reconhecível da Costa Amalfitana.
 Passeios pela Grotta Azzurra, boutiques e restaurantes.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosCosta.webp)
 
 ## Costa Amalfitana,
 
@@ -323,65 +339,97 @@ Paradas em Capri, Faraglioni e em pontos para banho e snorkeling.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
 
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
 
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
@@ -406,6 +454,8 @@ Nossa seleção de 5 estrelas na Costa Amalfitana
 Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTACosta.webp)
 
 ## Perguntas frequentes sobre roteiros para a Costa Amalfitana
 

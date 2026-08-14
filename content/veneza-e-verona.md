@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # viagem por Veneza e Verona com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroVenezaVerona.webp)
+
 Viagem a Veneza, Verona, Murano, Burano, Sirmione e Garda.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Benvenuti a Venezzia](uploads/2026/05/Dia-1-5.webp)
+
 DIA 1
 
 ## Benvenuti a Venezzia
 
 Chegada em Veneza e primeiros passos pelos arredores da Piazza San Marco. À noite, desfrute de um jantar com vista para o Grande Canal.
+
+![Labirintos de Veneza](uploads/2026/05/Dia-2-5.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Dia dedicado a um tour com guia privativo pelo labirinto de canais, calli e pontes da cidade. Depois, o tradicional passeio de gôndola para contemplar o pôr do sol.
 
+![Cores e cristais](uploads/2026/05/Dia-3-5.webp)
+
 DIA 3
 
 ## Cores e cristais
 
 Tour de barco privativo por Burano, a ilha das casinhas coloridas, e Murano (onde o vidro soprado é arte desde o século XIII), com direito à visita a uma fábrica de vidro.
+
+![Chegada à Verona](uploads/2026/05/Dia-4-5.webp)
 
 DIA 4
 
@@ -51,17 +61,23 @@ DIA 4
 
 Um transfer privativo leva você de Veneza a Verona. Tarde para explorar a cidade e visitar a Casa de Julieta, onde os apaixonados do mundo inteiro deixam cartas até hoje.
 
+![Amarone e tarde livre](uploads/2026/05/Dia-5-5.webp)
+
 DIA 5
 
 ## Amarone e tarde livre
 
 Visita, degustação e almoço harmonizado em uma vinícola tradicional da Valpolicella, berço do Amarone. Tarde livre para se perder em Verona.
 
+![Lago di Garda](uploads/2026/05/Dia-6-5.webp)
+
 DIA 6
 
 ## Lago di Garda
 
 Transfer para Sirmione, às margens do Lago di Garda. Visita ao Castello Scaligero e pôr do sol nas Cavernas de Catulo, com vista panorâmica sobre o lago.
+
+![Despedida à beira do lago](uploads/2026/05/Dia-7-5.webp)
 
 DIA 7
 
@@ -134,6 +150,8 @@ Casa de Julieta, Arena Romana e o Castello San Pietro.
 Piazza San Marco, Ponte dos Suspiros e carnaval de Veneza.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosVenezaVerona.webp)
 
 ## Verona,
 
@@ -297,65 +315,97 @@ Visite a Casa de Julieta, o Castello Scaligero e as ilhas vizinhas.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Sarah, 2024
 
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Rafaella, 2022
+
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
 
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
 
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
+
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaela Castellões e Gabriel Lima, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Celso e Roberta, 2025
 
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Sarah, 2024
+
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaella, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
 
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
 
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
@@ -388,6 +438,8 @@ Nossa seleção de 5 estrelas em Veneza e Verona
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAVenezaVerona.webp)
 
 ## Perguntas frequentes sobre roteiros para Veneza e Verona
 

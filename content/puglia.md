@@ -29,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Chegada relaxante](uploads/2026/05/Dia-1-1.webp)
+
 DIA 1
 
 ## Chegada relaxante
 
 Suas férias começam em Fasano. Faça o check-in em uma das famosas masserias da cidade, como o Borgo Egnazia, relaxe no spa e aproveite toda a estrutura da hospedagem para se recuperar da viagem.
+
+![Navegue pelas grutas](uploads/2026/05/Dia-2-1.webp)
 
 DIA 2
 
@@ -41,11 +45,15 @@ DIA 2
 
 A programação do segundo dia é uma passagem tranquila por Polignano a Mare, uma das cidades mais fotografadas da Puglia, com passeio de barco para visitar as grutas da região. Após o almoço, siga para Monopoli, onde você terá um jantar especial reservado pela Cieli.
 
+![Bela Alberobello](uploads/2026/05/Dia-3-1.webp)
+
 DIA 3
 
 ## Bela Alberobello
 
 Um transfer privativo vai levar você a Alberobello, patrimônio mundial da UNESCO, para ver os Trulli (construções cônicas únicas no mundo) com um guia especializado. Passeie pelas ruas, lojas e restaurantes e depois siga para Locorotondo.
+
+![Tesouros milenares](uploads/2026/05/Dia-4-1.webp)
 
 DIA 4
 
@@ -53,11 +61,15 @@ DIA 4
 
 Dedique o dia para desbravar Matera, a cidade esculpida nas rochas, em um tour panorâmico de tuk tuk. Passeie pelos sassi, veja as moradias por dentro e visite as igrejas rupestres dessa que é a cidade mais antiga da Itália.
 
+![A Cidade Branca](uploads/2026/05/Dia-5-1.webp)
+
 DIA 5
 
 ## A Cidade Branca
 
 É dia de partir de Fasano com destino à Lecce. No meio do caminho, uma parada para visitar e almoçar em Ostuni — um dos cartões-postais da Puglia, famoso por suas casas caiadas de um branco incandescente. À noite, o jantar pede massa e vinho em Lecce.
+
+![Florença do Sul](uploads/2026/05/Dia-6-1.webp)
 
 DIA 6
 
@@ -65,11 +77,15 @@ DIA 6
 
 Um guia privativo te espera para um tour pela arquitetura barroca de Lecce. Visite o centro histórico e deixe a mente viajar por séculos de construção em pietra leccese. À tarde, prove deliciosos vinhos de um produtor local com tudo programado pela Cieli.
 
+![Dolce vita à beira-mar](uploads/2026/05/Dia-7-1.webp)
+
 DIA 7
 
 ## Dolce vita à beira-mar
 
 O sétimo dia é dedicado a Gallipoli e Santa Maria di Leuca, pequenas cidades costeiras da Puglia. Viva la dolce vita com banhos de mar, gelatos e caminhadas pelos centros históricos, com roteiro e reservas organizados pela Cieli.
+
+![Alla prossima, Puglia!](uploads/2026/05/Dia-8.webp)
 
 DIA 8
 
@@ -150,6 +166,8 @@ A “Florença do Sul”, com arquitetura barroca em pedra.
 Trulli ainda habitados, patrimônio mundial da UNESCO.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/ThumbnailDepoimentosPuglia.webp)
 
 ## Puglia,
 
@@ -317,65 +335,97 @@ Explore grutas e enseadas, com paradas para banho e snorkeling.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Daniel e Camila, 2025
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
 
 ### Viagem de Grupo
 
 Linda e Grupo, 2023
 
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
 
 ### Viagem de Casal
 
@@ -412,6 +462,8 @@ Nossa seleção de 5 estrelas na Puglia
 Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/ThumbnailCTAPuglia.webp)
 
 ## Perguntas frequentes sobre roteiros para a Puglia
 

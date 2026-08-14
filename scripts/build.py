@@ -7,6 +7,7 @@ Uso:  py -3 scripts/build.py
 Requisito:  py -3 -m pip install markdown
 """
 import html as html_mod
+import json
 import re
 import shutil
 import sys
@@ -21,7 +22,42 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 STATIC = ROOT / "site" / "static"
 UPLOADS = ROOT / "assets" / "uploads"
+VIDEOS = ROOT / "assets" / "videos"
 DIST = ROOT / "dist"
+
+MEDIA = {}
+_mj = ROOT / "site" / "data" / "media.json"
+if _mj.exists():
+    MEDIA = json.loads(_mj.read_text(encoding="utf-8"))
+
+OG_BY_URL = {}  # /toscana/ -> uploads/... (preenchido no main)
+
+
+def page_video(url, kind):
+    """Vídeo da página por tipo: hero | cta | depoimentos | lottie."""
+    pats = {"hero": r"Hero", "cta": r"CTA", "depoimentos": r"Depoimentos",
+            "lottie": r"lottie.*\.json$|\.json$"}
+    for rel in MEDIA.get(url, []):
+        if kind == "lottie":
+            if rel.endswith(".json"):
+                return f"/videos/{rel}"
+        elif rel.endswith((".mp4", ".webm")) and re.search(
+                pats[kind], rel, re.I):
+            return f"/videos/{rel}"
+    return ""
+
+
+def bg_video_tag(url, kind, poster=""):
+    mp4 = page_video(url, kind)
+    if not mp4:
+        return ""
+    webm = mp4.replace(".mp4", ".webm")
+    has_webm = (VIDEOS / webm.replace("/videos/", "")).exists()
+    srcs = (f'<source src="{webm}" type="video/webm">' if has_webm else "") \
+        + f'<source src="{mp4}" type="video/mp4">'
+    p = f' poster="{poster}"' if poster else ""
+    return (f'<video class="bg-video" autoplay muted loop playsinline'
+            f'{p}>{srcs}</video>')
 
 DESTINOS = {
     "toscana", "sicilia", "veneza-e-verona", "sardenha", "puglia",
@@ -90,9 +126,11 @@ def blocks_of(body):
 # --------------------------------------------------------------- shell
 
 FONTS = (
-    '<link rel="preconnect" href="https://fonts.googleapis.com">'
-    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-    '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">'
+    '<link rel="preload" href="/static/fonts/Sfizia-Regular.woff2" as="font" '
+    'type="font/woff2" crossorigin>'
+    '<link rel="preload" href="/static/fonts/trade-gothic-next-compressed-700.woff2" '
+    'as="font" type="font/woff2" crossorigin>'
+    '<link rel="stylesheet" href="/static/css/fonts.css">'
 )
 
 NAV_PAGES = [
@@ -197,9 +235,11 @@ def footer():
 </footer>"""
 
 
-def shell(title, desc, body, light_header=False, og_image=""):
+def shell(title, desc, body, light_header=False, og_image="", lottie=False):
     og = (f'<meta property="og:image" content="{esc(og_image)}">'
           if og_image else "")
+    lot = ('<script src="/static/js/vendor/lottie.min.js"></script>'
+           if lottie else "")
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -214,7 +254,7 @@ def shell(title, desc, body, light_header=False, og_image=""):
 {header(light_header)}
 <main>{body}</main>
 {footer()}
-<script src="/static/js/main.js"></script>
+{lot}<script src="/static/js/main.js"></script>
 </body>
 </html>"""
 
@@ -238,6 +278,7 @@ def parse_destino(blocks):
          "facts": {}, "editorial": None, "quote": None, "hero_img": "",
          "title": "", "subtitle": "", "disclaimer": ""}
     i, n = 0, len(blocks)
+    last_img = ""
 
     def peek(j):
         return blocks[j] if j < n else ("", "")
@@ -246,8 +287,10 @@ def parse_destino(blocks):
         kind, text = blocks[i]
         if kind == "h1" and not d["title"]:
             d["title"] = text
-        elif kind == "img" and not d["hero_img"]:
-            d["hero_img"] = text
+        elif kind == "img":
+            if not d["hero_img"]:
+                d["hero_img"] = text
+            last_img = text
         elif kind == "p" and re.match(
                 r"^(Melhor período|Duração ideal|Preço a partir de)\b", text):
             m = re.match(r"^(Melhor período|Duração ideal|Preço a partir de)"
@@ -263,13 +306,23 @@ def parse_destino(blocks):
                 and not d["days"] and text.startswith("Viagem"):
             d["subtitle"] = text
         elif kind == "p" and re.match(r"^DIA \d+$", text):
-            day = {"n": text, "t": "", "txt": []}
+            day = {"n": text, "t": "", "txt": [], "img": last_img}
             j = i + 1
-            if peek(j)[0] == "h2":
-                day["t"] = peek(j)[1]
-                j += 1
-            while peek(j)[0] == "p" and not re.match(r"^DIA \d+$", peek(j)[1]):
-                day["txt"].append(peek(j)[1])
+            while j < n and blocks[j][0] in ("h2", "p", "img") \
+                    and not re.match(r"^DIA \d+$", blocks[j][1]) \
+                    and not (blocks[j][0] == "h2"
+                             and re.search(r"TRANSFORME", blocks[j][1])):
+                k2, t2 = blocks[j]
+                if k2 == "h2" and not day["t"]:
+                    day["t"] = t2
+                elif k2 == "p":
+                    day["txt"].append(t2)
+                elif k2 == "img":
+                    if not day["txt"] and not day["t"]:
+                        day["img"] = t2
+                    else:
+                        last_img = t2
+                        break
                 j += 1
             d["days"].append(day)
             i = j - 1
@@ -282,13 +335,30 @@ def parse_destino(blocks):
                 i += 3 if descr else 2
         elif kind == "h2" and text.upper() == "DEPOIMENTOS":
             j = i + 1
-            while peek(j)[0] == "h2" and peek(j)[1].endswith(","):
-                place = peek(j)[1].rstrip(",")
-                year = peek(j + 1)[1]
-                quote = peek(j + 2)[1]
-                who = peek(j + 3)[1].lstrip("- ").strip()
-                d["testi"].append((place, year, quote, who))
-                j += 4
+
+            def next_h2(k):
+                while peek(k)[0] == "img":
+                    k += 1
+                return k if peek(k)[0] == "h2" else -1
+
+            while True:
+                j2 = next_h2(j)
+                if j2 < 0 or not peek(j2)[1].endswith(","):
+                    break
+                place = peek(j2)[1].rstrip(",")
+                parts, k = [], j2 + 1
+                for _ in range(3):
+                    k2 = next_h2(k)
+                    if k2 < 0:
+                        break
+                    parts.append(peek(k2)[1])
+                    k = k2 + 1
+                if len(parts) < 3:
+                    break
+                year, quote, who = parts
+                d["testi"].append((place, year, quote,
+                                   who.lstrip("- ").strip()))
+                j = k
             i = j - 1
         elif kind == "h2" and re.match(r"^[\"“”]", text):
             author = ""
@@ -425,10 +495,12 @@ def render_destino(fm, body):
     name = fm.get("title", "").split(" - ")[0]
     out = []
 
+    page_url = fm.get("url", "")
     hero_bg = f"/uploads/{d['hero_img'].split('uploads/')[-1]}" if d["hero_img"] else ""
+    hero_vid = bg_video_tag(page_url, "hero", poster=hero_bg)
     out.append(f"""
 <section class="hero" style="min-height:80vh">
-  <div class="hero-bg" style="background-image:url('{hero_bg}')"></div>
+  <div class="hero-bg" style="background-image:url('{hero_bg}')">{hero_vid}</div>
   <div class="hero-content">
     <h1 class="display" data-typewriter="{esc(d['title'] or name)}">{esc(d['title'] or name)}</h1>
   </div>
@@ -468,9 +540,13 @@ def render_destino(fm, body):
 </section>""")
 
     if d["days"]:
+        def day_pic(day):
+            if day.get("img"):
+                return f"/uploads/{day['img'].split('uploads/')[-1]}"
+            return hero_bg
         slides = "".join(f"""
     <div class="itin-slide">
-      <div class="pic" style="background-image:url('{hero_bg}')"></div>
+      <div class="pic" style="background-image:url('{day_pic(day)}')"></div>
       <div class="txt"><div class="day">{esc(day['n'])}</div>
       <h3>{esc(day['t'])}</h3><p>{esc(' '.join(day['txt']))}</p></div>
     </div>""" for day in d["days"])
@@ -536,9 +612,14 @@ def render_destino(fm, body):
       <blockquote>“{esc(q)}”</blockquote>
       <div class="who">— {esc(w)}</div>
       <div class="stars">★★★★★</div></div>""" for p, y, q, w in d["testi"])
+        depo_vid = bg_video_tag(page_url, "depoimentos")
+        depo_style = "" if not depo_vid else ' style="position:relative;overflow:hidden"'
+        depo_wrap = (f'{depo_vid}<div style="position:absolute;inset:0;'
+                     'background:rgba(5,0,20,.62)"></div>') if depo_vid else ""
         out.append(f"""
-<section class="section on-dark" id="depoimentos">
-  <div class="container testimonials">
+<section class="section on-dark" id="depoimentos"{depo_style}>
+  {depo_wrap}
+  <div class="container testimonials" style="position:relative;z-index:2">
     <h2 style="margin-bottom:40px">Depoimentos</h2>
     <div data-rail><div class="testi-rail rail">{items}</div>
     <div class="rail-nav" style="justify-content:center">
@@ -593,14 +674,18 @@ def render_destino(fm, body):
   <div class="section-head"><h2>{esc(label)}</h2>{sub}</div>
   <div class="items-grid">{items}</div></div></section>""")
 
-    out.append(cta_section(name))
+    out.append(cta_section(name, page_url))
     return "".join(out)
 
 
-def cta_section(name=""):
+def cta_section(name="", page_url=""):
     dest = f" para {name}" if name else " com a Cieli"
+    vid = bg_video_tag(page_url, "cta") if page_url else ""
+    bg = ("" if vid else
+          " style=\"background-image:url('/uploads/2026/03/Costa-Amalfitana.webp')\"")
     return f"""
-<section class="cta-hero" style="background-image:url('/uploads/2026/03/Costa-Amalfitana.webp')">
+<section class="cta-hero"{bg}>
+  {vid}
   <div class="inner">
     <h2 class="display">Crie um roteiro exclusivo{esc(dest)}</h2>
     <p class="sub">A Cieli quer entender qual é a sua viagem dos sonhos.
@@ -629,23 +714,18 @@ def render_home(fm, body):
 
     cards = re.findall(r"^\|\s*([A-ZÀ-Ü'ÂÃÉÊÍÓÔÕÚÇ &.\d]+?)\s*\|\s*(.+?)\s*\|"
                        r"\s*(/[\w\-/]*)\s*\|$", body, re.M)
-    imgmap = {
-        "TOSCANA": "2026/03/Toscana.webp", "SICÍLIA": "2026/03/Sicilia.webp",
-        "COSTA AMALFITANA": "2026/03/Costa-Amalfitana.webp",
-        "SARDENHA": "2026/05/Sardenha-1.webp",
-    }
 
-    def card_bg(title):
-        for k, v in imgmap.items():
-            if k in title.upper() and (UPLOADS / v).exists():
-                return f"/uploads/{v}"
+    def card_bg(title, link):
+        og = OG_BY_URL.get(link.rstrip("/") + "/")
+        if og and (UPLOADS / og.replace("uploads/", "")).exists():
+            return "/" + og
         cand = title.title().replace(" ", "-").replace("'", "")
         for sub in UPLOADS.glob(f"*/*/{cand}*.webp"):
             return f"/uploads/{sub.relative_to(UPLOADS).as_posix()}"
         return "/uploads/2026/03/bg-verao.webp"
 
     card_html = "".join(f"""
-    <a class="card-trip" href="{u}/" style="background-image:url('{card_bg(t)}')">
+    <a class="card-trip" href="{u}/" style="background-image:url('{card_bg(t, u)}')">
       <h3>{esc(t)}</h3><p>{esc(s)}</p>
       <span class="link-more">Saiba +</span></a>""" for t, s, u in cards)
 
@@ -653,10 +733,9 @@ def render_home(fm, body):
     jeito = [(t.strip(), re.sub(r"\s+", " ", x).strip())
              for t, x in jeito if t.isupper()][:3]
     jeito_html = "".join(f"""
-  <div class="jeito-panel">
-    <h3 class="display" style="font-size:clamp(34px,5vw,58px)">{esc(t)}</h3>
-    <p style="max-width:520px;margin:22px auto 0">{esc(x)}</p>
-  </div>""" for t, x in jeito)
+    <div class="pinned-msg"><h3>{esc(t)}</h3><p>{esc(x)}</p></div>"""
+                         for t, x in jeito)
+    lottie_path = page_video("/", "lottie")
 
     finder_selects = "".join(f"""
       <label>{esc(q)}<select><option value="">Selecionar</option>{opts}</select></label>"""
@@ -683,13 +762,13 @@ def render_home(fm, body):
          "/uploads/2026/05/exclusiva.webp"),
     ]
     specials_html = "".join(f"""
-  <div class="special {cls}">
-    <div class="txt"><span class="eyebrow">Nossa especialidade</span>
-      <h3>{esc(t)}</h3>
-      <div class="ink ink-navy" style="margin:18px 0">{INK_SVG}</div>
-      <p>{esc(x)}</p></div>
-    <div class="pic" style="background-image:url('{img}')"></div>
-  </div>""" for cls, t, x, img in specials)
+    <div class="special {cls}">
+      <div class="txt"><span class="eyebrow">Nossa especialidade</span>
+        <h3>{esc(t)}</h3>
+        <div class="ink ink-navy" style="margin:18px 0">{INK_SVG}</div>
+        <p>{esc(x)}</p></div>
+      <div class="pic" style="background-image:url('{img}')"></div>
+    </div>""" for cls, t, x, img in specials)
 
     faq_items = [
         ("O que diferencia a Cieli das agências de viagens tradicionais?",
@@ -713,16 +792,33 @@ def render_home(fm, body):
     <div class="a"><p>{esc(a)}</p></div></details>"""
                        for i, (q, a) in enumerate(faq_items))
 
-    press = [p for p in ["2026/07/logo-folha-1.webp", "2026/07/consuelo_logo.webp",
+    press = [p for p in ["2026/07/logo-folha-1.webp", "2026/07/viagem_logo.webp",
+                         "2026/07/consuelo_logo.webp",
                          "2026/07/roteiros_incr_veis_logo-2.webp",
                          "2026/07/valor_econ_mico_logo.webp"]
              if (UPLOADS / p).exists()]
+    if len(press) < 3:  # fallback: qualquer *logo* de 2026/07
+        press = sorted(p.relative_to(UPLOADS).as_posix()
+                       for p in UPLOADS.glob("2026/07/*logo*.webp"))
     press_html = "".join(f'<img src="/uploads/{p}" alt="" loading="lazy">'
                          for p in press)
 
+    # fundo do depoimento (foto da vespa em Florença) + vídeo se houver
+    testi_bg = bg_video_tag("/", "depoimentos")
+    if not testi_bg:
+        for cand in ("2026/02/matisse-mcmullin-dupe-2-1.webp",
+                     "2026/02/DepoimentosVeneza.webp",
+                     "2026/02/img-depo1.webp"):
+            if (UPLOADS / cand).exists():
+                testi_bg = (f'<div class="bg-video" style="background:'
+                            f'url(/uploads/{cand}) center/cover"></div>')
+                break
+
+    hero_vid = bg_video_tag(
+        "/", "hero", poster="/uploads/2026/07/vlcsnap-2026-07-28-14h10m46s125.webp")
     return f"""
 <section class="hero">
-  <div class="hero-bg" style="background-image:url('/uploads/2026/07/vlcsnap-2026-07-28-14h10m46s125.webp')"></div>
+  <div class="hero-bg" style="background-image:url('/uploads/2026/07/vlcsnap-2026-07-28-14h10m46s125.webp')">{hero_vid}</div>
   <div class="hero-content">
     <div class="hero-rotator">
       <span class="fixed">Conheça o infinito de</span>
@@ -754,9 +850,12 @@ def render_home(fm, body):
   </div>
 </section>
 
-<section class="on-dark" style="text-align:center;padding:110px 24px;display:grid;gap:110px" id="nosso-jeito">
-  <span class="eyebrow" style="opacity:.8">Nosso jeito</span>
-  {jeito_html}
+<section class="pinned" id="nosso-jeito">
+  <div class="pinned-sticky">
+    <div class="pinned-media" data-lottie="{lottie_path}"></div>
+    <span class="eyebrow pinned-eyebrow">Nosso jeito</span>
+    {jeito_html}
+  </div>
 </section>
 
 <section class="section" id="encontre">
@@ -774,6 +873,7 @@ def render_home(fm, body):
 </section>
 
 <section class="testimonial-hero" style="background-color:#0a0518">
+  {testi_bg}
   <div class="inner">
     <div class="testi"><div class="place">Florença</div>
     <blockquote>“Superou todas as expectativas!”</blockquote>
@@ -784,9 +884,11 @@ def render_home(fm, body):
 
 <section class="pressbar"><div class="container"><div class="row">{press_html}</div></div></section>
 
-<div class="specials">{specials_html}</div>
+<div class="specials"><div class="specials-sticky">
+  <div class="specials-track">{specials_html}</div>
+</div></div>
 
-{cta_section()}
+{cta_section("", "/")}
 
 <section class="section"><div class="container">
   <div class="section-head"><h2>Perguntas frequentes</h2></div>
@@ -979,16 +1081,23 @@ def write_page(url, html):
 
 def main():
     if DIST.exists():
-        shutil.rmtree(DIST)
-    DIST.mkdir(parents=True)
+        for child in DIST.iterdir():  # preserva dist/videos entre builds
+            if child.name == "videos":
+                continue
+            shutil.rmtree(child) if child.is_dir() else child.unlink()
+    DIST.mkdir(parents=True, exist_ok=True)
     shutil.copytree(STATIC, DIST / "static")
     shutil.copytree(UPLOADS, DIST / "uploads")
+    if VIDEOS.exists():
+        shutil.copytree(VIDEOS, DIST / "videos", dirs_exist_ok=True)
 
     posts, pages = [], []
     for f in sorted(CONTENT.glob("*.md")):
         fm, body = parse_front(f)
         fm.setdefault("slug", f.stem)
         fm.setdefault("url", f"/{f.stem}/")
+        if fm.get("og_image"):
+            OG_BY_URL[fm["url"].rstrip("/") + "/"] = fm["og_image"]
         pages.append((fm, body))
     for f in sorted(CONTENT.glob("blog/*.md")):
         fm, body = parse_front(f)
@@ -1002,7 +1111,8 @@ def main():
             continue  # índice gerado dos posts
         if slug == "home":
             html = shell(fm.get("title", "Cieli Travel"),
-                         fm.get("description", ""), render_home(fm, body))
+                         fm.get("description", ""), render_home(fm, body),
+                         lottie=True)
             write_page("/", html)
             urls.append("/")
             continue

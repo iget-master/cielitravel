@@ -10,6 +10,8 @@ Ir para o conteúdo
 
 # viagem pela Côte D’Azur com roteiro sob medida
 
+![](uploads/2026/05/ThumbnailHeroCotedAzur.webp)
+
 Viagem a Marselha, Saint-Tropez, Cannes, Antibes, Saint-Paul-de-Vence, Nice, Saint-Jean-Cap-Ferrat, Èze, Monaco, Menton e Grasse.
 
 Melhor período
@@ -27,11 +29,15 @@ Valor aproximado para roteiros personalizados, incluindo hospedagens 4/5 estrela
 
 Não existe roteiro pronto na Cieli. Entre em contato para criamos um exclusivamente pensado para você.
 
+![Sol, mar e três estrelas para começar](uploads/2026/05/Dia-1-9.webp)
+
 DIA 1
 
 ## Sol, mar e três estrelas para começar
 
 Chegada a Marselha e tour guiado de 4h pela cidade mais antiga da França. À noite, jantar no Le Petit Nice, três estrelas Michelin, com vista para o mar.
+
+![As Calanques](uploads/2026/05/Dia-2-9.webp)
 
 DIA 2
 
@@ -39,11 +45,15 @@ DIA 2
 
 Dia dedicado ao Parc National des Calanques: falésias de calcário branco, águas turquesa e praias onde só se chega a pé ou de barco.
 
+![A praia mais famosa do mundo](uploads/2026/05/Dia-3-9.webp)
+
 DIA 3
 
 ## A praia mais famosa do mundo
 
 Chegada a Saint-Tropez. Tarde livre para explorar o centrinho e seus ateliês, galerias e bistrôs. Pôr do sol com música no terraço do Hotel Ermitage.
+
+![Praias e Riviera a bordo](uploads/2026/05/Dia-4-9.webp)
 
 DIA 4
 
@@ -51,11 +61,15 @@ DIA 4
 
 Manhã em um beach club de Pampelonne, uma das praias mais famosas da Costa Azul. À tarde, passeio de barco pela Riviera entre enseadas e marinas repletas de iates.
 
+![Vinícolas e jazz à beira-mar](uploads/2026/05/Dia-5-9.webp)
+
 DIA 5
 
 ## Vinícolas e jazz à beira-mar
 
 Dia de visita, degustação e almoço na vinícola Les Preyres. À tarde, o Château de Brégançon recebe você com jazz ao vivo e rosé com vista para o mar.
+
+![Bonjour, Nice](uploads/2026/05/Dia-6-9.webp)
 
 DIA 6
 
@@ -63,11 +77,15 @@ DIA 6
 
 Chegada a Nice e passeio guiado de 3h pelo centro histórico, com suas ruelas coloridas de influência italiana. Pôr do sol na Colline du Château e jantar no Le Bouchon.
 
+![Nice sem pressa](uploads/2026/05/Dia-7-9.webp)
+
 DIA 7
 
 ## Nice sem pressa
 
 Manhã de passeios e compras pelo centro. Tarde de beach club no Ruhl Plage, clássico da Promenade des Anglais desde 1920.
+
+![Limões, cassino e champagne](uploads/2026/05/Dia-8-4.webp)
 
 DIA 8
 
@@ -75,17 +93,23 @@ DIA 8
 
 Passeio por Menton, a cidade dos limões na fronteira com a Itália, e por Mônaco, com seu cassino e ruas que fazem parte do circuito de Fórmula 1. Jantar no Flaveur, premiado com duas estrelas Michelin.
 
+![Èze e Cap-Ferrat](uploads/2026/05/Dia-9-2.webp)
+
 DIA 9
 
 ## Èze e Cap-Ferrat
 
 Manhã no vilarejo medieval de Èze, a 439 metros acima do Mediterrâneo. Tarde em Saint-Jean-Cap-Ferrat, com visita à Villa Ephrussi de Rothschild e jardins com vista para o mar.
 
+![Perfume e Picasso](uploads/2026/05/Dia-10-2.webp)
+
 DIA 10
 
 ## Perfume e Picasso
 
 Manhã em Grasse com visita guiada às fábricas históricas de perfume. Tarde em Saint-Paul-de-Vence e almoço no La Colombe d'Or, restaurante decorado com obras originais de Picasso e Léger.
+
+![Última rodada na Riviera](uploads/2026/05/Dia-11-1.webp)
 
 DIA 11
 
@@ -198,6 +222,8 @@ As praias de Pampelonne são icônicas e a noite é sem igual.
 A cidade mais antiga da França, fundada pelos gregos no século VI a.C.
 
 ## DEPOIMENTOS
+
+![](uploads/2026/05/THUMBNAIL_Depoimentos_LP_CoteDazur.webp)
 
 ## Viagem em família,
 
@@ -381,65 +407,97 @@ Barco privativo com paradas em enseadas e marinas.
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
 Gabriel e Karine, 2024
 
-### Viagem de Casamento
-
-Cristina, 2025
-
-### Viagem de Casal
-
-Eraldo e Daniele, 2024
-
-### Viagem de Grupo
-
-Linda e Grupo, 2023
-
-### Viagem de Casal
-
-Daniel e Camila, 2025
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
 
 ### Viagem de Casamento
 
 Cristina, 2025
 
-### Viagem de Grupo
-
-Linda e Grupo, 2023
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eraldo e Daniele, 2024
 
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
+### Viagem de Grupo
+
+Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Daniel e Camila, 2025
+
+![](uploads/2026/06/Foto6GaleriaVerao.webp)
+
+### Viagem de Casamento
+
+Cristina, 2025
+
+![](uploads/2026/06/Foto7GaleriaVerao.webp)
+
+### Viagem de Grupo
+
+Linda e Grupo, 2023
+
+![](uploads/2026/06/Foto5GaleriaVerao.webp)
+
+### Viagem de Casal
+
+Eraldo e Daniele, 2024
+
+![](uploads/2026/06/Foto8GaleriaVerao.webp)
+
+### Viagem de Casal
+
+Daniel e Camila, 2025
+
+![](uploads/2026/06/Foto1GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto2GaleriaVerao.webp)
 
 ### Viagem de Casal
 
 Ana Grasiele e Rawlison, 2025
 
+![](uploads/2026/06/Foto3GaleriaVerao.webp)
+
 ### Viagem de Casal
 
 Eduardo e Carine, 2023
+
+![](uploads/2026/06/Foto4GaleriaVerao.webp)
 
 ### Viagem de Lua de mel
 
@@ -488,6 +546,8 @@ Nossa seleção de 5 estrelas na Côte D’Azur
 A Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
 FALE COM A CIELI
+
+![](uploads/2026/05/THUMBNAIL_CTA_LP_CoteDazur.webp)
 
 ## Perguntas frequentes sobre roteiros para a Côte D’Azur
 

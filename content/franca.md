@@ -58,6 +58,8 @@ SAIBA +
 
 ## DEPOIMENTOS
 
+![](uploads/2026/05/ThumbnailDepoimentosFranca.webp)
+
 ## Viagem em família,
 
 ## 2026
@@ -224,65 +226,97 @@ PLANEJE SUA VIAGEM
 
 ## Nossas histórias favoritas
 
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Celso e Roberta, 2025
+
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Sarah, 2024
 
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Rafaella, 2022
+
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
 
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
 
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
+
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaela Castellões e Gabriel Lima, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto1GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Celso e Roberta, 2025
 
+![](uploads/2026/06/Foto2GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Sarah, 2024
+
+![](uploads/2026/06/Foto3GaleriaGeral.webp)
 
 ### Viagem de Casal
 
 Rafaella, 2022
 
+![](uploads/2026/06/Foto4GaleriaGeral.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
+
+![](uploads/2026/06/Foto5GaleriaGeral.webp)
 
 ### Viagem de Família
 
 Rubens B. G. Van Moorsel Filho, 2019
 
+![](uploads/2026/06/Foto6GaleriaGeral-1.webp)
+
 ### Viagem de Casamento
 
 Cristina, 2025
 
+![](uploads/2026/06/Foto7GaleriaGeral.webp)
+
 ### Viagem de Casal
 
 Eliana Castellan e Ezio Salles, 2025
+
+![](uploads/2026/06/Foto8GaleriaGeral.webp)
 
 ### Viagem de Casal
 
@@ -336,11 +370,15 @@ Esse é nosso passo a passo para a viagem inesquecível
 
 Você fala com um consultor da Cieli, que vai apresentar como trabalhamos e entender seu perfil de viagem. É o momento de alinhar expectativas e decidir se seguimos juntos.
 
+![](uploads/2026/05/Passo3Franca.webp)
+
 ## 2º passo
 
 ## Seu roteiro nasce aqui
 
 Com o investimento inicial confirmado, um especialista dedicado ouve seus desejos, registra cada detalhe e começa a criar seu roteiro sob medida, pensado para o seu perfil e estilo de viagem. Reservas, logística e todos os ajustes são resolvidos aqui.
+
+![](uploads/2026/05/Passo2Franca.webp)
 
 ## 3º passo
 
@@ -350,7 +388,11 @@ Alguns dias antes do embarque, você recebe o seu Guia Personalizado, com todos 
 
 PLANEJE SUA VIAGEM
 
+![](uploads/2026/05/Passo1Franca.webp)
+
 ## Crie um roteiro exclusivo para este destino
+
+![bg-hero](uploads/2026/07/vlcsnap-2026-07-28-17h09m19s446.webp)
 
 Cieli quer entender qual é a sua viagem dos sonhos. Entre em contato abaixo, sem compromisso.
 
@@ -360,25 +402,37 @@ PLANEJE SUA VIAGEM
 
 De especialistas para apaixonados por viagens
 
+![](uploads/2026/06/Imagem-01-2-1024x384.webp)
+
 # Carnaval de Veneza: a magia das máscaras italianas
 
 LER O ARTIGO
+
+![](uploads/2026/06/Imagem-02-1-1024x384.webp)
 
 # Úmbria gastronômica: guia para uma viagem de sabores
 
 LER O ARTIGO
 
+![](uploads/2026/05/Imagem-05-33-1024x384.webp)
+
 # Dolomitas no verão: experiências nos Alpes Italianos
 
 LER O ARTIGO
+
+![](uploads/2026/05/Imagem-08-26-1024x384.webp)
 
 # Gastronomia italiana: roteiro de sabores imperdíveis
 
 LER O ARTIGO
 
+![](uploads/2026/05/Imagem-03-29-1024x384.webp)
+
 # Roteiro na Itália para relaxar: 5 atividades especiais
 
 LER O ARTIGO
+
+![](uploads/2026/05/Imagem-01-31-1024x384.webp)
 
 # Natal em Roma: aproveite o melhor das festas
 
