@@ -1,4 +1,4 @@
-# Build / dependências (quando o gerador estático entrar)
+# Build / dependências
 node_modules/
 dist/
 _site/

@@ -48,21 +48,53 @@ baratas de hospedar (ex.: Cloudflare Pages, Netlify, GitHub Pages ou um bucket
   (`Mozilla/5.0 ... Chrome/139...`), ou o browser do usuário via extensão.
 - Sitemap completo: `https://cielitravel.com/sitemap_index.xml`.
 
+## Build, preview e deploy
+
+- **Build:** `py -3 scripts/build.py` → gera `dist/` (91+ páginas).
+  Requer `py -3 -m pip install markdown`. Comando do Claude: **`/build-site`**
+  (neste repo) ou **`/build-cielitravel`** (no projeto leituras-acs).
+- **Preview local:** `py -3 scripts/serve.py` → `http://localhost:8080` e, na
+  rede local (celular), `http://desktop-esoares.local:8080` (mDNS) ou
+  `http://<IP-da-máquina>:8080`. Precisa de regra de firewall liberando a
+  porta 8080 (uma vez, como admin):
+  `netsh advfirewall firewall add rule name="cielitravel-local-8080" dir=in action=allow protocol=TCP localport=8080`
+- **AWS:** `infra/cloudformation.yml` (S3 privado + CloudFront com OAC +
+  function de rewrite `/x/` → `/x/index.html`). Publicação:
+  `.\infra\deploy.ps1` (deploy da stack + `aws s3 sync dist/` + invalidação).
+  Requer AWS CLI configurada. Domínio próprio: ver comentários no template
+  (ACM em us-east-1 + Aliases).
+
+## Arquitetura do gerador (scripts/build.py)
+
+- `content/*.md` (formato espelho) → parsers por template:
+  `render_home` (bespoke, usa content/home.md editorial), `render_destino`
+  (país e destinos — `parse_destino` lê fatos/roteiro DIA n/cidades/
+  depoimentos/seções), `render_post` (blog), `render_page` (institucionais,
+  com acordeão automático p/ FAQs), `render_contato` (formulário).
+- `content/sicilia.md` é a referência do formato destino. Manter o formato ao
+  editar; o índice do blog é gerado do frontmatter dos posts (blog.md ignorado).
+- Shell comum (header + mega-dropdown + overlay + footer) em `header()`/
+  `footer()`; estilos em `site/static/css/main.css` (tokens do design.md);
+  JS mínimo em `site/static/js/main.js`.
+
 ## Scripts
 
+- `scripts/build.py` — gera o site em `dist/`.
+- `scripts/serve.py` — servidor local (porta 8080, sem cache).
 - `scripts/download_uploads.py` — baixa para `assets/uploads/` as imagens
-  referenciadas em `content/`. (Espelho original feito com script equivalente
-  de crawl das páginas do sitemap.)
+  referenciadas em `content/`.
 
 ## Estado / pendências
 
 - [x] design.md, content/ (31 páginas + 61 posts), assets (91 imagens).
-- [ ] Vídeos de fundo não baixados (URLs .mp4 a extrair por página).
-- [ ] Citações "typewriter" carregadas via JS não capturadas em algumas
-  páginas (marcadas nos .md; ex.: citação De Gaulle em franca.md e
-  E.M. Forster em toscana.md — conferir no site).
-- [ ] `content/pagina-de-links.md` vazia (página link-in-bio montada via JS).
-- [ ] Escolher gerador estático + hospedagem; definir solução de formulários.
-- [ ] Home/Itália/França/Toscana têm .md editorial detalhado (estrutura de
-  seções); os demais destinos são espelho automático — mesma estrutura de
-  template (design.md §5.3).
+- [x] Gerador estático próprio (Python stdlib + pacote `markdown`).
+- [x] Infra AWS (CloudFormation) + script de deploy — **stack ainda não criada**.
+- [ ] Fontes: usando substitutas livres (EB Garamond ↔ Sfizia,
+  Oswald ↔ Trade Gothic Next Compressed) — trocar em `--font-serif`/
+  `--font-cond` no CSS se licenciar as originais.
+- [ ] Vídeos de fundo não baixados; heros usam frames .webp estáticos.
+- [ ] Formulários (contato/newsletter) sem backend — alertam "integração
+  pendente"; escolher serviço (Formspree/Workers/etc.).
+- [ ] /destinos/ renderiza como página simples (sem filtros interativos).
+- [ ] Citações typewriter de franca/toscana sem o texto original (via JS no
+  site antigo); `content/pagina-de-links.md` vazia (link-in-bio via JS).
